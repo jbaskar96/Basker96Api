@@ -1,0 +1,5643 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<errors>
+<error>
+		<field>cust_title</field>
+		<message>Please Select The Title</message>
+		<code>Mandatory_field</code>
+		<errno>1001</errno>
+</error>
+<error>
+		<field>cust_name</field>
+		<message>Please Enter The Customer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1002</errno>
+</error>
+<error>
+		<field>emirate</field>
+		<message>Please Select The City</message>
+		<code>Mandatory_field</code>
+		<errno>1003</errno>
+</error>
+<error>
+		<field>mobile_no</field>
+		<message>Please Enter Valid Mobile Number</message>
+		<code>Mandatory_field</code>
+		<errno>1005</errno>
+</error>
+<error>
+		<field>mobile_no</field>
+		<message>Please Enter The Valid Phone Number</message>
+		<code>Mandatory_field</code>
+		<errno>1241</errno>
+</error>
+<error>
+		<field>email_id</field>
+		<message>Please Enter The Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1242</errno>
+</error>
+<error>
+		<field>email_id</field>
+		<message>Please Enter Valid Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1006</errno>
+</error>
+<error>
+		<field>vat_reg_no</field>
+		<message>Please Enter The Vat Reg Number</message>
+		<code>Mandatory_field</code>
+		<errno>1004</errno>
+</error>
+<error>
+		<field>mode_of_transport</field>
+		<message>Please Select The Mode of Transport</message>
+		<code>Mandatory_field</code>
+		<errno>1007</errno>
+</error>
+<error>
+		<field>coverage</field>
+		<message>Please Select The Coverage</message>
+		<code>Mandatory_field</code>
+		<errno>1008</errno>
+</error>
+<error>
+		<field>sea_coverage</field>
+		<message>Please Select The Mode of Carriage</message>
+		<code>Mandatory_field</code>
+		<errno>1009</errno>
+</error>
+<error>
+		<field>orig_country</field>
+		<message>Please Select The Originating Country</message>
+		<code>Mandatory_field</code>
+		<errno>1010</errno>
+</error>
+<error>
+		<field>desg_country</field>
+		<message>Please Select The Destination Country</message>
+		<code>Mandatory_field</code>
+		<errno>1011</errno>
+</error>
+<error>
+		<field>policy_date</field>
+		<message>Please Choose The Policy Date</message>
+		<code>Mandatory_field</code>
+		<errno>1012</errno>
+</error>
+<error>
+		<field>currency_type</field>
+		<message>Please Select The Currency Type</message>
+		<code>Mandatory_field</code>
+		<errno>1013</errno>
+</error>
+<error>
+		<field>sale_vale</field>
+		<message>Please Select The Sale Terms</message>
+		<code>Mandatory_field</code>
+		<errno>1014</errno>
+</error>
+<error>
+		<field>sale_precentage</field>
+		<message>Please Select The Sale Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1015</errno>
+</error>
+<error>
+		<field>package_desc</field>
+		<message>Please select The Package Description</message>
+		<code>Mandatory_field</code>
+		<errno>1016</errno>
+</error>
+<error>
+		<field>login_id</field>
+		<message>Please Enter The Username</message>
+		<code>Mandatory_field</code>
+		<errno>1017</errno>
+</error>
+<error>
+		<field>password</field>
+		<message>Please Enter The Password</message>
+		<code>Mandatory_field</code>
+		<errno>1018</errno>
+</error>
+<error>
+		<field>password</field>
+		<message>Please enter correct username and password</message>
+		<code>Mandatory_field</code>
+		<errno>1019</errno>
+</error>
+<error>
+		<field>cust_invalid</field>
+		<message>Please Enter Valid Customer CoreAppCode</message>
+		<code>Mandatory_field</code>
+		<errno>1038</errno>
+</error>
+ <error>
+		<field>address1</field>
+		<message>Please Enter Valid Address1</message>
+		<code>Mandatory_field</code>
+		<errno>1040</errno>
+</error>
+<error>
+		<field>address2</field>
+		<message>Please Enter Valid Address2</message>
+		<code>Mandatory_field</code>
+		<errno>1041</errno>
+</error>
+<error>
+		<field>IncoTerm</field>
+		<message>Please Enter Valid IncoTerms and Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1042</errno>
+</error>
+<error>
+		<field>Tolerance</field>
+		<message>Please Enter Valid Tolerance</message>
+		<code>Mandatory_field</code>
+		<errno>1043</errno>
+</error>
+<error>
+		<field>GoodsCategoryCode</field>
+		<message>Please Enter Goods Category Code</message>
+		<code>Mandatory_field</code>
+		<errno>1044</errno>
+</error>
+<error>
+		<field>GoodsCategoryDescription</field>
+		<message>Please Enter Goods Category Description</message>
+		<code>Mandatory_field</code>
+		<errno>1045</errno>
+</error>
+<error>
+		<field>InsuredValue</field>
+		<message>Please Enter Sum Insured Value</message>
+		<code>Mandatory_field</code>
+		<errno>1046</errno>
+</error>
+<error>
+		<field>GoodsCategoryCode</field>
+		<message>Please Enter Valid Goods Category Code</message>
+		<code>Mandatory_field</code>
+		<errno>1047</errno>
+</error>
+<error>
+		<field>Broker</field>
+		<message>Please Select Broker</message>
+		<code>Mandatory_field</code>
+		<errno>1048</errno>
+</error>
+<error>
+		<field>orig_city</field>
+		<message>Please Choose The Original City</message>
+		<code>Mandatory_field</code>
+		<errno>1020</errno>
+</error> 
+<error>
+		<field>dest_city</field>
+		<message>Please Choose The Destination City</message>
+		<code>Mandatory_field</code>
+		<errno>1021</errno>
+</error>
+<error>
+		<field>po_box</field>
+		<message>Please Enter The Po-Box Number</message>
+		<code>Mandatory_field</code>
+		<errno>1022</errno>
+</error> 
+<error>
+		<field>pobox_invalid</field>
+		<message>Please Enter The Valid Po-Box Number</message>
+		<code>Mandatory_field</code>
+		<errno>1023</errno>
+</error>
+<error>
+		<field>shipment_expos</field>
+		<message>Please Enter The Shipment Exposure</message>
+		<code>Mandatory_field</code>
+		<errno>1024</errno>
+</error>
+<error>
+		<field>shipmentexpos_number</field>
+		<message>Please Enter The Valid Shipment Exposure</message>
+		<code>Mandatory_field</code>
+		<errno>1025</errno>
+</error>
+<error>
+		<field>shipmentexpose_zero</field>
+		<message>Shipment Exposure is Zero Value</message>
+		<code>Mandatory_field</code>
+		<errno>1026</errno>
+</error>
+<error>
+		<field>shipmentexpose_greater</field>
+		<message>Shipment Exposure Value is Greaterthan to Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1027</errno>
+</error>
+<error>
+		<field>exposure_currency</field>
+		<message>Please Select The Exposure Currency Value</message>
+		<code>Mandatory_field</code>
+		<errno>1028</errno>
+</error>
+<error>
+		<field>channel_type</field>
+		<message>Please Select The Channel Type</message>
+		<code>Mandatory_field</code>
+		<errno>1029</errno>
+</error>
+<error>
+		<field>branch_code</field>
+		<message>Branch Code is Invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1030</errno>
+</error>
+<error>
+		<field>cust_contno</field>
+		<message>Please Enter The Customer Contact Number</message>
+		<code>Mandatory_field</code>
+		<errno>1031</errno>
+</error>
+<error>
+		<field>cust_fmscaseno</field>
+		<message>Please Enter The customer Fms Case Number</message>
+		<code>Mandatory_field</code>
+		<errno>1033</errno>
+</error>
+<error>
+		<field>cust_refno</field>
+		<message>Please Enter The Customer Reference Number</message>
+		<code>Mandatory_field</code>
+		<errno>1034</errno>
+</error>
+<error>
+		<field>blawb_invalid</field>
+		<message>Bl Awb Number is Invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1032</errno>
+</error>
+<error>
+		<field>acexc_id</field>_executive
+		<message>Please Enter The Ac-Executive Number</message>
+		<code>Mandatory_field</code>
+		<errno>1035</errno>
+</error>
+<error>
+		<field>promo_code</field>
+		<message>Promotional Code is Invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1036</errno>
+</error>
+<error>
+		<field>cover_invalid</field>
+		<message>Cover Type is Invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1037</errno>
+</error>
+
+<error>
+		<field>additional_premium</field>
+		<message>Additional Premium is Invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1050</errno>
+</error>
+<error>
+		<field>excess_premium</field>
+		<message>Excess Premium Greater then to Load Percent</message>
+		<code>Mandatory_field</code>
+		<errno>1051</errno>
+</error>
+<error>
+		<field>total_premium</field>
+		<message>Additional Premium Greater then to Total Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1052</errno>
+</error>
+<error>
+		<field>min_premium</field>
+		<message>Final Premium Less than Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1053</errno>
+</error>
+<error>
+		<field>final_premium</field>
+		<message>Final Premium Less than Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1054</errno>
+</error>
+<error>
+		<field>dis_premium</field>
+		<message>Discount Premium Less then Excess Percent</message>
+		<code>Mandatory_field</code>
+		<errno>1055</errno>
+</error>
+<error>
+		<field>totalless_premium</field>
+		<message>Total Premium Less then Additional Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1056</errno>
+</error>
+
+
+<error>
+		<field>Finalize_quote</field>
+		<message>Please Enter The Finalize Quote</message>
+		<code>Mandatory_field</code>
+		<errno>1201</errno>
+</error>
+<error>
+		<field>Referral_comment</field>
+		<message>Please Enter The Referral Comment</message>
+		<code>Mandatory_field</code>
+		<errno>1202</errno>
+</error>
+<error>
+		<field>Settling_agent</field>
+		<message>Please Enter The Agent</message>
+		<code>Mandatory_field</code>
+		<errno>1203</errno>
+</error>
+<error>
+		<field>Payment_mode</field>
+		<message>Please Select Mode Of Payment</message>
+		<code>Mandatory_field</code>
+		<errno>1204</errno>
+</error>
+<error>
+		<field>Receipt_no</field>
+		<message>Please Enter The Receipt Number</message>
+		<code>Mandatory_field</code>
+		<errno>1205</errno>
+</error>
+<error>
+		<field>Customer_invalid</field>
+		<message>The Customer Id is invalid</message>
+		<code>Mandatory_field</code>
+		<errno>1206</errno>
+</error>
+<error>
+		<field>Customer_exit</field>
+		<message>The Customer Id is Exit</message>
+		<code>Mandatory_field</code>
+		<errno>1207</errno>
+</error>
+<error>
+		<field>Customer_creditlimit</field>
+		<message>The Customer Credit Limit Exceed</message>
+		<code>Mandatory_field</code>
+		<errno>1208</errno>
+</error>
+
+<error>
+		<field>login_id</field>
+		<message>Please Enter UserName</message>
+		<code>Mandatory_field</code>
+		<errno>1220</errno>
+</error>
+<error>
+		<field>Password</field>
+		<message>Please Enter Password</message>
+		<code>Mandatory_field</code>
+		<errno>1221</errno>
+</error>
+<error>
+		<field>Wrong_login</field>
+		<message>Please Enter Correct UserName and Password</message>
+		<code>Mandatory_field</code>
+		<errno>1222</errno>
+</error>
+<error>
+		<field>Branch_code</field>
+		<message>Please Select Branch</message>
+		<code>Mandatory_field</code>
+		<errno>1223</errno>
+</error>
+<error>
+		<field>RegionCode</field>
+		<message>Please Select Region</message>
+		<code>Mandatory_field</code>
+		<errno>1224</errno>
+</error>
+<error>
+		<field>RegionCode</field>
+		<message>Please Select Valid Region</message>
+		<code>Mandatory_field</code>
+		<errno>1235</errno>
+</error>
+<error>
+		<field>BranchCode</field>
+		<message>Please Select Valid Branch</message>
+		<code>Mandatory_field</code>
+		<errno>1236</errno>
+</error>
+<error>
+		<field>Email_id</field>
+		<message>User does't have Valid E-Mail Id. Please contact Admin</message>
+		<code>Mandatory_field</code>
+		<errno>E110</errno>
+</error>
+<error>
+		<field>InvalidUser</field>
+		<message>UserName and Email Id not matches for this application</message>
+		<code>Mandatory_field</code>
+		<errno>E109</errno>
+</error>
+<error>
+		<field>Login_type</field>
+		<message>Please Choose Correct Login Type</message>
+		<code>Mandatory_field</code>
+		<errno>E128</errno>
+</error>
+<error>
+		<field>Branch_code</field>
+		<message>This Operational User is not Attached for any Branch</message>
+		<code>Mandatory_field</code>
+		<errno>E129</errno>
+</error>
+<error>
+		<field>Branch_code</field>
+		<message>This Operational User are not Attached for this Branch to Login</message>
+		<code>Mandatory_field</code>
+		<errno>E130</errno>
+</error>
+
+<error>
+		<field>Cancel_certfication</field>
+		<message>Please select Cancellation of Certificate/Individual Policy only</message>
+		<code>Mandatory_field</code>
+		<errno>1225</errno>
+</error>
+<error>
+		<field>Cancel_policy</field>
+		<message>Please Choose option Yes to cancel the policy</message>
+		<code>Mandatory_field</code>
+		<errno>1226</errno>
+</error>
+<error>
+		<field>Cancel_remarks</field>
+		<message>Please enter Cancellation Remarks</message>
+		<code>Mandatory_field</code>
+		<errno>1227</errno>
+</error>
+<error>
+		<field>Cancel_broker</field>
+		<message>Cancellation of Certificate/Individual Policy is not Allowed for Brokers</message>
+		<code>Mandatory_field</code>
+		<errno>1228</errno>
+</error>
+<error>
+		<field>Endorsement_remarks</field>
+		<message>Please enter Endorsement Remarks</message>
+		<code>Mandatory_field</code>
+		<errno>1229</errno>
+</error>
+<error>
+		<field>Policy_number</field>
+		<message>Policy Not Generated. Please contact administrator</message>
+		<code>Mandatory_field</code>
+		<errno>1230</errno>
+</error>
+<error>
+		<field>Endorsement</field>
+		<message>Invalid Endorsement</message>
+		<code>Mandatory_field</code>
+		<errno>1231</errno>
+</error>
+<error>
+		<field>EndorsementType</field>
+		<message>Please Select Endorsement Type</message>
+		<code>Mandatory_field</code>
+		<errno>1232</errno>
+</error>
+<error>
+		<field>CancelPolicy</field>
+		<message>Please Choose option Yes to cancel the policy</message>
+		<code>Mandatory_field</code>
+		<errno>1233</errno>
+</error>
+<error>
+		<field>CancelDate</field>
+		<message>Please Select Cancelled Date</message>
+		<code>Mandatory_field</code>
+		<errno>1234</errno>
+</error>
+<error>
+		<field>Title</field>
+		<message>Please Select The Title</message>
+		<code>Mandatory_field</code>
+		<errno>1251</errno>
+</error>
+<error>
+		<field>Invalid_custname</field>
+		<message>Special Characters are not Allowed Customer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1253</errno>
+</error>
+<error>
+		<field>Customer_name</field>
+		<message>Please Enter The Customer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1252</errno>
+</error>
+<error>
+		<field>Mobile_number</field>
+		<message>please Enter The Mobile Number</message>
+		<code>Mandatory_field</code>
+		<errno>1254</errno>
+</error>
+<error>
+		<field>Invalid_mobileno</field>
+		<message>Mobile number or Phone Number Should be Digit</message>
+		<code>Mandatory_field</code>
+		<errno>1255</errno>
+</error>
+<error>
+		<field>Fax</field>
+		<message>Please Enter The Fax</message>
+		<code>Mandatory_field</code>
+		<errno>1256</errno>
+</error>
+<error>
+		<field>Invalid_fax</field>
+		<message>Fax number Should be Digit</message>
+		<code>Mandatory_field</code>
+		<errno>1257</errno>
+</error>
+<error>
+		<field>PoBox_number</field>
+		<message>Please Enter The PoBox Number</message>
+		<code>Mandatory_field</code>
+		<errno>1258</errno>
+</error>
+<error>
+		<field>Invalid_pobox</field>
+		<message>POBOX number Should be Digit</message>
+		<code>Mandatory_field</code>
+		<errno>1259</errno>
+</error>
+<error>
+		<field>Email</field>
+		<message>Please Enter Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1260</errno>
+</error>
+<error>
+		<field>Invalid_email</field>
+		<message>Please Enter Valid Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1261</errno>
+</error>
+<error>
+		<field>City</field>
+		<message>Please Select The City</message>
+		<code>Mandatory_field</code>
+		<errno>1262</errno>
+</error>
+<error>
+		<field>Invalid_occupation</field>
+		<message>Occupation Field Special Characters and Numbers are not Allowed</message>
+		<code>Mandatory_field</code>
+		<errno>1263</errno>
+</error>
+<error>
+		<field>Invalid_addres1</field>
+		<message>Address Field Special Characters are not Allowed</message>
+		<code>Mandatory_field</code>
+		<errno>1264</errno>
+</error>
+<error>
+		<field>Invalid_addres2</field>
+		<message>Address Field Special Characters are not Allowed</message>
+		<code>Mandatory_field</code>
+		<errno>1265</errno>
+</error>
+<error>
+		<field>CustomerCode</field>
+		<message>Please Enter Customer Code</message>
+		<code>Mandatory_field</code>
+		<errno>1266</errno>
+</error>
+<error>
+		<field>Invalid_code</field>
+		<message>Core Customer Code Not Allowed Zero</message>
+		<code>Mandatory_field</code>
+		<errno>1267</errno>
+</error>
+<error>
+		<field>Invalid_code</field>
+		<message>Core Customer Code is Already Exist</message>
+		<code>Mandatory_field</code>
+		<errno>1268</errno>
+</error>
+<error>
+		<field>Invalid_arno</field>
+		<message>A/R No. is Not Available for This Customer</message>
+		<code>Mandatory_field</code>
+		<errno>1269</errno>
+</error>
+<error>
+		<field>Broker</field>
+		<message>Please Select The Broker</message>
+		<code>Mandatory_field</code>
+		<errno>1270</errno>
+</error>
+<error>
+		<field>ExecutiveId</field>
+		<message>Please Select the Executive Id</message>
+		<code>Mandatory_field</code>
+		<errno>1271</errno>
+</error>
+<error>
+		<field>DebitTo</field>
+		<message>Please Select The DebitTo</message>
+		<code>Mandatory_field</code>
+		<errno>1272</errno>
+</error>
+<error>
+		<field>OpenCover_type</field>
+		<message>Please Select OpenCover Type</message>
+		<code>Mandatory_field</code>
+		<errno>1273</errno>
+</error>
+<error>
+		<field>Customer</field>
+		<message>Please Select the Customer</message>
+		<code>Mandatory_field</code>
+		<errno>1274</errno>
+</error>
+<error>
+		<field>Customer_length</field>
+		<message>Please Enter The Minimum Two Letters</message>
+		<code>Mandatory_field</code>
+		<errno>1275</errno>
+</error>
+<error>
+		<field>Business_type</field>
+		<message>Please Select The Business Type</message>
+		<code>Mandatory_field</code>
+		<errno>1276</errno>
+</error>
+<error>
+		<field>Back_days</field>
+		<message>Please Enter The Back Days</message>
+		<code>Mandatory_field</code>
+		<errno>1277</errno>
+</error>
+<error>
+		<field>Back_days</field>
+		<message>Please Enter The Valid Back Days</message>
+		<code>Mandatory_field</code>
+		<errno>1278</errno>
+</error>
+<error>
+		<field>Estimate_amount</field>
+		<message>Please Enter The Valid Estimate Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1280</errno>
+</error>
+<error>
+		<field>Utilized_amount</field>
+		<message>Please Enter The Valid Utilized Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1281</errno>
+</error>
+<error>
+		<field>Utilized_amount</field>
+		<message>Utilized Amount Should be less than or equal to Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1282</errno>
+</error>
+<error>
+		<field>NoOfCompany</field>
+		<message>Please Enter The Number of Insurance Company</message>
+		<code>Mandatory_field</code>
+		<errno>1283</errno>
+</error>
+<error>
+		<field>RSA_value</field>
+		<message>Total Shared Percentage Should be equal to 100</message>
+		<code>Mandatory_field</code>
+		<errno>1284</errno>
+</error>
+<error>
+		<field>Cross_voyage</field>
+		<message>Please Enter The Cross Voyage</message>
+		<code>Mandatory_field</code>
+		<errno>1285</errno>
+</error>
+<error>
+		<field>Cross_percentage</field>
+		<message>Invalid Cross Voyage Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1286</errno>
+</error>
+<error>
+		<field>Free_text</field>
+		<message>Please Choose Free Text Option</message>
+		<code>Mandatory_field</code>
+		<errno>1287</errno>
+</error>
+<error>
+		<field>Commission_percentage</field>
+		<message>Invalid Commission Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1288</errno>
+</error>
+<error>
+		<field>Currency</field>
+		<message>Please Select The Currency</message>
+		<code>Mandatory_field</code>
+		<errno>1289</errno>
+</error>
+<error>
+		<field>Issuance_fee</field>
+		<message>Please Enter The Valid Issuance Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1290</errno>
+</error>
+<error>
+		<field>Min_premium</field>
+		<message>Please Enter The Valid Minimum Premium Issuance</message>
+		<code>Mandatory_field</code>
+		<errno>1291</errno>
+</error>
+<error>
+		<field>Hauliers_type</field>
+		<message>Please Choose Haulier's Type</message>
+		<code>Mandatory_field</code>
+		<errno>1292</errno>
+</error>
+<error>
+		<field>CertificateNo</field>
+		<message>Please Enter The Certificate No</message>
+		<code>Mandatory_field</code>
+		<errno>1293</errno>
+</error>
+<error>
+		<field>CertificateNo</field>
+		<message>Certificate No Should be a Numeric Value</message>
+		<code>Mandatory_field</code>
+		<errno>1294</errno>
+</error>
+<error>
+		<field>Endorsement</field>
+		<message>Please Enter Endorsement Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1295</errno>
+</error>
+<error>
+		<field>Declaration_type</field>
+		<message>Please Select The Declaration Type</message>
+		<code>Mandatory_field</code>
+		<errno>1296</errno>
+</error>
+<error>
+		<field>MinPreMul</field>
+		<message>Please Enter Valid Multiple Declaration Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1297</errno>
+</error>
+<error>
+		<field>ProposalNo</field>
+		<message>Please Enter Proposal Number</message>
+		<code>Mandatory_field</code>
+		<errno>1298</errno>
+</error>
+<error>
+		<field>InvalidProposalNo</field>
+		<message>Please Enter Valid Proposal Number</message>
+		<code>Mandatory_field</code>
+		<errno>1299</errno>
+</error>
+<error>
+		<field>Effective_date</field>
+		<message>Please Choose The Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>1300</errno>
+</error>
+<error>
+		<field>Invalid_effectivedate</field>
+		<message>Please Enter Valid Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>1301</errno>
+</error>
+<error>
+		<field>Origin_country</field>
+		<message>Please Select Country of Origin</message>
+		<code>Mandatory_field</code>
+		<errno>1302</errno>
+</error>
+<error>
+		<field>Destination_country</field>
+		<message>Please Select Country of Destination</message>
+		<code>Mandatory_field</code>
+		<errno>1303</errno>
+</error>
+<error>
+		<field>SaleTerm</field>
+		<message>Please Provide Value Basis</message>
+		<code>Mandatory_field</code>
+		<errno>1304</errno>
+</error>
+<error>
+		<field>WarInfo</field>
+		<message>Please Provide War Details</message>
+		<code>Mandatory_field</code>
+		<errno>1305</errno>
+</error>
+<error>
+		<field>ModeOfTransport</field>
+		<message>Please Select Mode of Transport</message>
+		<code>Mandatory_field</code>
+		<errno>1306</errno>
+</error>
+<error>
+		<field>Cover_type</field>
+		<message>Please Choose Coverages</message>
+		<code>Mandatory_field</code>
+		<errno>1307</errno>
+</error>
+<error>
+		<field>Currency_type</field>
+		<message>Please Choose Currency Type</message>
+		<code>Mandatory_field</code>
+		<errno>1308</errno>
+</error>
+<error>
+		<field>PerBottom_limit</field>
+		<message>Please Provide PerBottom Limit</message>
+		<code>Mandatory_field</code>
+		<errno>1309</errno>
+</error>
+<error>
+		<field>PerBottom_limit</field>
+		<message>Per Bottom Limit always lesser than the Per Location Limit</message>
+		<code>Mandatory_field</code>
+		<errno>1310</errno>
+</error>
+<error>
+		<field>SumInsured</field>
+		<message>Per Location Limit always lesser than the Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1311</errno>
+</error>
+<error>
+		<field>Location_limit</field>
+		<message>Please Enter Per Location Limit</message>
+		<code>Mandatory_field</code>
+		<errno>1312</errno>
+</error>
+<error>
+		<field>Location_limit</field>
+		<message>Transport Location Limit should be between Per Bottom Limit and Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1313</errno>
+</error>
+<error>
+		<field>Annul_turnover</field>
+		<message>Transport PerBottom Limit should be less than Annual Turnover</message>
+		<code>Mandatory_field</code>
+		<errno>1314</errno>
+</error>
+<error>
+		<field>Commodities</field>
+		<message>Please Choose The Category of Goods</message>
+		<code>Mandatory_field</code>
+		<errno>1315</errno>
+</error>
+<error>
+		<field>Commodity_code</field>
+		<message>Please Select The Commodities</message>
+		<code>Mandatory_field</code>
+		<errno>1316</errno>
+</error>
+<error>
+		<field>Commodity_description</field>
+		<message>Please Enter The Commodities Description</message>
+		<code>Mandatory_field</code>
+		<errno>1317</errno>
+</error>
+<error>
+		<field>Fragile</field>
+		<message>Please Select The Fragile</message>
+		<code>Mandatory_field</code>
+		<errno>1318</errno>
+</error>
+<error>
+		<field>StartRange</field>
+		<message>Please Enter The Starting Range</message>
+		<code>Mandatory_field</code>
+		<errno>1320</errno>
+</error>
+<error>
+		<field>Invalid_range</field>
+		<message>Please Enter The Valid Starting Range</message>
+		<code>Mandatory_field</code>
+		<errno>1321</errno>
+</error>
+<error>
+		<field>EndRange</field>
+		<message>Please Enter The Ending Range</message>
+		<code>Mandatory_field</code>
+		<errno>1322</errno>
+</error>
+<error>
+		<field>Invalid_range</field>
+		<message>Please Enter The Valid Ending Range</message>
+		<code>Mandatory_field</code>
+		<errno>1323</errno>
+</error>
+<error>
+		<field>Range</field>
+		<message>End Range should be greater than Start Range</message>
+		<code>Mandatory_field</code>
+		<errno>1324</errno>
+</error>
+<error>
+		<field>Excess_amount</field>
+		<message>Please Enter The Excess Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1325</errno>
+</error>
+<error>
+		<field>Invalid_excessamount</field>
+		<message>Please Enter The Valid Excess Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1326</errno>
+</error>
+<error>
+		<field>Currency_type</field>
+		<message>Please Select The Currency Type</message>
+		<code>Mandatory_field</code>
+		<errno>1327</errno>
+</error>
+<error>
+		<field>Excess_percent</field>
+		<message>Please Enter The Excess Percent</message>
+		<code>Mandatory_field</code>
+		<errno>1328</errno>
+</error>
+<error>
+		<field>Commodities</field>
+		<message>Please Enter The Commodities Details</message>
+		<code>Mandatory_field</code>
+		<errno>1329</errno>
+</error>
+<error>
+		<field>Commodities_ids</field>
+		<message>Please Enter The Category Of Goods</message>
+		<code>Mandatory_field</code>
+		<errno>1330</errno>
+</error>
+<error>
+		<field>Cover_type</field>
+		<message>Please Select Cover Type</message>
+		<code>Mandatory_field</code>
+		<errno>1331</errno>
+</error>
+<error>
+		<field>Base_rate</field>
+		<message>Please Enter The Base Rate</message>
+		<code>Mandatory_field</code>
+		<errno>1332</errno>
+</error>
+<error>
+		<field>Discount_percent</field>
+		<message>Please Enter The Excess Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1333</errno>
+</error>
+<error>
+		<field>Discount_value</field>
+		<message>Please Enter The Excess Value</message>
+		<code>Mandatory_field</code>
+		<errno>1334</errno>
+</error>
+<error>
+		<field>Excess_desc</field>
+		<message>Please Enter The Excess Description</message>
+		<code>Mandatory_field</code>
+		<errno>1335</errno>
+</error>
+<error>
+		<field>War_rate</field>
+		<message>Please Enter The War Rate</message>
+		<code>Mandatory_field</code>
+		<errno>1336</errno>
+</error>
+<error>
+		<field>Company_type</field>
+		<message>Please Select The Insurance Company Type</message>
+		<code>Mandatory_field</code>
+		<errno>1337</errno>
+</error>
+<error>
+		<field>Share_percent</field>
+		<message>Please Enter The Share Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1338</errno>
+</error>
+<error>
+		<field>Leader_YN</field>
+		<message>Please Select The Leader</message>
+		<code>Mandatory_field</code>
+		<errno>1339</errno>
+</error>
+<error>
+		<field>Clauses</field>
+		<message>Please Select Clauses Details</message>
+		<code>Mandatory_field</code>
+		<errno>1340</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter Clauses Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1341</errno>
+</error>
+<!-- <error>
+		<field>CoverId</field>
+		<message>Please Enter Clauses Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1342</errno>
+</error>
+<error>
+		<field>ClausesId</field>
+		<message>Please Select Clauses Id</message>
+		<code>Mandatory_field</code>
+		<errno>1343</errno>
+</error>
+<error>
+		<field>Clauses_desc</field>
+		<message>Please Enter Clauses Description</message>
+		<code>Mandatory_field</code>
+		<errno>1344</errno>
+</error>
+<error>
+		<field>Exclusion</field>
+		<message>Please Select The Exclusion</message>
+		<code>Mandatory_field</code>
+		<errno>1345</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter The Exclusion Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1346</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter The Exclusion Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1347</errno>
+</error>
+<error>
+		<field>ExclusionId</field>
+		<message>Please Select The Exclusion Type</message>
+		<code>Mandatory_field</code>
+		<errno>1348</errno>
+</error>
+<error>
+		<field>Exclusion_desc</field>
+		<message>Please Enter The Exclusion Description</message>
+		<code>Mandatory_field</code>
+		<errno>1349</errno>
+</error>
+<error>
+		<field>Warranties</field>
+		<message>Please Select The Warranties</message>
+		<code>Mandatory_field</code>
+		<errno>1350</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter The Warranties Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1351</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Warranties Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1352</errno>
+</error>
+<error>
+		<field>WarrantyId</field>
+		<message>Please Select Warranty Id</message>
+		<code>Mandatory_field</code>
+		<errno>1353</errno>
+</error>
+<error>
+		<field>Warranty_desc</field>
+		<message>Please Enter Warranty Description</message>
+		<code>Mandatory_field</code>
+		<errno>1354</errno>
+</error> 
+<error>
+		<field>Clauses</field>
+		<message>Please Select Clauses</message>
+		<code>Mandatory_field</code>
+		<errno>1340</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter Clauses Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1341</errno>
+</error>-->
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Clauses Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1342</errno>
+</error>
+<error>
+		<field>ClausesId</field>
+		<message>Please Select Clauses Type</message>
+		<code>Mandatory_field</code>
+		<errno>1343</errno>
+</error>
+<error>
+		<field>Clauses_desc</field>
+		<message>Please Enter Clauses Description</message>
+		<code>Mandatory_field</code>
+		<errno>1344</errno>
+</error>
+<error>
+		<field>Exclusion</field>
+		<message>Please Select Exclusion</message>
+		<code>Mandatory_field</code>
+		<errno>1345</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter Exclusion Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1346</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Exclusion Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1347</errno>
+</error>
+<error>
+		<field>ExclusionId</field>
+		<message>Please Select Exclusion Type</message>
+		<code>Mandatory_field</code>
+		<errno>1348</errno>
+</error>
+<error>
+		<field>Exclusion_desc</field>
+		<message>Please Enter Exclusion Description</message>
+		<code>Mandatory_field</code>
+		<errno>1349</errno>
+</error>
+<error>
+		<field>Warranties</field>
+		<message>Please Select Warranties</message>
+		<code>Mandatory_field</code>
+		<errno>1350</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter Warranties Commodity</message>
+		<code>Mandatory_field</code>
+		<errno>1351</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Warranties Cover</message>
+		<code>Mandatory_field</code>
+		<errno>1352</errno>
+</error>
+<error>
+		<field>WarrantyId</field>
+		<message>Please Select Warranty Type</message>
+		<code>Mandatory_field</code>
+		<errno>1353</errno>
+</error>
+<error>
+		<field>Warranty_desc</field>
+		<message>Please Enter Warranty Description</message>
+		<code>Mandatory_field</code>
+		<errno>1354</errno>
+</error>
+<error>
+		<field>OriginationCountry</field>
+		<message>Please Enter Valid Origination Country</message>
+		<code>Mandatory_field</code>
+		<errno>1355</errno>
+</error>
+<error>
+		<field>DestinationCountry</field>
+		<message>Please Enter Valid Destination Country</message>
+		<code>Mandatory_field</code>
+		<errno>1356</errno>
+</error>
+<error>
+		<field>SaleTerm</field>
+		<message>Please Enter Valid Sale Term</message>
+		<code>Mandatory_field</code>
+		<errno>1357</errno>
+</error>
+<error>
+		<field>Tolerance</field>
+		<message>Please Enter Tolerance</message>
+		<code>Mandatory_field</code>
+		<errno>1358</errno>
+</error>
+<error>
+		<field>RateSetup</field>
+		<message>Please Enter Commodity Rate Setup</message>
+		<code>Mandatory_field</code>
+		<errno>1359</errno>
+</error>
+<error>
+		<field>ModeOfTransport</field>
+		<message>Please Enter ModeOfTransport</message>
+		<code>Mandatory_field</code>
+		<errno>1360</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Cover Id</message>
+		<code>Mandatory_field</code>
+		<errno>1361</errno>
+</error>
+<error>
+		<field>CommodityDescription</field>
+		<message>Please Enter Commodity Description</message>
+		<code>Mandatory_field</code>
+		<errno>1362</errno>
+</error>
+<error>
+		<field>AdditionalInsured</field>
+		<message>Please Enter AdditionalI nsured</message>
+		<code>Mandatory_field</code>
+		<errno>1363</errno>
+</error>
+<error>
+		<field>AdditionalInsuredName</field>
+		<message>Please Enter Additional Insured Name</message>
+		<code>Mandatory_field</code>
+		<errno>1364</errno>
+</error>
+<error>
+		<field>Commodity</field>
+		<message>Please Enter Commodity Details</message>
+		<code>Mandatory_field</code>
+		<errno>1365</errno>
+</error>
+<error>
+		<field>CommodityId</field>
+		<message>Please Enter Commodity Id</message>
+		<code>Mandatory_field</code>
+		<errno>1366</errno>
+</error>
+<error>
+		<field>Warranty</field>
+		<message>Please Select Warranty Details</message>
+		<code>Mandatory_field</code>
+		<errno>1367</errno>
+</error>
+<error>
+		<field>Exclusion</field>
+		<message>Please Select Exclusion Details</message>
+		<code>Mandatory_field</code>
+		<errno>1368</errno>
+</error>
+<error>
+		<field>Insured</field>
+		<message>Please Enter Customer Details</message>
+		<code>Mandatory_field</code>
+		<errno>1369</errno>
+</error>
+<error>
+		<field>InsuranceCompanyCode</field>
+		<message>Please Enter Insurance Company Code</message>
+		<code>Mandatory_field</code>
+		<errno>1370</errno>
+</error>
+<error>
+		<field>SharePercentage</field>
+		<message>Please Enter Share Percentage</message>
+		<code>Mandatory_field</code>
+		<errno>1371</errno>
+</error>
+<error>
+		<field>City</field>
+		<message>Please Provide City Details</message>
+		<code>Mandatory_field</code>
+		<errno>1372</errno>
+</error>
+<error>
+		<field>CityCode</field>
+		<message>Please Enter City Code</message>
+		<code>Mandatory_field</code>
+		<errno>1373</errno>
+</error>
+<error>
+		<field>WarRate</field>
+		<message>Please Enter War Rate</message>
+		<code>Mandatory_field</code>
+		<errno>1374</errno>
+</error>
+<!-- <error>
+		<field>BaseRate</field>
+		<message>Please Enter Base Rate</message>
+		<code>Mandatory_field</code>
+		<errno>1374</errno>
+</error> -->
+<error>
+		<field>Amount</field>
+		<message>Enter The Valid Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1375</errno>
+</error>
+<error>
+		<field>BasePolicy</field>
+		<message>Refund Not Available for Base Policy</message>
+		<code>Mandatory_field</code>
+		<errno>1376</errno>
+</error>
+<error>
+		<field>PaidAmount</field>
+		<message>Refund Amount Must be less than Paid Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1377</errno>
+</error>
+<error>
+		<field>ReceivedPolicyFee</field>
+		<message>PolicyFee Less than Received PolicyFee</message>
+		<code>Mandatory_field</code>
+		<errno>1378</errno>
+</error>
+<error>
+		<field>ReceivedInceptionFee</field>
+		<message>InceptionFee Less than Received InceptionFee</message>
+		<code>Mandatory_field</code>
+		<errno>1379</errno>
+</error>
+<error>
+		<field>ChargeableAmount</field>
+		<message>Please enter valid Chargeable Amount</message>
+		<code>Mandatory_field</code>
+		<errno>1380</errno>
+</error>
+<error>
+		<field>BalancePolicyFee</field>
+		<message>PolicyFee Less than Balance PolicyFee</message>
+		<code>Mandatory_field</code>
+		<errno>1381</errno>
+</error>
+<error>
+		<field>BalanceInceptionFee</field>
+		<message>InceptionFee Less than Balance InceptionFee</message>
+		<code>Mandatory_field</code>
+		<errno>1382</errno>
+</error>
+<error>
+		<field>War</field>
+		<message>Please Select War Details</message>
+		<code>Mandatory_field</code>
+		<errno>1383</errno>
+</error>
+<error>
+		<field>WarId</field>
+		<message>Please Enter War Id</message>
+		<code>Mandatory_field</code>
+		<errno>1384</errno>
+</error>
+<error>
+		<field>WarDescription</field>
+		<message>Please Enter War Description</message>
+		<code>Mandatory_field</code>
+		<errno>1385</errno>
+</error>
+<error>
+		<field>OptionalCover</field>
+		<message>Please Select Optional Cover Details</message>
+		<code>Mandatory_field</code>
+		<errno>1386</errno>
+</error>
+<error>
+		<field>OptionalCoverId</field>
+		<message>Please Enter Optional Cover Id</message>
+		<code>Mandatory_field</code>
+		<errno>1387</errno>
+</error>
+<error>
+		<field>OptionalCoverDescription</field>
+		<message>Please Enter Optional Cover Description</message>
+		<code>Mandatory_field</code>
+		<errno>1388</errno>
+</error>
+<error>
+		<field>InsuranceInfo</field>
+		<message>Please Enter Insurance and Share Percentage Details</message>
+		<code>Mandatory_field</code>
+		<errno>1389</errno>
+</error>
+<error>
+		<field>CoreLoginId</field>
+		<message>Please Enter Core Login Id is Maximum Length 3</message>
+		<code>Mandatory_field</code>
+		<errno>1390</errno>
+</error>
+<error>
+		<field>PolicyDate</field>
+		<message>Invaild policy issued Date and month production already closed</message>
+		<code>Mandatory_field</code>
+		<errno>1391</errno>
+</error>
+<error>
+		<field>CustomerCode</field>
+		<message>Invalid customer code.please select valid customer</message>
+		<code>Mandatory_field</code>
+		<errno>1392</errno>
+</error>
+<error>
+		<field>PpwDays</field>
+		<message>Please Enter PPW days</message>
+		<code>Mandatory_field</code>
+		<errno>1393</errno>
+</error>
+<error>
+		<field>PayableAmount</field>
+		<message>Chargeable % or Total Payable Amount Should be Greater than Zero</message>
+		<code>Mandatory_field</code>
+		<errno>1394</errno>
+</error>
+<error>
+		<field>Payment</field>
+		<message>Error in Payment Terms Insert</message>
+		<code>Mandatory_field</code>
+		<errno>1395</errno>
+</error>
+<error>
+		<field>EndorsementType</field>
+		<message>Select Endorsement Type</message>
+		<code>Mandatory_field</code>
+		<errno>1396</errno>
+</error>
+<error>
+		<field>CancelOpenCover</field>
+		<message>Please select Cancellation of OpenCover only</message>
+		<code>Mandatory_field</code>
+		<errno>1397</errno>
+</error>
+<error>
+		<field>CancelRemarks</field>
+		<message>Please Enter Cancellation Remarks</message>
+		<code>Mandatory_field</code>
+		<errno>1398</errno>
+</error>
+<error>
+		<field>EndorsementRemarks</field>
+		<message>Please Enter Endorsement Remarks</message>
+		<code>Mandatory_field</code>
+		<errno>1399</errno>
+</error>
+<error>
+		<field>StartDate</field>
+		<message>Cancellation Date should be less that Start Date</message>
+		<code>Mandatory_field</code>
+		<errno>1421</errno>
+</error>
+<error>
+		<field>Password</field>
+		<message>Please Enter Password</message>
+		<code>Mandatory_field</code>
+		<errno>1400</errno>
+</error>
+<error>
+		<field>RetypePassword</field>
+		<message>Please Enter Retype Password</message>
+		<code>Mandatory_field</code>
+		<errno>1401</errno>
+</error>
+<error>
+		<field>Password</field>
+		<message>The Password and Retype Password are not Matching</message>
+		<code>Mandatory_field</code>
+		<errno>1402</errno>
+</error>
+<error>
+		<field>InvalidPassword</field>
+		<message>The Enter The Valid Password</message>
+		<code>Mandatory_field</code>
+		<errno>1428</errno>
+</error>
+
+<error>
+		<field>Unauthorized</field>
+		<message>token is not valid</message>
+		<code>401</code>
+		<errno>401</errno>
+</error>
+
+<error>
+		<field>IssuerName</field>
+		<message>Please Enter Issuer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1450</errno>
+</error>
+<error>
+		<field>EmailId</field>
+		<message>The Enter The Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1451</errno>
+</error>
+<error>
+		<field>InvalidEmailId</field>
+		<message>Email Id should not contain white spaces</message>
+		<code>Mandatory_field</code>
+		<errno>1452</errno>
+</error>
+<error>
+		<field>InvalidEmailId</field>
+		<message>Please Enter The Valid Email Id</message>
+		<code>Mandatory_field</code>
+		<errno>1453</errno>
+</error>
+<error>
+		<field>LoginId</field>
+		<message>Please Enter The Login Id</message>
+		<code>Mandatory_field</code>
+		<errno>1454</errno>
+</error>
+<error>
+		<field>InvalidEmailId</field>
+		<message>Login Id should not contain white spaces</message>
+		<code>Mandatory_field</code>
+		<errno>1455</errno>
+</error>
+<error>
+		<field>InvalidLoginId</field>
+		<message>Login id already Exist</message>
+		<code>Mandatory_field</code>
+		<errno>1456</errno>
+</error>
+<error>
+		<field>CoreLoginId</field>
+		<message>Please Enter Core Login Id</message>
+		<code>Mandatory_field</code>
+		<errno>1457</errno>
+</error>
+<error>
+		<field>Password</field>
+		<message>Please Enter The Password</message>
+		<code>Mandatory_field</code>
+		<errno>1458</errno>
+</error>
+<error>
+		<field>InvalidPassword</field>
+		<message>Password should not contain white spaces</message>
+		<code>Mandatory_field</code>
+		<errno>1459</errno>
+</error>
+<error>
+		<field>ProductId</field>
+		<message>Please select a product</message>
+		<code>Mandatory_field</code>
+		<errno>1460</errno>
+</error>
+<error>
+		<field>AttachedBranch</field>
+		<message>Please Select Attached Branch</message>
+		<code>Mandatory_field</code>
+		<errno>1461</errno>
+</error>
+<error>
+		<field>EffectiveDate</field>
+		<message>Please Select The Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>1462</errno>
+</error>
+<error>
+		<field>UserType</field>
+		<message>Please Select The User Type</message>
+		<code>Mandatory_field</code>
+		<errno>1463</errno>
+</error>
+<error>
+		<field>UserName</field>
+		<message>Please Enter The User Name</message>
+		<code>Mandatory_field</code>
+		<errno>1464</errno>
+</error>
+<error>
+		<field>Menu</field>
+		<message>Please Select The Menu Type</message>
+		<code>Mandatory_field</code>
+		<errno>1465</errno>
+</error>
+<error>
+		<field>Status</field>
+		<message>Please Select Status</message>
+		<code>Mandatory_field</code>
+		<errno>1466</errno>
+</error>
+<error>
+		<field>Broker</field>
+		<message>Please Select The Broker Type</message>
+		<code>Mandatory_field</code>
+		<errno>1467</errno>
+</error>
+<error>
+		<field>StartDate</field>
+		<message>Please Select The Start Date</message>
+		<code>Mandatory_field</code>
+		<errno>1470</errno>
+</error>
+<error>
+		<field>EndDate</field>
+		<message>Please Select The End Date</message>
+		<code>Mandatory_field</code>
+		<errno>1471</errno>
+</error>
+<error>
+		<field>ProductId</field>
+		<message>Please Select The Product Type</message>
+		<code>Mandatory_field</code>
+		<errno>1472</errno>
+</error>
+<error>
+		<field>BrokerType</field>
+		<message>Please Select The Broker Type</message>
+		<code>Mandatory_field</code>
+		<errno>1473</errno>
+</error>
+<error>
+		<field>Status</field>
+		<message>Please Select The Status Type</message>
+		<code>Mandatory_field</code>
+		<errno>1474</errno>
+</error>
+<error>
+		<field>CustomerName</field>
+		<message>Please Enter The Customer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1413</errno>
+</error>
+<error>
+		<field>InvalidName</field>
+		<message>Please Enter The Valid Customer Name</message>
+		<code>Mandatory_field</code>
+		<errno>1414</errno>
+</error>
+
+<error>
+		<field>ApprovedBy</field>
+		<message>Please Enter Approved / Prepared By</message>
+		<code>Mandatory_field</code>
+		<errno>1403</errno>
+</error>
+<error>
+		<field>BrokerCode</field>
+		<message>Please Select The BrokerCode</message>
+		<code>Mandatory_field</code>
+		<errno>1404</errno>
+</error>
+<error>
+		<field>InvalidBrokerCode</field>
+		<message>Please Select The Valid BrokerCode</message>
+		<code>Mandatory_field</code>
+		<errno>1405</errno>
+</error>
+<error>
+		<field>BrokerCode</field>
+		<message>The Broker Code Already Exist</message>
+		<code>Mandatory_field</code>
+		<errno>1406</errno>
+</error>
+<error>
+		<field>City</field>
+		<message>Please Select The City</message>
+		<code>Mandatory_field</code>
+		<errno>1407</errno>
+</error>
+<error>
+		<field>OthereCity</field>
+		<message>Please Select The Othere City</message>
+		<code>Mandatory_field</code>
+		<errno>1408</errno>
+</error>
+<error>
+		<field>InvalidCity</field>
+		<message>Please Enter valid OtherCity</message>
+		<code>Mandatory_field</code>
+		<errno>1409</errno>
+</error>
+<error>
+		<field>Country</field>
+		<message>Please Select The Country</message>
+		<code>Mandatory_field</code>
+		<errno>1410</errno>
+</error>
+<error>
+		<field>InvalidPoBox</field>
+		<message>Please Enter The Valid PoBox</message>
+		<code>Mandatory_field</code>
+		<errno>1411</errno>
+</error>
+<error>
+		<field>PoBox</field>
+		<message>Please Enter The PoBox</message>
+		<code>Mandatory_field</code>
+		<errno>1472</errno>
+</error>
+<error>
+		<field>InvalidMobile</field>
+		<message>Please Enter The Valid Mobile</message>
+		<code>Mandatory_field</code>
+		<errno>1412</errno>
+</error>
+<error>
+		<field>Nationality</field>
+		<message>Please Select The Nationality</message>
+		<code>Mandatory_field</code>
+		<errno>1415</errno>
+</error>
+<error>
+		<field>InvalidTelephone</field>
+		<message>Please Enter The Valid Telephone</message>
+		<code>Mandatory_field</code>
+		<errno>1416</errno>
+</error>
+<error>
+		<field>ExecutiveType</field>
+		<message>Please Enter The Executive Type</message>
+		<code>Mandatory_field</code>
+		<errno>1420</errno>
+</error>
+
+<error>
+		<field>PolicyStartDate</field>
+		<message>Please Select Policy Start Date</message>
+		<code>Mandatory_field</code>
+		<errno>1429</errno>
+</error>
+<error>
+		<field>PolicyEndDate</field>
+		<message>Please Select Policy End Date</message>
+		<code>Mandatory_field</code>
+		<errno>1422</errno>
+</error>
+<error>
+		<field>Premium</field>
+		<message>Please Enter Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1423</errno>
+</error>
+<error>
+		<field>Premium</field>
+		<message>Please Enter Valid Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1424</errno>
+</error>
+<error>
+		<field>PolicyFee</field>
+		<message>Please Enter The Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1430</errno>
+</error>
+<error>
+		<field>InvalidPolicyFee</field>
+		<message>Please Enter The Valid Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1431</errno>
+</error>
+<error>
+		<field>GovtFee</field>
+		<message>Please Enter The Government Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1432</errno>
+</error>
+<error>
+		<field>InvalidGovtFee</field>
+		<message>Please Enter The Valid Government Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1433</errno>
+</error>
+<error>
+		<field>EmergencyFee</field>
+		<message>Please Enter The Emergency Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1434</errno>
+</error>
+<error>
+		<field>InvalidEmergencyFee</field>
+		<message>Please Enter The Valid Emergency Fee</message>
+		<code>Mandatory_field</code>
+		<errno>1435</errno>
+</error>
+<error>
+		<field>InvalidOneOffCommission</field>
+		<message>Please Enter The Valid OneOffCommission</message>
+		<code>Mandatory_field</code>
+		<errno>1436</errno>
+</error>
+<error>
+		<field>InvalidOCCommission</field>
+		<message>Please Enter The Valid OpenCoverCommission</message>
+		<code>Mandatory_field</code>
+		<errno>1437</errno>
+</error>
+<error>
+		<field>EffectiveDate</field>
+		<message>Please Select The Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>1438</errno>
+</error>
+<error>
+		<field>BrokerOrganization</field>
+		<message>Please Select The Broker Organization</message>
+		<code>Mandatory_field</code>
+		<errno>1439</errno>
+</error>
+<error>
+		<field>Commission</field>
+		<message>Please Enter Commission in %</message>
+		<code>Mandatory_field</code>
+		<errno>1480</errno>
+</error>
+<error>
+		<field>InsuranceEndLimit</field>
+		<message>Please Enter Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1481</errno>
+</error>
+<error>
+		<field>MinPremium</field>
+		<message>Please Enter Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1482</errno>
+</error>
+<error>
+		<field>LoadingPremium</field>
+		<message>Please Enter Loading % Max</message>
+		<code>Mandatory_field</code>
+		<errno>1483</errno>
+</error>
+<error>
+		<field>DiscountPremium</field>
+		<message>Please Enter Discount % Max</message>
+		<code>Mandatory_field</code>
+		<errno>1484</errno>
+</error>
+<error>
+		<field>BackDay</field>
+		<message>Please Enter Back Days Allowed</message>
+		<code>Mandatory_field</code>
+		<errno>1485</errno>
+</error>
+<error>
+		<field>InvalidBackDay</field>
+		<message>Please Enter Valid Back Days Allowed</message>
+		<code>Mandatory_field</code>
+		<errno>1486</errno>
+</error>
+<error>
+		<field>PayReceipt</field>
+		<message>Please Select Payment Gateway and Receipt Required</message>
+		<code>Mandatory_field</code>
+		<errno>1487</errno>
+</error>
+<error>
+		<field>Freight</field>
+		<message>Please Select Provision for Debit Field</message>
+		<code>Mandatory_field</code>
+		<errno>1488</errno>
+</error>
+<error>
+		<field>Remarks</field>
+		<message>Please Select Remarks Required</message>
+		<code>Mandatory_field</code>
+		<errno>1489</errno>
+</error>
+
+<error>
+		<field>SpecialDiscount</field>
+		<message>Please Enter Special Discount</message>
+		<code>Mandatory_field</code>
+		<errno>1490</errno>
+</error>
+<error>
+		<field>InvalidSpecialDiscount</field>
+		<message>Please Enter Valid Special Discount</message>
+		<code>Mandatory_field</code>
+		<errno>1491</errno>
+</error>
+<error>
+		<field>InvalidInsuranceEndLimit</field>
+		<message>Please Enter Valid Sum Insured</message>
+		<code>Mandatory_field</code>
+		<errno>1492</errno>
+</error>
+<error>
+		<field>Product</field>
+		<message>Please Select The Product</message>
+		<code>Mandatory_field</code>
+		<errno>1493</errno>
+</error>
+<error>
+		<field>Password</field>
+		<message>New Password Should contain one uppercase, one lowercase, one number, one special character(@ # $ %)  and length between 7 to 20</message>
+		<code>Mandatory_field</code>
+		<errno>1495</errno>
+</error>
+
+<error>
+		<field>ExcessPremium</field>
+		<message>Please Enter Valid Excess Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1500</errno>
+</error>
+<error>
+		<field>LoadingPercent</field>
+		<message>Excess Premium Exceeds Loading Percent</message>
+		<code>Mandatory_field</code>
+		<errno>1501</errno>
+</error>
+<error>
+		<field>TotalPremium</field>
+		<message>Discount Premium Exceeds Total Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1502</errno>
+</error>
+<error>
+		<field>MinPremium</field>
+		<message>Final Premium Less than Minimum Premium</message>
+		<code>Mandatory_field</code>
+		<errno>1503</errno>
+</error>
+<error>
+		<field>DiscountPercent</field>
+		<message>Excess Premium Exceeds Discount Percent</message>
+		<code>Mandatory_field</code>
+		<errno>1504</errno>
+</error>
+<error>
+		<field>SumInsured</field>
+		<message>Open Cover Policy Sum Insured is Exceeding the Limit</message>
+		<code>Mandatory_field</code>
+		<errno>1505</errno>
+</error>
+<error>
+		<field>PolicyNumber</field>
+		<message>Policy Not Generated. Please contact administrator</message>
+		<code>Mandatory_field</code>
+		<errno>1506</errno>
+</error>
+<error>
+		<field>SumInsured</field>
+		<message>Invalid Policy Error Occurred</message>
+		<code>Mandatory_field</code>
+		<errno>1507</errno>
+</error>
+<error>
+		<field>PolicyExcess</field>
+		<message>Please enter valid policy excess in row</message>
+		<code>Mandatory_field</code>
+		<errno>1508</errno>
+</error>
+<error>
+		<field>PolicyRate</field>
+		<message>Please enter valid rate in row </message>
+		<code>Mandatory_field</code>
+		<errno>1509</errno>
+</error>
+<error>
+		<field>PolicyWarRate</field>
+		<message>Please enter valid war rate in row</message>
+		<code>Mandatory_field</code>
+		<errno>1510</errno>
+</error>
+<!-- ///=========== Master Error Code =========== ///// -->
+
+<error>
+		<field>Policy Type Id</field>
+		<message>Please Select Policy Type Id</message>
+		<code>Mandatory_field</code>
+		<errno>3001</errno>
+</error>
+<error>
+		<field>CoverDescription</field>
+		<message>Required Cover Description</message>
+		<code>Mandatory_field</code>
+		<errno>3002</errno>
+</error>
+<error>
+		<field>CurrencyName</field>
+		<message>Please Enter Currency Name</message>
+		<code>Mandatory_field</code>
+		<errno>3003</errno>
+</error>
+<error>
+		<field>CurrencyName</field>
+		<message>Please Enter Valid Currency Name</message>
+		<code>Mandatory_field</code>
+		<errno>3004</errno>
+</error>
+<error>
+		<field>CurrencyName</field>
+		<message>Currency Name Already Exist </message>
+		<code>Mandatory_field</code>
+		<errno>3005</errno>
+</error>
+<error>
+		<field>RFactor</field>
+		<message>Please Enter RFactor</message>
+		<code>Mandatory_field</code>
+		<errno>3006</errno>
+</error>
+<error>
+		<field>RFactor</field>
+		<message>Please Enter Valid RFactor</message>
+		<code>Mandatory_field</code>
+		<errno>3007</errno>
+</error>
+<error>
+		<field>SubCurrency</field>
+		<message>Please Enter Sub Currency</message>
+		<code>Mandatory_field</code>
+		<errno>3008</errno>
+</error>
+<error>
+		<field>SubCurrency</field>
+		<message>Please Enter Valid Sub Currency</message>
+		<code>Mandatory_field</code>
+		<errno>3009</errno>
+</error>
+<error>
+		<field>CurrencyShortName</field>
+		<message>Please Enter Currency Short Name</message>
+		<code>Mandatory_field</code>
+		<errno>3010</errno>
+</error>
+<error>
+		<field>CurrencyShortName</field>
+		<message>Please Enter Valid Currency Short Name</message>
+		<code>Mandatory_field</code>
+		<errno>3011</errno>
+</error>
+<error>
+		<field>EffectiveDate</field>
+		<message>Please select Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>3012</errno>
+</error>
+<error>
+		<field>date.invalid</field>
+		<message>Invalid Effective Date. Please Select the Valid Date.</message>
+		<code>Mandatory_field</code>
+		<errno>3013</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Please Enter the Core Application Code</message>
+		<code>Mandatory_field</code>
+		<errno>3014</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Please Enter Valid Core Application Code</message>
+		<code>Mandatory_field</code>
+		<errno>3015</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Core Application Code Already Exist</message>
+		<code>Mandatory_field</code>
+		<errno>3016</errno>
+</error>
+<error>
+		<field>ExchangeRate</field>
+		<message>Please Enter Exchange Rate</message>
+		<code>Mandatory_field</code>
+		<errno>3017</errno>
+</error>
+<error>
+		<field>ExchangeRate</field>
+		<message>Please Enter Valid Exchange Rate</message>
+		<code>Mandatory_field</code>
+		<errno>3018</errno>
+</error>
+<error>
+		<field>CurrencyId</field>
+		<message>Please Select Currency Id</message>
+		<code>Mandatory_field</code>
+		<errno>3019</errno>
+</error>
+<error>
+		<field>CurrencyId</field>
+		<message>Currency Id Already Exist</message>
+		<code>Mandatory_field</code>
+		<errno>3020</errno>
+</error>
+<error>
+		<field>EffectiveDate</field>
+		<message>Please Select Effective Date</message>
+		<code>Mandatory_field</code>
+		<errno>3021</errno>
+</error>
+<error>
+		<field>date.invalid</field>
+		<message>Invalid Effective Date. Please Select the Valid Date</message>
+		<code>Mandatory_field</code>
+		<errno>3022</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Please Enter Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3023</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Please ENter Valid Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3024</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Core Application Code Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3025</errno>
+</error>
+<error>
+	<field>ExecutiveName</field>
+	<message>Please Enter Executive Name</message>
+	<code>Mandatory_field</code>
+	<errno>3026</errno>
+</error>
+<error>
+	<field>PartyCode</field>
+	<message>Please Select Valid Other Party Code</message>
+	<code>Mandatory_field</code>
+	<errno>3027</errno>
+</error>
+<error>
+	<field>Commission</field>
+	<message>Please Enter One Off Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3028</errno>
+</error>
+<error>
+	<field>Commission</field>
+	<message>Please Enter Valid One Off Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3029</errno>
+</error>
+<error>
+	<field>error.executive.commission.invalid</field>
+	<message> Please enter valid One Off Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3030</errno>
+</error>
+<error>
+	<field>OpenCoverCommission</field>
+	<message>Please Enter Open Cover Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3031</errno>
+</error>
+<error>
+	<field>OpenCoverCommission</field>
+	<message>Please Enter Valid Open Cover Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3032</errno>
+</error>
+<error>
+	<field>error.executive.OpenCoverCommission.invalid</field>
+	<message>Please enter valid Open Cover Commission</message>
+	<code>Mandatory_field</code>
+	<errno>3033</errno>
+</error>
+<error>
+	<field>error.executivemaster.exmmEffectiveDateEmpty</field>
+	<message>Please Select Effective Date</message>
+	<code>Mandatory_field</code>
+	<errno>3034</errno>
+</error>
+<error>
+	<field>error.executivemaster.exmEffectiveDateFormat</field>
+	<message>Please Enter Valid Date</message>
+	<code>Mandatory_field</code>
+	<errno>3035</errno>
+</error>
+<error>
+	<field>EtherpartycoderExist</field>
+	<message>Please Check Other Party Code is Existed</message>
+	<code>Mandatory_field</code>
+	<errno>3036</errno>
+</error>
+<error>
+	<field>StartSumInsured</field>
+	<message>Please Enter Starting SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3037</errno>
+</error>
+<error>
+	<field>StartSumInsured</field>
+	<message>Please Enter Valid Starting SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3038</errno>
+</error>
+<error>
+	<field>StartSumInsured</field>
+	<message>Please Enter Valid Starting SumInsured (i.e Maximum length 30)</message>
+	<code>Mandatory_field</code>
+	<errno>3039</errno>
+</error>
+<error>
+	<field>EndSumInsured</field>
+	<message>Please Enter Ending SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3040</errno>
+</error>
+<error>
+	<field>EndSumInsured</field>
+	<message>Please Enter Valid Ending SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3041</errno>
+</error>
+<error>
+	<field>EndSumInsured</field>
+	<message>Please Enter Valid Ending SumInsured (i.e Maximum length 30)</message>
+	<code>Mandatory_field</code>
+	<errno>3042</errno>
+</error>
+<error>
+	<field>SumInsuredInvalid</field>
+	<message>Please Enter Start SumInsured less than End SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3043</errno>
+</error>
+<error>
+	<field>SumInsuredInvalid</field>
+	<message>Please Enter Valid LC SumInsured</message>
+	<code>Mandatory_field</code>
+	<errno>3044</errno>
+</error>
+<error>
+	<field>StartSumInsured</field>
+	<message>Starting SumInsured Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3045</errno>
+</error>
+<error>
+	<field>Deductible</field>
+	<message>Please Enter Deductible</message>
+	<code>Mandatory_field</code>
+	<errno>3046</errno>
+</error>
+<error>
+	<field>CommodityExcessRate</field>
+	<message>Please Enter Commodity Excess Rate</message>
+	<code>Mandatory_field</code>
+	<errno>3047</errno>
+</error>
+<error>
+	<field>CommodityExcessRate</field>
+	<message>Please Enter Valid Commodity Excess Rate</message>
+	<code>Mandatory_field</code>
+	<errno>3048</errno>
+</error>
+<error>
+	<field>CommodityExcessRate</field>
+	<message>Please Enter Valid Commodity Excess Rate (i.e Maximum length 10)</message>
+	<code>Mandatory_field</code>
+	<errno>3049</errno>
+</error>
+<error>
+	<field>EffectiveDate</field>
+	<message>Please Select Effective Date</message>
+	<code>Mandatory_field</code>
+	<errno>3050</errno>
+</error>
+<error>
+	<field>date.invalid</field>
+	<message>Invalid Effective Date. Please Select the Valid Date</message>
+	<code>Mandatory_field</code>
+	<errno>3051</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Core Application Code Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3052</errno>
+</error>
+<error>
+	<field>amount.invalid</field>
+	<message>Amount Invalid</message>
+	<code>Mandatory_field</code>
+	<errno>3053</errno>
+</error>
+<error>
+	<field>CommodityName</field>
+	<message>Please Enter Commodity Name</message>
+	<code>Mandatory_field</code>
+	<errno>3054</errno>
+</error>
+<error>
+	<field>CommodityName</field>
+	<message>Commodity Name Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3055</errno>
+</error>
+<error>
+	<field>CommodityTypeId</field>
+	<message>Please Enter Valid Commodity Type Id</message>
+	<code>Mandatory_field</code>
+	<errno>3056</errno>
+</error>
+<error>
+	<field>CommodityRate</field>
+	<message>Please Enter Commodity Rate</message>
+	<code>Mandatory_field</code>
+	<errno>3057</errno>
+</error>
+<error>
+	<field>CommodityRate</field>
+	<message>Please Enter Valid Commodity Rate</message>
+	<code>Mandatory_field</code>
+	<errno>3058</errno>
+</error>
+<error>
+	<field>CommodityTypeId</field>
+	<message>Please Enter Commodity Type Id</message>
+	<code>Mandatory_field</code>
+	<errno>3059</errno>
+</error>
+<error>
+	<field>CoreAppCode</field>
+	<message>Please Enter Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3060</errno>
+</error>
+<error>
+	<field>CoreAppCode</field>
+	<message>Core Application Code Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3061</errno>
+</error>
+<error>
+	<field>EffectiveDate</field>
+	<message>Please Select Effective Date</message>
+	<code>Mandatory_field</code>
+	<errno>3062</errno>
+</error>
+<error>
+	<field>EffectiveDate</field>
+	<message>Please Select Valid Effective Date (i.e Format 'DD/MM/YYYY')</message>
+	<code>Mandatory_field</code>
+	<errno>3063</errno>
+</error>
+<error>
+	<field>EffectiveDate</field>
+	<message>Please Select Valid Effective Date</message>
+	<code>Mandatory_field</code>
+	<errno>3064</errno>
+</error>
+<error>
+	<field>BranchName</field>
+	<message>BranchName Already Exits</message>
+	<code>Mandatory_field</code>
+	<errno>3065</errno>
+</error>
+<error>
+	<field>CurrencyName</field>
+	<message>Please Enter Currency Name</message>
+	<code>Mandatory_field</code>
+	<errno>3066</errno>
+</error>
+<error>
+	<field>EffectiveDate</field>
+	<message>Please Enter Effective Date</message>
+	<code>Mandatory_field</code>
+	<errno>3067</errno>
+</error>
+<error>
+	<field>Fax Only Contain Numbers</field>
+	<message>Fax Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3068</errno>
+</error>
+<error>
+	<field>OriginationID Only Contain Numbers</field>
+	<message>OriginationID Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3069</errno>
+</error>
+<error>
+	<field>DestinationID Only Contain Numbers</field>
+	<message>DestinationID Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3070</errno>
+</error>
+<error>
+	<field>eCurrency Decimal Digit Only Contain Numbers</field>
+	<message>eCurrency Decimal Digit Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3071</errno>
+</error>
+<error>
+	<field>DecimalPlaces Only Contain Numbers</field>
+	<message>DecimalPlaces Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3072</errno>
+</error>
+<error>
+	<field>Tax Only Contain Numbers</field>
+	<message>Tax Only Contain Numbers</message>
+	<code>Mandatory_field</code>
+	<errno>3073</errno>
+</error>
+<error>
+	<field>CityName</field>
+	<message>Please Enter City Name</message>
+	<code>Mandatory_field</code>
+	<errno>3074</errno>
+</error>
+<error>
+	<field>CityName</field>
+	<message>Please Enter Valid City Name</message>
+	<code>Mandatory_field</code>
+	<errno>3075</errno>
+</error>
+<error>
+	<field>CityName</field>
+	<message>City Name Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3076</errno>
+</error>
+<error>
+	<field>CountryId</field>
+	<message>Please Enter Country Id</message>
+	<code>Mandatory_field</code>
+	<errno>3077</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Please Enter Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3078</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Invalid Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3079</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Core Application Code Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3080</errno>
+</error>
+<error>
+	<field>ExtraCoverName</field>
+	<message>Please Enter Extra Cover Name</message>
+	<code>Mandatory_field</code>
+	<errno>3081</errno>
+</error>
+<error>
+	<field>ModeOfTransport</field>
+	<message>Mode of transport already exist for the given Extra Cover Name</message>
+	<code>Mandatory_field</code>
+	<errno>3082</errno>
+</error>
+<error>
+	<field>ModeOfTransport</field>
+	<message>Please Select Mode of Transport</message>
+	<code>Mandatory_field</code>
+	<errno>3083</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Please Enter Core Application Code</message>
+	<code>Mandatory_field</code>
+	<errno>3084</errno>
+</error>
+<error>
+	<field>CoreApplicationCode</field>
+	<message>Core Application Code Already Exist</message>
+	<code>Mandatory_field</code>
+	<errno>3085</errno>
+</error>
+<error>
+      <field>package.Desc.required</field>
+      <message>Please enter Package Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3086</errno>
+</error>
+<error>
+      <field>package.Rate.required</field>
+      <message>Please enter Package Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3087</errno>
+</error>
+<error>
+      <field>package.Rate.invalid</field>
+      <message>Please enter valid Package Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3088</errno>
+</error>
+<error>
+      <field>package.Rate.invalid</field>
+      <message>Please enter valid Package Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3089</errno>
+</error>
+<error>
+      <field>Modeoftransport</field>
+      <message>please Enter Valid Mode of Transport</message>
+      <code>Mandatory_field</code>
+      <errno>3090</errno>
+</error>
+<error>
+      <field>BankName</field>
+      <message>Please Enter Bank Name</message>
+      <code>Mandatory_field</code>
+      <errno>3091</errno>
+</error>
+<error>
+      <field>bank.invalid</field>
+      <message>Invalid Bank Name</message>
+      <code>Mandatory_field</code>
+      <errno>3092</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3093</errno>
+</error>
+<error>
+      <field>code.invalid</field>
+      <message>Invalid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3094</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Not Exist for given BankId</message>
+      <code>Mandatory_field</code>
+      <errno>3095</errno>
+</error>
+<error>
+      <field>ChequeDate</field>
+      <message>Please Select Cheque Date</message>
+      <code>Mandatory_field</code>
+      <errno>3096</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date</message>
+      <code>Mandatory_field</code>
+      <errno>3097</errno>
+</error>
+<error>
+      <field>country.select</field>
+      <message>Please Select Country Name</message>
+      <code>Mandatory_field</code>
+      <errno>3098</errno>
+</error>
+<error>
+      <field>bank.already</field>
+      <message>Bank Name Not Exist for given BankId</message>
+      <code>Mandatory_field</code>
+      <errno>3099</errno>
+</error>
+<error>
+      <field>transRSA.already</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3100</errno>
+</error>
+<error>
+      <field>Please select the cover</field>
+      <message>Please select the cover</message>
+      <code>Mandatory_field</code>
+      <errno>3101</errno>
+</error>
+<error>
+      <field>Already Exist</field>
+      <message>Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3102</errno>
+</error>
+<error>
+      <field>material.required</field>
+      <message>Please Select Material Description</message>
+      <code>Mandatory_field</code>
+      <errno>3103</errno>
+</error>
+<error>
+      <field>material.rate.invalid</field>
+      <message>Invalid Material Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3104</errno>
+</error>
+<error>
+      <field>material.rate.invalid</field>
+      <message>Invalid Material Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3105</errno>
+</error>
+<error>
+      <field>material.rate.required</field>
+      <message>Please Enter the Material Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3106</errno>
+</error>
+<error>
+      <field>code.required</field>
+      <message>Please Enter the Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3107</errno>
+</error>
+<error>
+      <field>code.invalid</field>
+      <message>Invalid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3108</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3109</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date</message>
+      <code>Mandatory_field</code>
+      <errno>3110</errno>
+</error>
+<error>
+      <field>SaleTermName</field>
+      <message>Please Enter Sale term Name</message>
+      <code>Mandatory_field</code>
+      <errno>3111</errno>
+</error>
+<error>
+      <field>SaleTermName</field>
+      <message>Sale Term Name Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3112</errno>
+</error>
+<error>
+      <field>SaleTermValue</field>
+      <message>Please Enter Sale term Value</message>
+      <code>Mandatory_field</code>
+      <errno>3113</errno>
+</error>
+<error>
+      <field>SaleTermValue</field>
+      <message>Please Enter Valid Sale term Value</message>
+      <code>Mandatory_field</code>
+      <errno>3114</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3115</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3116</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3117</errno>
+</error>
+<error>
+      <field>ToleranceName</field>
+      <message>Please Enter Tolerance Name</message>
+      <code>Mandatory_field</code>
+      <errno>3118</errno>
+</error>
+<error>
+      <field>ToleranceValue</field>
+      <message>Please Enter Tolerance Value</message>
+      <code>Mandatory_field</code>
+      <errno>3119</errno>
+</error>
+<error>
+      <field>ToleranceValue</field>
+      <message>Please Enter Valid Tolerance Value</message>
+      <code>Mandatory_field</code>
+      <errno>3120</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3121</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3122</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3123</errno>
+</error>
+<error>
+      <field>ToleranceName</field>
+      <message>Tolerance Name already exist</message>
+      <code>Mandatory_field</code>
+      <errno>3124</errno>
+</error>
+<error>
+      <field>CoverName</field>
+      <message>Please Enter Cover Name</message>
+      <code>Mandatory_field</code>
+      <errno>3125</errno>
+</error>
+<error>
+      <field>CoverName</field>
+      <message>Cover Name Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3126</errno>
+</error>
+<error>
+      <field>ModeoftransportDesc</field>
+      <message>Please Enter Mode of Transport Description</message>
+      <code>Mandatory_field</code>
+      <errno>3127</errno>
+</error>
+<error>
+      <field>CoverRate</field>
+      <message>Please Enter Cover Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3128</errno>
+</error>
+<error>
+      <field>CoverRate</field>
+      <message>Please Enter Valid Cover Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3129</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3130</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date</message>
+      <code>Mandatory_field</code>
+      <errno>3131</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3132</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3133</errno>
+</error>
+<error>
+      <field>vessel.required</field>
+      <message>Please Enter the Vessel Name</message>
+      <code>Mandatory_field</code>
+      <errno>3134</errno>
+</error>
+<error>
+      <field>vessel.invalid</field>
+      <message>Invalid Vessel Name</message>
+      <code>Mandatory_field</code>
+      <errno>3135</errno>
+</error>
+<error>
+      <field>vessel.type.required</field>
+      <message>Please Enter the Vessel Type</message>
+      <code>Mandatory_field</code>
+      <errno>3136</errno>
+</error>
+<error>
+      <field>vessel.type.invalid</field>
+      <message>Invalid Vessel Type</message>
+      <code>Mandatory_field</code>
+      <errno>3137</errno>
+</error>
+<error>
+      <field>vessel.year.required</field>
+      <message>Please Enter the Manufacture Year</message>
+      <code>Mandatory_field</code>
+      <errno>3138</errno>
+</error>
+<error>
+      <field>vessel.year.invalid</field>
+      <message>Invalid Manufacture Year</message>
+      <code>Mandatory_field</code>
+      <errno>3139</errno>
+</error>
+<error>
+      <field>vessel.class.required</field>
+      <message>Please Enter Vessel Class</message>
+      <code>Mandatory_field</code>
+      <errno>3140</errno>
+</error>
+<error>
+      <field>vessel.class.invalid</field>
+      <message>Invalid Vessel Class</message>
+      <code>Mandatory_field</code>
+      <errno>3141</errno>
+</error>
+<error>
+      <field>vessel.rate.required</field>
+      <message>Please Enter Vessel Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3142</errno>
+</error>
+<error>
+      <field>code.required</field>
+      <message>Please Enter the Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3143</errno>
+</error>
+<error>
+      <field>code.invalid</field>
+      <message>Invalid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3144</errno>
+</error>
+<error>
+      <field>transRSA.already</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3145</errno>
+</error>
+<error>
+      <field>CountryName</field>
+      <message>Please Enter Country Name</message>
+      <code>Mandatory_field</code>
+      <errno>3146</errno>
+</error>
+<error>
+      <field>CountryName</field>
+      <message>Please Enter Valid Country Name</message>
+      <code>Mandatory_field</code>
+      <errno>3147</errno>
+</error>
+<error>
+      <field>CountryName</field>
+      <message>Country Name Not Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3148</errno>
+</error>
+<error>
+      <field>country.shortname.invalid</field>
+      <message>Invalid Country Short Name</message>
+      <code>Mandatory_field</code>
+      <errno>3149</errno>
+</error>
+<error>
+      <field>NationalityName</field>
+      <message>Please Enter Nationality Name</message>
+      <code>Mandatory_field</code>
+      <errno>3150</errno>
+</error>
+<error>
+      <field>NationalityName</field>
+      <message>Please Enter Valid Nationality Name</message>
+      <code>Mandatory_field</code>
+      <errno>3151</errno>
+</error>
+<error>
+      <field>code.required</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3152</errno>
+</error>
+<error>
+      <field>code.invalid</field>
+      <message>Invalid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3153</errno>
+</error>
+<error>
+      <field>RsaCode</field>
+      <message>Core Application Code Not Exist for given CountryId</message>
+      <code>Mandatory_field</code>
+      <errno>3154</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3155</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date.</message>
+      <code>Mandatory_field</code>
+      <errno>3156</errno>
+</error>
+<error>
+      <field>GeoRate</field>
+      <message>Please Enter Geo Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3157</errno>
+</error>
+<error>
+      <field>GeoRate</field>
+      <message>Please Enter Valid Geo Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3158</errno>
+</error>
+<error>
+      <field>geoRate.required</field>
+      <message>Please Enter the valid Geo Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3159</errno>
+</error>
+<error>
+      <field>Modeoftransport</field>
+      <message>Please Select Mode of Transport</message>
+      <code>Mandatory_field</code>
+      <errno>3160</errno>
+</error>
+<error>
+      <field>ConveyanceName</field>
+      <message>Please Enter Conveyance Name</message>
+      <code>Mandatory_field</code>
+      <errno>3161</errno>
+</error>
+<error>
+      <field>ConveyanceName</field>
+      <message>Please Enter Valid Conveyance Name</message>
+      <code>Mandatory_field</code>
+      <errno>3162</errno>
+</error>
+<error>
+      <field>ConveyanceRate</field>
+      <message>Please Enter Conveyance Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3163</errno>
+</error>
+<error>
+      <field>ConveyanceRate</field>
+      <message>Please Enter Valid Conveyance Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3164</errno>
+</error>
+<error>
+      <field>ConveyanceRate</field>
+      <message>Please Enter Valid Conveyance Rate(e.i Maximum length 10)</message>
+      <code>Mandatory_field</code>
+      <errno>3165</errno>
+</error>
+<error>
+      <field>conveyRate.invalid</field>
+      <message>Invalid Convey Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3166</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3167</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3168</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3169</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date</message>
+      <code>Mandatory_field</code>
+      <errno>3170</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3171</errno>
+</error>
+<error>
+      <field>ConveyanName</field>
+      <message>Conveyance Name Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3172</errno>
+</error>
+<error>
+      <field>CityId</field>
+      <message>Please Enter City Id</message>
+      <code>Mandatory_field</code>
+      <errno>3173</errno>
+</error>
+<error>
+      <field>select.cityName</field>
+      <message>City Name required</message>
+      <code>Mandatory_field</code>
+      <errno>3174</errno>
+</error>
+<error>
+      <field>invalid.email</field>
+      <message>Please Enter Valid Email address</message>
+      <code>Mandatory_field</code>
+      <errno>3175</errno>
+</error>
+<error>
+      <field>invalid.mobileno</field>
+      <message>Please Enter Valid Mobile Number</message>
+      <code>Mandatory_field</code>
+      <errno>3176</errno>
+</error>
+<error>
+      <field>SettlingAgentName</field>
+      <message>Please Enter Settling Agent Name</message>
+      <code>Mandatory_field</code>
+      <errno>3177</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3178</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3179</errno>
+</error>
+<error>
+      <field>CityName</field>
+      <message>Please Select City Name</message>
+      <code>Mandatory_field</code>
+      <errno>3180</errno>
+</error>
+<error>
+      <field>CityName</field>
+      <message>Please Enter Valid City Name</message>
+      <code>Mandatory_field</code>
+      <errno>3181</errno>
+</error>
+<error>
+      <field>WarrantyDescription</field>
+      <message>Please Enter Warranty Description</message>
+      <code>Mandatory_field</code>
+      <errno>3182</errno>
+</error>
+<error>
+      <field>WarrantyDescription</field>
+      <message>Warranty Description Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3183</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3184</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3185</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3186</errno>
+</error>
+<error>
+      <field>ModeOftransportDesc</field>
+      <message>Please Enter Mode of Transport Description</message>
+      <code>Mandatory_field</code>
+      <errno>3187</errno>
+</error>
+<error>
+      <field>ModeOftransportDesc</field>
+      <message>Please Enter Valid Mode of Transport Description</message>
+      <code>Mandatory_field</code>
+      <errno>3188</errno>
+</error>
+<error>
+      <field>ModeOftransportDesc</field>
+      <message>Mode of Transport Description Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3189</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3190</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3191</errno>
+</error>
+<error>
+      <field>transDO.required</field>
+      <message>Please Enter the Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3192</errno>
+</error>
+<error>
+      <field>transDO.invalid</field>
+      <message>Invalid Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3193</errno>
+</error>
+<error>
+      <field>CategoryName</field>
+      <message>Please Enter Category Name</message>
+      <code>Mandatory_field</code>
+      <errno>3194</errno>
+</error>
+<error>
+      <field>CategoryName</field>
+      <message>Please Enter Valid Category Name</message>
+      <code>Mandatory_field</code>
+      <errno>3195</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3196</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3197</errno>
+</error>
+<error>
+      <field>CategoryName</field>
+      <message>Please Enter Valid Category Name(i.e Maximum length 100)</message>
+      <code>Mandatory_field</code>
+      <errno>3198</errno>
+</error>
+<error>
+      <field>category.select</field>
+      <message>Please Select the Category</message>
+      <code>Mandatory_field</code>
+      <errno>3199</errno>
+</error>
+<error>
+      <field>detailName.required</field>
+      <message>Please Enter the Detail Name</message>
+      <code>Mandatory_field</code>
+      <errno>3200</errno>
+</error>
+<error>
+      <field>detailName.already</field>
+      <message>Detail Name Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3201</errno>
+</error>
+<error>
+      <field>percentage.required</field>
+      <message>Please Enter the Percentage</message>
+      <code>Mandatory_field</code>
+      <errno>3202</errno>
+</error>
+<error>
+      <field>percentage.invalid</field>
+      <message>Invalid Percentage</message>
+      <code>Mandatory_field</code>
+      <errno>3203</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3204</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3205</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3206</errno>
+</error>
+<error>
+      <field>select.mode</field>
+      <message>Please Select the Mode of Transport</message>
+      <code>Mandatory_field</code>
+      <errno>3207</errno>
+</error>
+<error>
+      <field>covername.required</field>
+      <message>Please Enter the Cover Name </message>
+      <code>Mandatory_field</code>
+      <errno>3208</errno>
+</error>
+<error>
+      <field>ClauseDescription</field>
+      <message>Enter Clause Description</message>
+      <code>Mandatory_field</code>
+      <errno>3209</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3210</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3211</errno>
+</error>
+<error>
+      <field>displayorder.required</field>
+      <message>Enter Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3212</errno>
+</error>
+<error>
+      <field>displayorder.invalid</field>
+      <message>Invalid Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3213</errno>
+</error>
+<error>
+      <field>displayorder.already</field>
+      <message>Display Order Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3214</errno>
+</error>
+<error>
+      <field>status.required</field>
+      <message>Please Enter Status</message>
+      <code>Mandatory_field</code>
+      <errno>3215</errno>
+</error>
+<error>
+      <field>transRSA.already</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3216</errno>
+</error>
+<error>
+      <field>upload.file.error</field>
+      <message>Please Choose Policy Wording file</message>
+      <code>Mandatory_field</code>
+      <errno>3217</errno>
+</error>
+<error>
+      <field>error.clauses.policyWording.invalid</field>
+      <message>Please select valid Policy Wording file format (.pdf)</message>
+      <code>Mandatory_field</code>
+      <errno>3218</errno>
+</error>
+<error>
+      <field>ExclusionDescriptionc</field>
+      <message>Exclusion Description Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3219</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3220</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3221</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3222</errno>
+</error>
+<error>
+      <field>ExclusionDescription</field>
+      <message>Please Enter Exclusion Description</message>
+      <code>Mandatory_field</code>
+      <errno>3223</errno>
+</error>
+<error>
+      <field>WarDescription</field>
+      <message>Please Enter War Description</message>
+      <code>Mandatory_field</code>
+      <errno>3224</errno>
+</error>
+<error>
+      <field>war.already</field>
+      <message>Mode of Transport Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3225</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter War Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3226</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter Valid War Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3227</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter Valid War Rate (i.e Maximum length 10)</message>
+      <code>Mandatory_field</code>
+      <errno>3228</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3229</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3230</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3231</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date.Please Select the Valid Date</message>
+      <code>Mandatory_field</code>
+      <errno>3232</errno>
+</error>
+<error>
+      <field>rating.mode.transport.invalid</field>
+      <message>please Select Mode of Transport</message>
+      <code>Mandatory_field</code>
+      <errno>3233</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3234</errno>
+</error>
+<error>
+      <field>Vessel Class Length</field>
+      <message>Vessel Class Max Length 1 Character</message>
+      <code>Mandatory_field</code>
+      <errno>3235</errno>
+</error>
+<error>
+      <field>select_cover</field>
+      <message>Please select the cover</message>
+      <code>Mandatory_field</code>
+      <errno>3236</errno>
+</error>
+<error>
+      <field>CoverIdInvalid</field>
+      <message>Please Enter Valid Cover Id</message>
+      <code>Mandatory_field</code>
+      <errno>3238</errno>
+</error>
+<error>
+      <field>CoverId</field>
+      <message>Please Enter Cover Id</message>
+      <code>Mandatory_field</code>
+      <errno>3237</errno>
+</error>
+<error>
+      <field>ClausesDescription</field>
+      <message>Please Enter Clause Description</message>
+      <code>Mandatory_field</code>
+      <errno>3239</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3240</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3241</errno>
+</error>
+<error>
+      <field>DisplayOrder</field>
+      <message>Please Enter Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3242</errno>
+</error>
+<error>
+      <field>DisplayOrder</field>
+      <message>Please Enter Valid Display Order</message>
+      <code>Mandatory_field</code>
+      <errno>3243</errno>
+</error>
+<error>
+      <field>DisplayOrder</field>
+      <message>Display Order Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3244</errno>
+</error>
+<error>
+      <field>DisplayOrder</field>
+      <message>Please Enter Valid Display Order (i.e Maximum length 5)</message>
+      <code>Mandatory_field</code>
+      <errno>3247</errno>
+</error>
+<error>
+      <field>Status</field>
+      <message>Please Select Status</message>
+      <code>Mandatory_field</code>
+      <errno>3245</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3246</errno>
+</error>
+<error>
+      <field>CountryName</field>
+      <message>Please Select Country Name</message>
+      <code>Mandatory_field</code>
+      <errno>3247</errno>
+</error>
+<error>
+      <field>CountryShortName</field>
+      <message>Please Enter Valid Country Short Name</message>
+      <code>Mandatory_field</code>
+      <errno>3248</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter War Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3249</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter Valid War Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3250</errno>
+</error>
+
+<error>
+      <field>warLandRate.required</field>
+      <message>Please Enter the War on Land Rate</message>
+      <code>Mandatory_field</code>
+      <errno>3251</errno>
+</error>
+<error>
+      <field>StartingPlace</field>
+      <message>Please Select Starting Place</message>
+      <code>Mandatory_field</code>
+      <errno>3252</errno>
+</error>
+<error>
+      <field>EndingPlace</field>
+      <message>Please Select Ending Place</message>
+      <code>Mandatory_field</code>
+      <errno>3253</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Core Application Code</message>
+      <code>Mandatory_field</code>
+      <errno>3254</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Core Application Code Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>3255</errno>
+</error>
+<error>
+      <field>EffectiveDate</field>
+	  <message>Please Select Effective Date</message>
+      <code>Mandatory_field</code>
+      <errno>3256</errno>
+</error>
+<error>
+      <field>date.invalid</field>
+      <message>Invalid Effective Date. Please Select the Valid Date.</message>
+      <code>Mandatory_field</code>
+      <errno>3257</errno>
+</error>
+
+
+<error>
+      <field>Title</field>
+      <message>Please Enter Valid Title(i.e Title Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2400</errno>
+</error>
+<error>
+      <field>CustomerName</field>
+      <message>Please Enter Valid Customer Name(i.e Customer Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2401</errno>
+</error>
+<error>
+      <field>CustomerName</field>
+      <message>Please Enter Valid Customer Name</message>
+      <code>Mandatory_field</code>
+      <errno>2402</errno>
+</error>
+<error>
+      <field>CoreAppCode</field>
+      <message>Please Enter Valid Core Application Code(i.e Core Application Code Maximum Length is 20)</message>
+      <code>Mandatory_field</code>
+      <errno>2403</errno>
+</error>
+<error>
+      <field>CoreAppCode</field>
+      <message>Please Enter Valid Core Application Code(i.e Core Application Code Maximum Length is 20)</message>
+      <code>Mandatory_field</code>
+      <errno>2403</errno>
+</error>
+<error>
+      <field>CityCode</field>
+      <message>Please Enter Valid City Code</message>
+      <code>Mandatory_field</code>
+      <errno>2404</errno>
+</error>
+<error>
+      <field>CityCode</field>
+      <message>Please Enter Valid City Code(i.e City Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2405</errno>
+</error>
+<error>
+      <field>MobileNo</field>
+      <message>Please Enter Valid Mobile Number(i.e Mobile Number Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2406</errno>
+</error>
+<error>
+      <field>EmailId</field>
+      <message>Please Enter Valid Email Id(i.e Email Id Maximum Length is 100)</message>
+      <code>Mandatory_field</code>
+      <errno>2407</errno>
+</error>
+<error>
+      <field>ModeOfTransport</field>
+      <message>Please Enter Valid ModeOfTransport</message>
+      <code>Mandatory_field</code>
+      <errno>2408</errno>
+</error>
+<error>
+      <field>ModeOfTransport</field>
+      <message>Please Enter Valid ModeOfTransport(i.e ModeOfTransport Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2409</errno>
+</error>
+<error>
+      <field>CoverCode</field>
+      <message>Please Enter Valid Cover Code</message>
+      <code>Mandatory_field</code>
+      <errno>2410</errno>
+</error>
+<error>
+      <field>CoverCode</field>
+      <message>Please Enter Valid Cover Code(i.e Cover Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2411</errno>
+</error>
+<error>
+      <field>ModeOfCarriageCode</field>
+      <message>Please Enter Valid Mode of Carriage Code</message>
+      <code>Mandatory_field</code>
+      <errno>2412</errno>
+</error>
+<error>
+      <field>ModeOfCarriageCode</field>
+      <message>Please Enter Valid Mode of Carriage Code(i.e Mode of Carriage Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2413</errno>
+</error>
+<error>
+      <field>OriginCountryCode</field>
+      <message>Please Enter Valid Originating Country Code</message>
+      <code>Mandatory_field</code>
+      <errno>2414</errno>
+</error>
+<error>
+      <field>OriginCountryCode</field>
+      <message>Please Enter Valid Originating Country Code(i.e Originating Country Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2415</errno>
+</error>
+<error>
+      <field>DestinationCountryCode</field>
+      <message>Please Enter Valid Destination Country Code</message>
+      <code>Mandatory_field</code>
+      <errno>2416</errno>
+</error>
+<error>
+      <field>DestinationCountryCode</field>
+      <message>Please Enter Valid Destination Country Code(i.e Destination Country Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2417</errno>
+</error>
+<error>
+      <field>InceptionDate</field>
+      <message>Please Enter Valid Inception Date(i.e Inception Date Format dd/MM/yyyy)</message>
+      <code>Mandatory_field</code>
+      <errno>2418</errno>
+</error>
+<error>
+      <field>InceptionDate</field>
+      <message>Please Enter Valid Inception Date(i.e Inception Date Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2419</errno>
+</error>
+<error>
+      <field>CurrencyCode</field>
+      <message>Please Enter Valid Currency Code</message>
+      <code>Mandatory_field</code>
+      <errno>2420</errno>
+</error>
+<error>
+      <field>CurrencyCode</field>
+      <message>Please Enter Valid Currency Code(i.e Currency Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2421</errno>
+</error>
+<error>
+      <field>IncoTerms</field>
+      <message>Please Enter Valid IncoTerms</message>
+      <code>Mandatory_field</code>
+      <errno>2422</errno>
+</error>
+<error>
+      <field>IncoTerms</field>
+      <message>Please Enter Valid IncoTerms(i.e IncoTerms Maximum Length is 50)</message>
+      <code>Mandatory_field</code>
+      <errno>2423</errno>
+</error>
+<error>
+      <field>Percentage</field>
+      <message>Please Enter Valid Percentage</message>
+      <code>Mandatory_field</code>
+      <errno>2424</errno>
+</error>
+<error>
+      <field>Percentage</field>
+      <message>Please Enter Valid Percentage(i.e Percentage Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2425</errno>
+</error>
+<error>
+      <field>PackageCode</field>
+      <message>Please Enter Valid Package Code</message>
+      <code>Mandatory_field</code>
+      <errno>2426</errno>
+</error>
+<error>
+      <field>PackageCode</field>
+      <message>Please Enter Valid Package Code(i.e Package Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2427</errno>
+</error>
+<error>
+      <field>Address1</field>
+      <message>Please Enter Valid Address1(i.e Address1 Maximum Length is 150)</message>
+      <code>Mandatory_field</code>
+      <errno>2428</errno>
+</error>
+<error>
+      <field>Address2</field>
+      <message>Please Enter Valid Address2(i.e Address2 Maximum Length is 150)</message>
+      <code>Mandatory_field</code>
+      <errno>2429</errno>
+</error>
+<error>
+      <field>OriginCity</field>
+      <message>Please Enter Valid Originating City Code(i.e Originating City Code Maximum Length is 4)</message>
+      <code>Mandatory_field</code>
+      <errno>2430</errno>
+</error>
+<error>
+      <field>DestinationCity</field>
+      <message>Please Enter Valid Destination City Code(i.e Destination City Code Maximum Length is 4)</message>
+      <code>Mandatory_field</code>
+      <errno>2431</errno>
+</error>
+<error>
+      <field>PoBox</field>
+      <message>Please Enter Valid PoBox Number(i.e PoBox No Maximum Length is 6)</message>
+      <code>Mandatory_field</code>
+      <errno>2432</errno>
+</error>
+<error>
+      <field>ExposureOfShipment</field>
+      <message>Please Enter Valid Exposure of Shipment(i.e Exposure of Shipment Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2433</errno>
+</error>
+<error>
+      <field>CurrencyOfExposure</field>
+      <message>Please Enter Valid Exposure Currency Value</message>
+      <code>Mandatory_field</code>
+      <errno>2434</errno>
+</error>
+<error>
+      <field>CurrencyOfExposure</field>
+      <message>Please Enter Valid Exposure Currency Value(i.e Exposure Currency Maximum Length is 17)</message>
+      <code>Mandatory_field</code>
+      <errno>2435</errno>
+</error>
+<error>
+      <field>ChannelType</field>
+      <message>Please Enter Valid Channel Type(i.e Channel Type Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2436</errno>
+</error>
+<error>
+      <field>BranchCode</field>
+      <message>Please Enter Valid Branch Code(i.e Branch Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2437</errno>
+</error>
+<error>
+      <field>AwbNo</field>
+      <message>Please Enter Valid AwbNo(i.e AwbNo Maximum Length is 25)</message>
+      <code>Mandatory_field</code>
+      <errno>2438</errno>
+</error>
+<error>
+      <field>GoodsCategoryCode</field>
+      <message>Please Enter Valid Goods Category Code</message>
+      <code>Mandatory_field</code>
+      <errno>2439</errno>
+</error>
+<error>
+      <field>GoodsCategoryCode</field>
+      <message>Please Enter Valid Goods Category Code(i.e Goods Category Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2440</errno>
+</error>
+<error>
+      <field>GoodsCategoryDesc</field>
+      <message>Please Enter Valid Goods Category Desc(i.e Goods Category Maximum Length is 150)</message>
+      <code>Mandatory_field</code>
+      <errno>2441</errno>
+</error>
+<error>
+      <field>SumInsured</field>
+      <message>Please Enter Valid SumInsured</message>
+      <code>Mandatory_field</code>
+      <errno>2442</errno>
+</error>
+<error>
+      <field>SumInsured</field>
+      <message>Please Enter Valid SumInsured(i.e SumInsured Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2443</errno>
+</error>
+
+<error>
+      <field>ConsignedFrom</field>
+      <message>Please Enter Valid ConsignedFrom(i.e ConsignedFrom Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2444</errno>
+</error>
+<error>
+      <field>ConsignedTo</field>
+      <message>Please Enter Valid ConsignedTo(i.e ConsignedTo Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2445</errno>
+</error>
+<error>
+      <field>Fragile</field>
+      <message>Please Enter Valid Fragile(i.e Fragile Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2446</errno>
+</error>
+<error>
+      <field>GoodsCategoryName</field>
+      <message>Please Enter Valid GoodsCategoryName(i.e GoodsCategoryName Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2447</errno>
+</error>
+<error>
+      <field>InvoiceNo</field>
+      <message>Please Enter Valid InvoiceNo(i.e InvoiceNo Maximum Length is 200)</message>
+      <code>Mandatory_field</code>
+      <errno>2448</errno>
+</error>
+<error>
+      <field>PoDescription</field>
+      <message>Please Enter Valid PoDescription(i.e PoDescription Maximum Length is 200)</message>
+      <code>Mandatory_field</code>
+      <errno>2449</errno>
+</error>
+<error>
+      <field>PolicyExcessDescription</field>
+      <message>Please Enter Valid Policy Excess Description(i.e Policy Excess Description Maximum Length is 50)</message>
+      <code>Mandatory_field</code>
+      <errno>2450</errno>
+</error>
+<error>
+      <field>Executive</field>
+      <message>Please Enter Valid Executive</message>
+      <code>Mandatory_field</code>
+      <errno>2451</errno>
+</error>
+<error>
+      <field>Executive</field>
+      <message>Please Enter Valid Executive(i.e Executive Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2452</errno>
+</error>
+<error>
+      <field>BrokerCode</field>
+      <message>Please Enter Valid Broker Code</message>
+      <code>Mandatory_field</code>
+      <errno>2453</errno>
+</error>
+<error>
+      <field>BrokerCode</field>
+      <message>Please Enter Valid Broker Code(i.e Broker Code Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2454</errno>
+</error>
+<error>
+      <field>CityName</field>
+      <message>Please Enter Valid City Name(i.e City Name Maximum Length is 200)</message>
+      <code>Mandatory_field</code>
+      <errno>2455</errno>
+</error>
+<error>
+      <field>VatApplicable</field>
+      <message>Please Enter Valid Vat Applicable(i.e Vat Applicable Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2456</errno>
+</error>
+<error>
+      <field>VatRegNo</field>
+      <message>Please Enter Valid Vat Register No</message>
+      <code>Mandatory_field</code>
+      <errno>2457</errno>
+</error>
+<error>
+      <field>VatRegNo</field>
+      <message>Please Enter Valid Valid Vat Register No(i.e VatRegNo Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2458</errno>
+</error>
+<error>
+      <field>BankCode</field>
+      <message>Please Enter Valid Bank Code</message>
+      <code>Mandatory_field</code>
+      <errno>2459</errno>
+</error>
+<error>
+      <field>BankCode</field>
+      <message>Please Enter Valid Bank Code(i.e Bank Code Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2460</errno>
+</error>
+<error>
+      <field>BankDescription</field>
+      <message>Please Enter Valid Bank Description(i.e Bank Description Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2461</errno>
+</error>
+<error>
+      <field>BankName</field>
+      <message>Please Enter Valid Bank Name(i.e Bank Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2462</errno>
+</error>
+<error>
+      <field>BankOthers</field>
+      <message>Please Enter Valid Bank Others(i.e Bank Others Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2463</errno>
+</error>
+<error>
+      <field>LcNo</field>
+      <message>Please Enter Valid LcNo(i.e LcNo Maximum Length is 30)</message>
+      <code>Mandatory_field</code>
+      <errno>2464</errno>
+</error>
+<error>
+      <field>LoginId</field>
+      <message>Please Enter Valid LoginId(i.e LoginId Maximum Length is 50)</message>
+      <code>Mandatory_field</code>
+      <errno>2465</errno>
+</error>
+<error>
+      <field>LoginUserType</field>
+      <message>Please Enter Valid Login User Type(i.e Login User Type Maximum Length is 50)</message>
+      <code>Mandatory_field</code>
+      <errno>2466</errno>
+</error>
+<error>
+      <field>OpenCoverNo</field>
+      <message>Please Enter Valid OpenCoverNo(i.e OpenCoverNo Maximum Length is 100)</message>
+      <code>Mandatory_field</code>
+      <errno>2467</errno>
+</error>
+<error>
+      <field>ProductId</field>
+      <message>Please Enter Valid ProductId</message>
+      <code>Mandatory_field</code>
+      <errno>2468</errno>
+</error>
+<error>
+      <field>ProductId</field>
+      <message>Please Enter Valid ProductId(i.e ProductId Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2469</errno>
+</error>
+<error>
+      <field>CurrencyName</field>
+      <message>Please Enter Valid Currency Name(i.e Currency Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2470</errno>
+</error>
+<error>
+      <field>CurrencyOfExposureCode</field>
+      <message>Please Enter Valid Exposure Currency Code</message>
+      <code>Mandatory_field</code>
+      <errno>2471</errno>
+</error>
+<error>
+      <field>CurrencyOfExposureCode</field>
+      <message>Please Enter Valid Exposure Currency Code(i.e Exposure Currency Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2472</errno>
+</error>
+<error>
+      <field>CurrencyOfExposureName</field>
+      <message>Please Enter Valid Exposure Currency Name(i.e Exposure Currency Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2473</errno>
+</error>
+<error>
+      <field>CurrencyValue</field>
+      <message>Please Enter Valid Currency Value</message>
+      <code>Mandatory_field</code>
+      <errno>2474</errno>
+</error>
+<error>
+      <field>CurrencyValue</field>
+      <message>Please Enter Valid Currency Value(i.e Currency Value Maximum Length is 17)</message>
+      <code>Mandatory_field</code>
+      <errno>2475</errno>
+</error>
+<error>
+      <field>FinalizeYn</field>
+      <message>Please Enter Valid FinalizeYn(i.e FinalizeYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2476</errno>
+</error>
+<error>
+      <field>PackageName</field>
+      <message>Please Enter Valid Package Name(i.e Package Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2477</errno>
+</error>
+<error>
+      <field>PartialShipmentCode</field>
+      <message>Please Enter Valid Partial Shipment Code</message>
+      <code>Mandatory_field</code>
+      <errno>2478</errno>
+</error>
+<error>
+      <field>PartialShipmentCode</field>
+      <message>Please Enter Valid Partial Shipment Code(i.e Partial Shipment Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2479</errno>
+</error>
+<error>
+      <field>PartialShipmentName</field>
+      <message>Please Enter Valid Partial Shipment Name(i.e Partial Shipment Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2480</errno>
+</error>
+<error>
+      <field>QuoteStatus</field>
+      <message>Please Enter Valid Quote Status(i.e Quote Status Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2481</errno>
+</error>
+<error>
+      <field>SettlingAgentCode</field>
+      <message>Please Enter Valid Settling Agent Code</message>
+      <code>Mandatory_field</code>
+      <errno>2482</errno>
+</error>
+<error>
+      <field>SettlingAgentCode</field>
+      <message>Please Enter Valid Settling Agent Code(i.e Settling Agent Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2483</errno>
+</error>
+<error>
+      <field>SettlingAgentName</field>
+      <message>Please Enter Valid Settling Agent Name(i.e Settling Agent Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2484</errno>
+</error>
+<error>
+      <field>SettlingAgentOthers</field>
+      <message>Please Enter Valid Settling Agent Others(i.e Settling Agent Others Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2485</errno>
+</error>
+<error>
+      <field>CoverName</field>
+      <message>Please Enter Valid Transport Cover Name(i.e Cover Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2486</errno>
+</error>
+<error>
+      <field>DestinationCityName</field>
+      <message>Please Enter Valid Destination City Name(i.e Destination City Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2487</errno>
+</error>
+<error>
+      <field>DestinationCountryName</field>
+      <message>Please Enter Valid Destination Country Name(i.e Destination Country Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2488</errno>
+</error>
+<error>
+      <field>DestinationWarehouseYn</field>
+      <message>Please Enter Valid Destination WarehouseYn(i.e Destination WarehouseYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2489</errno>
+</error>
+<error>
+      <field>ModeOfCarriageName</field>
+      <message>Please Enter Valid Mode of Carriage Name(i.e Carriage Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2490</errno>
+</error>
+<error>
+      <field>ModeOfTransportName</field>
+      <message>Please Enter Valid Mode of TransportName(i.e Mode of TransportName Maximum Length is 005)</message>
+      <code>Mandatory_field</code>
+      <errno>2491</errno>
+</error>
+<error>
+      <field>OriginCityName</field>
+      <message>Please Enter Valid Origin City Name(i.e Origin City Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2492</errno>
+</error>
+<error>
+      <field>OriginCountryName</field>
+      <message>Please Enter Valid Origin Country Name(i.e Origin Country Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2493</errno>
+</error>
+<error>
+      <field>OriginWarehouseYn</field>
+      <message>Please Enter Valid Origin WarehouseYn(i.e Origin WarehouseYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2494</errno>
+</error>
+<error>
+      <field>Via</field>
+      <message>Please Enter Valid Via(i.e Via Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2495</errno>
+</error>
+<error>
+      <field>VesselCode</field>
+      <message>Please Enter Valid Vessel Code</message>
+      <code>Mandatory_field</code>
+      <errno>2496</errno>
+</error>
+<error>
+      <field>VesselCode</field>
+      <message>Please Enter Valid Vessel Code(i.e Vessel Code Maximum Length is 3)</message>
+      <code>Mandatory_field</code>
+      <errno>2497</errno>
+</error>
+<error>
+      <field>VesselName</field>
+      <message>Please Enter Valid Vessel Name(i.e Vessel Name Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2498</errno>
+</error>
+<error>
+      <field>VoyageNo</field>
+      <message>Please Enter Valid Voyage Number(i.e VoyageNo Maximum Length is 100)</message>
+      <code>Mandatory_field</code>
+      <errno>2499</errno>
+</error>
+<error>
+      <field>WarAndSrccYn</field>
+      <message>Please Enter Valid War and SrccYn(i.e WarAndSrccYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2500</errno>
+</error>
+<error>
+      <field>WarOnLandYn</field>
+      <message>Please Enter Valid War On LandYn(i.e WarOnLandYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2501</errno>
+</error>
+<error>
+      <field>ReferenceNo</field>
+      <message>Please Enter Valid Reference Number(i.e Reference No Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2502</errno>
+</error>
+<error>
+      <field>InvoiceDate</field>
+      <message>Please Enter Valid Invoice Date(i.e Invoice Date Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2503</errno>
+</error>
+<error>
+      <field>InvoiceDate</field>
+      <message>Please Enter Valid Invoice Date(i.e Invoice Date Format dd/MM/yyyy)</message>
+      <code>Mandatory_field</code>
+      <errno>2504</errno>
+</error>
+<error>
+      <field>AwbDate</field>
+      <message>Please Enter Valid Awb Date(i.e Awb Date Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2505</errno>
+</error>
+<error>
+      <field>AwbDate</field>
+      <message>Please Enter Valid Awb Date(i.e Awb Date Format dd/MM/yyyy)</message>
+      <code>Mandatory_field</code>
+      <errno>2506</errno>
+</error>
+<error>
+      <field>SailingDate</field>
+      <message>Please Enter Valid Sailing Date(i.e Sailing Date Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2507</errno>
+</error>
+<error>
+      <field>SailingDate</field>
+      <message>Please Enter Valid Sailing Date(i.e Sailing Date Format dd/MM/yyyy)</message>
+      <code>Mandatory_field</code>
+      <errno>2508</errno>
+</error>
+<error>
+      <field>ExpiryDate</field>
+      <message>Please Enter Valid Expiry Date(i.e Expiry Date Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2509</errno>
+</error>
+<error>
+      <field>ExpiryDate</field>
+      <message>Please Enter Valid Expiry Date(i.e Expiry Date Format dd/MM/yyyy)</message>
+      <code>Mandatory_field</code>
+      <errno>2510</errno>
+</error>
+<error>
+		<field>Tolerance</field>
+		<message>Please Enter Valid Tolerance(i.e Tolerance Maximum Length is 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2511</errno>
+</error>
+<error>
+		<field>Title</field>
+		<message>Please Select Valid Title</message>
+		<code>Mandatory_field</code>
+		<errno>2512</errno>
+</error>
+<error>
+		<field>City</field>
+		<message>Please Select Valid City</message>
+		<code>Mandatory_field</code>
+		<errno>2513</errno>
+</error>
+<error>
+		<field>ModeOfTransport</field>
+		<message>Please Select Valid Mode of Transport</message>
+		<code>Mandatory_field</code>
+		<errno>2514</errno>
+</error>
+<error>
+		<field>Cover</field>
+		<message>Please Select Valid Cover</message>
+		<code>Mandatory_field</code>
+		<errno>2515</errno>
+</error>
+<error>
+		<field>Conveyance</field>
+		<message>Please Select Valid Mode of Carriage</message>
+		<code>Mandatory_field</code>
+		<errno>2516</errno>
+</error>
+<error>
+		<field>OriginCountry</field>
+		<message>Please Select Valid Origin Country</message>
+		<code>Mandatory_field</code>
+		<errno>2517</errno>
+</error>
+<error>
+		<field>DestinationCountry</field>
+		<message>Please Select Valid Destination Country</message>
+		<code>Mandatory_field</code>
+		<errno>2518</errno>
+</error>
+<error>
+		<field>Currency</field>
+		<message>Please Select Valid Currency</message>
+		<code>Mandatory_field</code>
+		<errno>2519</errno>
+</error>
+<error>
+		<field>Package</field>
+		<message>Please Select Valid Package</message>
+		<code>Mandatory_field</code>
+		<errno>2520</errno>
+</error>
+<error>
+		<field>OriginCity</field>
+		<message>Please Select Valid Origin City</message>
+		<code>Mandatory_field</code>
+		<errno>2521</errno>
+</error>
+<error>
+		<field>DestinationCity</field>
+		<message>Please Select Valid Destination City</message>
+		<code>Mandatory_field</code>
+		<errno>2522</errno>
+</error>
+<error>
+		<field>BranchCode</field>
+		<message>Please Enter Valid Branch Code</message>
+		<code>Mandatory_field</code>
+		<errno>2523</errno>
+</error>
+<error>
+		<field>BrokerCode</field>
+		<message>Please Enter Valid Broker Code</message>
+		<code>Mandatory_field</code>
+		<errno>2524</errno>
+</error>
+<error>
+		<field>BankCode</field>
+		<message>Please Select Valid Bank</message>
+		<code>Mandatory_field</code>
+		<errno>2525</errno>
+</error>
+<error>
+		<field>LoginId</field>
+		<message>Please Enter Valid LoginId</message>
+		<code>Mandatory_field</code>
+		<errno>2526</errno>
+</error>
+<error>
+		<field>LoginUserType</field>
+		<message>Please Enter Valid Login User Type</message>
+		<code>Mandatory_field</code>
+		<errno>2527</errno>
+</error>
+<error>
+		<field>ProductId</field>
+		<message>Please Enter Valid Product Id</message>
+		<code>Mandatory_field</code>
+		<errno>2528</errno>
+</error>
+<error>
+		<field>CurrencyOfExposure</field>
+		<message>Please Enter Valid Currency of Exposure</message>
+		<code>Mandatory_field</code>
+		<errno>2529</errno>
+</error>
+<error>
+		<field>SettlingAgent</field>
+		<message>Please Select Valid Settling Agent</message>
+		<code>Mandatory_field</code>
+		<errno>2530</errno>
+</error>
+<error>
+		<field>VesselCode</field>
+		<message>Please Select Valid Vessel Details</message>
+		<code>Mandatory_field</code>
+		<errno>2531</errno>
+</error>
+<error>
+		<field>MinimumPremium</field>
+		<message>Select broker should have minimum premium setup</message>
+		<code>Mandatory_field</code>
+		<errno>2532</errno>
+</error>
+<error>
+		<field>City</field>
+		<message>Duplicate Mode of Transport and City Exist</message>
+		<code>Mandatory_field</code>
+		<errno>2533</errno>
+</error>
+<error>
+		<field>CancelClauses</field>
+		<message>Please Enter Cancellation Clauses</message>
+		<code>Mandatory_field</code>
+		<errno>2540</errno>
+</error>
+<error>
+		<field>Ppwdate</field>
+		<message>Please Enter Ppwdate</message>
+		<code>Mandatory_field</code>
+		<errno>2541</errno>
+</error>
+<error>
+		<field>PolicyFee</field>
+		<message>Please Enter Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>2542</errno>
+</error>
+<error>
+		<field>PolicyFee</field>
+		<message>Please Enter Valid Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>2543</errno>
+</error>
+<error>
+		<field>DepositType</field>
+		<message>Please Enter Deposit Type</message>
+		<code>Mandatory_field</code>
+		<errno>2544</errno>
+</error>
+<error>
+		<field>InstallType</field>
+		<message>Please Enter Installment Type</message>
+		<code>Mandatory_field</code>
+		<errno>2545</errno>
+</error>
+<error>
+		<field>MarinePremium</field>
+		<message>Please Enter Marine Premium</message>
+		<code>Mandatory_field</code>
+		<errno>2546</errno>
+</error>
+<error>
+		<field>WarPremium</field>
+		<message>Please Enter Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>2547</errno>
+</error>
+<error>
+		<field>WarPremium</field>
+		<message>Please Enter Valid Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>2548</errno>
+</error>
+<error>
+		<field>VatTax</field>
+		<message>Please Enter Vat Tax</message>
+		<code>Mandatory_field</code>
+		<errno>2549</errno>
+</error>
+<error>
+		<field>Remarks</field>
+		<message>Please Enter Remarks</message>
+		<code>Mandatory_field</code>
+		<errno>2550</errno>
+</error>
+<error>
+		<field>DebitNoteName</field>
+		<message>Please Enter Debit Note Name</message>
+		<code>Mandatory_field</code>
+		<errno>2551</errno>
+</error>
+<error>
+		<field>DepositDate</field>
+		<message>Please Select Deposit Date</message>
+		<code>Mandatory_field</code>
+		<errno>2552</errno>
+</error>
+<error>
+		<field>DebitNoteNo</field>
+		<message>Please Enter Debit Note No</message>
+		<code>Mandatory_field</code>
+		<errno>2553</errno>
+</error>
+<error>
+		<field>CreditNoteNo</field>
+		<message>Please Enter Credit Note No</message>
+		<code>Mandatory_field</code>
+		<errno>2554</errno>
+</error>
+<error>
+      <field>ReferenceNo</field>
+      <message>Please Enter Valid Reference Number(i.e No Records Found in Table)</message>
+      <code>Mandatory_field</code>
+      <errno>2555</errno>
+</error>
+<error>
+      <field>ReferenceNo</field>
+      <message>Please Enter Reference Number</message>
+      <code>Mandatory_field</code>
+      <errno>2556</errno>
+</error>
+
+<error>
+      <field>PolicyExcessPercentage</field>
+      <message>Please Enter Valid Policy Excess Percentage(i.e Policy Excess Percentage Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2557</errno>
+</error>
+<error>
+      <field>CommodityRate</field>
+      <message>Please Enter Valid Rate(i.e Commodity Rate Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2558</errno>
+</error>
+<error>
+      <field>PolicyExcess</field>
+      <message>Please Enter Valid Policy Excess(i.e Policy Excess Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2559</errno>
+</error>
+<error>
+      <field>WarRate</field>
+      <message>Please Enter Valid War Rate(i.e War Rate Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2560</errno>
+</error>
+<error>
+      <field>PolicyExcessDescription</field>
+      <message>Please Enter Valid Policy Excess Description(i.e Policy Excess Desc Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2561</errno>
+</error>
+<error>
+      <field>QuoteNo</field>
+      <message>Please Enter Quote Number</message>
+      <code>Mandatory_field</code>
+      <errno>2562</errno>
+</error>
+<error>
+      <field>QuoteNo</field>
+      <message>Please Enter Valid Quote Number(i.e Quote No Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2563</errno>
+</error>
+<error>
+      <field>QuoteNo</field>
+      <message>Please Enter Valid Quote Number(i.e No Records Found in Table)</message>
+      <code>Mandatory_field</code>
+      <errno>2564</errno>
+</error>
+<error>
+      <field>Issuer</field>
+      <message>Please Enter Valid Issuer Id(i.e Issuer Maximum Length is 50)</message>
+      <code>Mandatory_field</code>
+      <errno>2565</errno>
+</error>
+<error>
+      <field>ApplicationNo</field>
+      <message>Please Enter Application Number</message>
+      <code>Mandatory_field</code>
+      <errno>2566</errno>
+</error>
+<error>
+      <field>ApplicationNo</field>
+      <message>Please Enter Valid Application Number(i.e Application No Maximum Length is 10)</message>
+      <code>Mandatory_field</code>
+      <errno>2567</errno>
+</error>
+<error>
+      <field>ApplicationNo</field>
+      <message>Please Enter Valid Reference Number(i.e No Records Found in Table)</message>
+      <code>Mandatory_field</code>
+      <errno>2568</errno>
+</error>
+<error>
+      <field>LoginUserType</field>
+      <message>Please Enter Login UserType</message>
+      <code>Mandatory_field</code>
+      <errno>2569</errno>
+</error>
+<error>
+      <field>ProductId</field>
+      <message>Please Enter Product Id</message>
+      <code>Mandatory_field</code>
+      <errno>2570</errno>
+</error>
+<error>
+      <field>LoginId</field>
+      <message>Please Enter Login Id</message>
+      <code>Mandatory_field</code>
+      <errno>2571</errno>
+</error>
+<error>
+      <field>ReferralStatus</field>
+      <message>Please Enter Valid Referral Status(i.e Referral Status Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2572</errno>
+</error>
+<error>
+      <field>AdminRemarks</field>
+      <message>Please Enter Valid Admin Remarks(i.e Admin Remarks Maximum Length is 500)</message>
+      <code>Mandatory_field</code>
+      <errno>2573</errno>
+</error>
+<error>
+      <field>PolicyFeeYn</field>
+      <message>Please Enter Valid PolicyFeeYn(i.e PolicyFeeYn Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2574</errno>
+</error>
+<error>
+      <field>PolicyFee</field>
+      <message>Please Enter Valid PolicyFee(i.e PolicyFee Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2575</errno>
+</error>
+<error>
+      <field>InspectionFee</field>
+      <message>Please Enter Valid InspectionFee(i.e InspectionFee Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2576</errno>
+</error>
+<error>
+      <field>InspectionFee</field>
+      <message>Please Enter Valid InspectionFee</message>
+      <code>Mandatory_field</code>
+      <errno>2577</errno>
+</error>
+<error>
+      <field>AdditionalPremium</field>
+      <message>Please Enter Valid Additional Premium(i.e Additional Premium Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2578</errno>
+</error>
+<error>
+      <field>ExcessSign</field>
+      <message>Please Enter Valid Excess Sign(i.e ExcessSign Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2579</errno>
+</error>
+<error>
+      <field>TotalPremium</field>
+      <message>Please Enter TotalPremium</message>
+      <code>Mandatory_field</code>
+      <errno>2580</errno>
+</error>
+<error>
+      <field>TotalPremium</field>
+      <message>Please Enter Valid Total Premium</message>
+      <code>Mandatory_field</code>
+      <errno>2581</errno>
+</error>
+<error>
+      <field>TotalPremium</field>
+      <message>Please Enter Valid Total Premium(i.e Premium Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2582</errno>
+</error>
+<error>
+      <field>MarginRate</field>
+      <message>Please Enter Valid Margin Rate(i.e Margin Rate Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2584</errno>
+</error>
+<error>
+      <field>MarginRate</field>
+      <message>Please Enter Valid Margin Rate</message>
+      <code>Mandatory_field</code>
+      <errno>2583</errno>
+</error>
+<error>
+      <field>WarLandRate</field>
+      <message>Please Enter Valid War Land Rate</message>
+      <code>Mandatory_field</code>
+      <errno>2585</errno>
+</error>
+<error>
+      <field>WarLandRate</field>
+      <message>Please Enter Valid War Land Rate(i.e WarLandRate Maximum Length is 15)</message>
+      <code>Mandatory_field</code>
+      <errno>2586</errno>
+</error>
+<error>
+      <field>Status</field>
+      <message>Please Enter Valid Status(i.e Status Maximum Length is 5)</message>
+      <code>Mandatory_field</code>
+      <errno>2587</errno>
+</error>
+<error>
+		<field>Commission</field>
+		<message>Please Enter Valid Commission in %(i.e Commission Maximum Length is 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2588</errno>
+</error>
+<error>
+		<field>PremiumYn</field>
+		<message>Please Enter Valid PremiumYn in %(i.e PremiumYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2589</errno>
+</error>
+<error>
+		<field>FinalizeYn</field>
+		<message>Please Enter FinalizeYn</message>
+		<code>Mandatory_field</code>
+		<errno>2590</errno>
+</error>
+<error>
+		<field>SubjectivityName</field>
+		<message>Please Enter Valid SubjectivityName(i.e SubjectivityName Maximum Length is 500)</message>
+		<code>Mandatory_field</code>
+		<errno>2591</errno>
+</error>
+<error>
+		<field>SubjectivityYn</field>
+		<message>Please Enter Valid SubjectivityYn(i.e SubjectivityYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2592</errno>
+</error>
+<error>
+		<field>ReferralRemarks</field>
+		<message>Please Enter Valid ReferralRemarks(i.e ReferralRemarks Maximum Length is 500)</message>
+		<code>Mandatory_field</code>
+		<errno>2593</errno>
+</error>
+<error>
+		<field>ReferralUpdateYn</field>
+		<message>Please Enter Valid ReferralUpdateYn(i.e ReferralUpdateYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2594</errno>
+</error>
+<error>
+		<field>EditClausesYn</field>
+		<message>Please Enter Valid EditClausesYn(i.e EditClausesYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2595</errno>
+</error>
+<error>
+		<field>CustomerCode</field>
+		<message>Please Enter Valid CustomerCode(i.e CustomerCode Maximum Length is 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2596</errno>
+</error>
+<error>
+		<field>TotalWarPremium</field>
+		<message>Please Enter Valid TotalWarPremium</message>
+		<code>Mandatory_field</code>
+		<errno>2597</errno>
+</error>
+<error>
+		<field>VatTax</field>
+		<message>Please Enter Valid VatTax(i.e VatTax Maximum Length is 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2598</errno>
+</error>
+<error>
+		<field>VatTax</field>
+		<message>Please Enter Valid VatTax</message>
+		<code>Mandatory_field</code>
+		<errno>2599</errno>
+</error>
+<error>
+		<field>TotalWarPremium</field>
+		<message>Please Enter Valid TotalWarPremium(i.e TotalWarPremium Maximum Length is 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2600</errno>
+</error>
+<error>
+		<field>ModeOfPayment</field>
+		<message>Please Enter Mode of Payment</message>
+		<code>Mandatory_field</code>
+		<errno>2601</errno>
+</error>
+<error>
+		<field>ModeOfPayment</field>
+		<message>Please Enter Valid Mode of Payment(i.e ModeOfPayment Maximum Length is 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2602</errno>
+</error>
+<error>
+		<field>GeneratePolicyYn</field>
+		<message>Please Enter Valid GeneratePolicyYn(i.e GeneratePolicyYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2603</errno>
+</error>
+<error>
+		<field>SettlingAgent</field>
+		<message>Please Enter Valid Settling Agent(i.e SettlingAgent Maximum Length is 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2604</errno>
+</error>
+<error>
+		<field>PremiumYN</field>
+		<message>Please Enter Valid PremiumYn(i.e PremiumYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2605</errno>
+</error>
+<error>
+		<field>Foreign</field>
+		<message>Please Enter Valid Foreign(i.e Foreign Maximum Length is 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2606</errno>
+</error>
+<error>
+		<field>Both</field>
+		<message>Please Enter Valid Both(i.e Both Maximum Length is 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2607</errno>
+</error>
+<error>
+		<field>PrintClausesYn</field>
+		<message>Please Enter Valid Print ClausesYn(i.e PrintClausesYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2608</errno>
+</error>
+<error>
+		<field>ShowPremiumYn</field>
+		<message>Please Enter Valid Show PremiumYn(i.e ShowPremiumYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2609</errno>
+</error>
+<error>
+		<field>CertClausesYn</field>
+		<message>Please Enter Valid Certificate ClausesYn(i.e CertClausesYn Maximum Length is 5)</message>
+		<code>Mandatory_field</code>
+		<errno>2610</errno>
+</error>
+<error>
+		<field>BasisValDescription</field>
+		<message>Please Enter Valid Basis Value Description(i.e BasisValDesc Maximum Length is 500)</message>
+		<code>Mandatory_field</code>
+		<errno>2611</errno>
+</error>
+<error>
+		<field>NoteType</field>
+		<message>Please Enter Valid Note Type(i.e NoteType Maximum Length is 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2612</errno>
+</error>
+<error>
+		<field>RubberStamp</field>
+		<message>Please Enter Valid Rubber Stamp(i.e RubberStamp Maximum Length is 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2613</errno>
+</error>
+<error>
+		<field>LcBankDetail</field>
+		<message>Please Enter Valid LcBankDetail(i.e LcBankDetail Maximum Length is 500)</message>
+		<code>Mandatory_field</code>
+		<errno>2614</errno>
+</error>
+<error>
+		<field>PrerecieptNo</field>
+		<message>Please Enter Valid Prereciept Number(i.e PrerecieptNo Maximum Length is 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2615</errno>
+</error>
+<error>
+		<field>Premium</field>
+		<message>Please Enter Premium or Policy Fee</message>
+		<code>Mandatory_field</code>
+		<errno>2616</errno>
+</error>
+<error>
+		<field>PolicyNo</field>
+		<message>Policy Not Generated.Please Contact Admin</message>
+		<code>Mandatory_field</code>
+		<errno>2617</errno>
+</error>
+<error>
+		<field>RefundAmount</field>
+		<message>Refund Amount is More than Utilized Amount</message>
+		<code>Mandatory_field</code>
+		<errno>2618</errno>
+</error>
+<error>
+		<field>vesselSearchBy</field>
+		<message>Please Select the Search By</message>
+		<code>Mandatory_field</code>
+		<errno>2619</errno>
+</error>
+<error>
+		<field>imoNumber</field>
+		<message>Please Enter the IMO Number</message>
+		<code>Mandatory_field</code>
+		<errno>2620</errno>
+</error>
+<error>
+		<field>vehicle</field>
+		<message>Please Choose the Vehicle</message>
+		<code>Mandatory_field</code>
+		<errno>2621</errno>
+</error>
+<error>
+		<field>shipcategory</field>
+		<message>Please Select the Ship Category</message>
+		<code>Mandatory_field</code>
+		<errno>2622</errno>
+</error>
+<error>
+		<field>shipcategory</field>
+		<message>Please Select the Ship Name</message>
+		<code>Mandatory_field</code>
+		<errno>2623</errno>
+</error>
+<error>
+		<field>shipcategory</field>
+		<message>Please Select the Ship Ex Name</message>
+		<code>Mandatory_field</code>
+		<errno>2624</errno>
+</error>
+<error>
+		<field>InceptionDate</field>
+		<message>Please Select Inception Date</message>
+		<code>Mandatory_field</code>
+		<errno>2625</errno>
+</error>
+<error>
+		<field>ExpiryDate</field>
+		<message>Please Select Expiry Date</message>
+		<code>Mandatory_field</code>
+		<errno>2626</errno>
+</error>
+<error>
+		<field>Searchvalue</field>
+		<message>Please Enter Search Value</message>
+		<code>Mandatory_field</code>
+		<errno>2627</errno>
+</error>
+<error>
+		<field>PolicyNo</field>
+		<message>Please Enter Policy No</message>
+		<code>Mandatory_field</code>
+		<errno>2628</errno>
+</error>
+<error>
+		<field>VerifyCode</field>
+		<message>Please Enter Verification Code</message>
+		<code>Mandatory_field</code>
+		<errno>2629</errno>
+</error>
+
+<error>
+		<field>CommodityName</field>
+		<message>Please Enter Valid Commodity Name (i.e Only accept alphabet letters)</message>
+		<code>Mandatory_field</code>
+		<errno>2700</errno>
+</error>
+<error>
+		<field>CommodityName</field>
+		<message>Please Enter Valid Commodity Name (i.e Maximum length 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2701</errno>
+</error>
+<error>
+		<field>CommodityTypeId</field>
+		<message>Please Enter Valid Commodity Type Id (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2702</errno>
+</error>
+<error>
+		<field>CommodityTypeId</field>
+		<message>Please Enter Valid Commodity Type Id (i.e Maximum length 3)</message>
+		<code>Mandatory_field</code>
+		<errno>2703</errno>
+</error>
+<error>
+		<field>CommodityRate</field>
+		<message>Please Enter Valid Commodity Rate (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2704</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Please Enter Valid Core App Code</message>
+		<code>Mandatory_field</code>
+		<errno>2705</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Please Enter Valid Core App Code (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2706</errno>
+</error>
+<error>
+		<field>EffectiveDate</field>
+		<message>Please Select Valid Effective Date (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2707</errno>
+</error>
+<error>
+		<field>WarrantyDescription</field>
+		<message>Please Enter Valid Warranty Description (i.e Maximum length 2000)</message>
+		<code>Mandatory_field</code>
+		<errno>2708</errno>
+</error>
+<error>
+		<field>ExclusionDescription</field>
+		<message>Please Enter Valid Exclusion Description (i.e Maximum length 500)</message>
+		<code>Mandatory_field</code>
+		<errno>2709</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Valid CoverId (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2710</errno>
+</error>
+<error>
+		<field>CoverId</field>
+		<message>Please Enter Valid CoverId (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2711</errno>
+</error>
+<error>
+		<field>ClausesDescription</field>
+		<message>Please Enter Valid Clauses Description (i.e Maximum length 2000)</message>
+		<code>Mandatory_field</code>
+		<errno>2712</errno>
+</error>
+<error>
+      <field>ClausesDescription</field>
+      <message>Clauses Description Already Exist</message>
+      <code>Mandatory_field</code>
+      <errno>2713</errno>
+</error>
+<error>
+		<field>Status</field>
+		<message>Please Enter Valid Status (i.e Only accept alphabet letters)</message>
+		<code>Mandatory_field</code>
+		<errno>2714</errno>
+</error>
+<error>
+		<field>Status</field>
+		<message>Please Enter Valid Status (i.e Maximum length 1)</message>
+		<code>Mandatory_field</code>
+		<errno>2715</errno>
+</error>
+<error>
+		<field>CurrencyName</field>
+		<message>Please Enter Valid Currency Name (i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2716</errno>
+</error>
+<error>
+		<field>RFactor</field>
+		<message>Please Enter Valid RFactor (i.e Maximum length 1)</message>
+		<code>Mandatory_field</code>
+		<errno>2717</errno>
+</error>
+<error>
+		<field>RFactor</field>
+		<message>Please Enter Valid RFactor</message>
+		<code>Mandatory_field</code>
+		<errno>2718</errno>
+</error>
+<error>
+		<field>SubCurrency</field>
+		<message>Please Enter Valid Sub Currency (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2719</errno>
+</error>
+<error>
+		<field>CurrencyShortName</field>
+		<message>Please Enter Valid Currency Shot Name (i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2720</errno>
+</error>
+<error>
+		<field>ExchangeRate</field>
+		<message>Please Enter Valid Exchange Rate</message>
+		<code>Mandatory_field</code>
+		<errno>2721</errno>
+</error>
+<error>
+		<field>ExchangeRate</field>
+		<message>Please Enter Valid Exchange Rate (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2722</errno>
+</error>
+<error>
+		<field>CurrencyId</field>
+		<message>Please Enter Valid Currency Id</message>
+		<code>Mandatory_field</code>
+		<errno>2723</errno>
+</error>
+<error>
+		<field>CurrencyId</field>
+		<message>Please Enter Valid Currency Id(i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2724</errno>
+</error>
+<error>
+		<field>CoverName</field>
+		<message>Please Enter Valid Cover Name (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2725</errno>
+</error>
+<error>
+		<field>ModeoftransportDesc</field>
+		<message>Please Enter Valid Mode of Transport Description (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2726</errno>
+</error>
+<error>
+		<field>CoverRate</field>
+		<message>Please Enter Valid Cover Rate</message>
+		<code>Mandatory_field</code>
+		<errno>2727</errno>
+</error>
+<error>
+		<field>CoverRate</field>
+		<message>Please Enter Valid Cover Rate (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2728</errno>
+</error>
+<error>
+		<field>ModeoftransportId</field>
+		<message>Please Enter Valid Mode of Transport Id</message>
+		<code>Mandatory_field</code>
+		<errno>2729</errno>
+</error>
+<error>
+		<field>ModeoftransportId</field>
+		<message>Please Enter Valid Mode of Transport Id (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2730</errno>
+</error>
+<error>
+		<field>ConveyanceName</field>
+		<message>Please Enter Valid Conveyance Name (i.e Maximum length 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2731</errno>
+</error>
+<error>
+		<field>CoreApplicationCode</field>
+		<message>Please Enter Valid Core Application Code (i.e Maximum length 20)</message>
+		<code>Mandatory_field</code>
+		<errno>2732</errno>
+</error>
+<error>
+		<field>ToleranceName</field>
+		<message>Please Enter Valid Tolerance Name (i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2733</errno>
+</error>
+<error>
+		<field>ToleranceValue</field>
+		<message>Please Enter Valid Tolerance Value (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2734</errno>
+</error>
+<error>
+		<field>ToleranceValue</field>
+		<message>Please Enter Valid Tolerance Value (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2735</errno>
+</error>
+<error>
+		<field>PackageDescription</field>
+		<message>Please Enter Valid Package Description (i.e Maximum length 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2736</errno>
+</error>
+<error>
+		<field>PercentRate</field>
+		<message>Please Enter Valid Percentage Rate (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2737</errno>
+</error>
+<error>
+		<field>BankName</field>
+		<message>Please Enter Valid Bank Name (i.e Maximum length 60)</message>
+		<code>Mandatory_field</code>
+		<errno>2738</errno>
+</error>
+<error>
+		<field>BelongingCountryId</field>
+		<message>Please Enter Belonging Country Id</message>
+		<code>Mandatory_field</code>
+		<errno>2739</errno>
+</error>
+<error>
+		<field>BelongingCountryId</field>
+		<message>Please Enter Valid Belonging Country Id</message>
+		<code>Mandatory_field</code>
+		<errno>2740</errno>
+</error>
+<error>
+		<field>BelongingCountryId</field>
+		<message>Please Enter Valid Belonging Country Id (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2741</errno>
+</error>
+<error>
+		<field>CountryName</field>
+		<message>Please Enter Valid Country Name (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2742</errno>
+</error>
+<error>
+		<field>NationalityName</field>
+		<message>Please Enter Valid Nationality Name (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2743</errno>
+</error>
+<error>
+		<field>GeoRate</field>
+		<message>Please Enter Valid GeoRate (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2744</errno>
+</error>
+<error>
+		<field>CityName</field>
+		<message>Please Enter Valid City Name (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2745</errno>
+</error>
+<error>
+		<field>CountryId</field>
+		<message>Please Enter Valid Country Id (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2746</errno>
+</error>
+<error>
+		<field>CountryId</field>
+		<message>Please Enter Valid Country Id (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2747</errno>
+</error>
+<error>
+		<field>AcExecutiveName</field>
+		<message>Please Enter Valid AcExecutive Name (i.e Only accept alphabet letters)</message>
+		<code>Mandatory_field</code>
+		<errno>2748</errno>
+</error>
+<error>
+		<field>AcExecutiveName</field>
+		<message>Please Enter Valid AcExecutive Name(i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2749</errno>
+</error>
+<error>
+		<field>OaCode</field>
+		<message>Please Enter Valid OaCode(i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2750</errno>
+</error>
+<error>
+		<field>Commission</field>
+		<message>Please Enter Valid Commission</message>
+		<code>Mandatory_field</code>
+		<errno>2751</errno>
+</error>
+<error>
+		<field>Commission</field>
+		<message>Please Enter Valid Commission(i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2752</errno>
+</error>
+<error>
+		<field>OpenCoverCommission</field>
+		<message>Please Enter Valid Open Cover Commission</message>
+		<code>Mandatory_field</code>
+		<errno>2753</errno>
+</error>
+<error>
+		<field>OpenCoverCommission</field>
+		<message>Please Enter Valid Open Cover Commission(i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2754</errno>
+</error>
+<error>
+		<field>CityId</field>
+		<message>Please Enter Valid City Id (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2755</errno>
+</error>
+<error>
+		<field>CityId</field>
+		<message>Please Enter Valid City Id (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2756</errno>
+</error>
+<error>
+		<field>EmailId</field>
+		<message>Please Enter Email Address</message>
+		<code>Mandatory_field</code>
+		<errno>2757</errno>
+</error>
+<error>
+		<field>EmailId</field>
+		<message>Please Enter Valid Email Address (i.e Maximum length 35)</message>
+		<code>Mandatory_field</code>
+		<errno>2758</errno>
+</error>
+<error>
+		<field>MobileNo</field>
+		<message>Please Enter Mobile Number</message>
+		<code>Mandatory_field</code>
+		<errno>2759</errno>
+</error>
+<error>
+		<field>MobileNo</field>
+		<message>Please Enter Valid Mobile Number (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2760</errno>
+</error>
+<error>
+		<field>AgentName</field>
+		<message>Please Enter Valid Settling Agent Name (i.e Maximum length 75)</message>
+		<code>Mandatory_field</code>
+		<errno>2761</errno>
+</error>
+<error>
+		<field>CityName</field>
+		<message>Please Enter Valid City Name (i.e Maximum length 100)</message>
+		<code>Mandatory_field</code>
+		<errno>2762</errno>
+</error>
+<error>
+		<field>CountryShortName</field>
+		<message>Please Enter Valid Country Short Name (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2763</errno>
+</error>
+<error>
+		<field>WarRate</field>
+		<message>Please Enter Valid War Rate (i.e Only accept numeric)</message>
+		<code>Mandatory_field</code>
+		<errno>2764</errno>
+</error>
+<error>
+		<field>WarRate</field>
+		<message>Please Enter Valid War Rate (i.e Maximum length 8)</message>
+		<code>Mandatory_field</code>
+		<errno>2765</errno>
+</error>
+<error>
+		<field>StartingPlace</field>
+		<message>Please Enter Valid Starting Place (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2766</errno>
+</error>
+<error>
+		<field>StartingPlace</field>
+		<message>Please Enter Valid Starting Place (i.e Only accept alphabet letters)</message>
+		<code>Mandatory_field</code>
+		<errno>2767</errno>
+</error>
+<error>
+		<field>EndingPlace</field>
+		<message>Please Enter Valid Ending Place (i.e Maximum length 15)</message>
+		<code>Mandatory_field</code>
+		<errno>2768</errno>
+</error>
+<error>
+		<field>EndingPlace</field>
+		<message>Please Enter Valid Ending Place (i.e Only accept alphabet letters)</message>
+		<code>Mandatory_field</code>
+		<errno>2769</errno>
+</error>
+<error>
+      <field>Status</field>
+      <message>Please Enter Status</message>
+      <code>Mandatory_field</code>
+      <errno>2770</errno>
+</error>
+<error>
+      <field>Status</field>
+      <message>Please Enter Valid Status</message>
+      <code>Mandatory_field</code>
+      <errno>2771</errno>
+</error>
+<error>
+		<field>Status</field>
+		<message>Please Enter Valid Status (i.e Maximum length 1)</message>
+		<code>Mandatory_field</code>
+		<errno>2772</errno>
+</error>
+<error>
+		<field>ConveyanName</field>
+		<message>Conveyance Name Already Exit</message>
+		<code>Mandatory_field</code>
+		<errno>2776</errno>
+</error>
+<error>
+		<field>CountryId</field>
+		<message>Please Enter CountryId</message>
+		<code>Mandatory_field</code>
+		<errno>2777</errno>
+</error>
+<error>
+		<field>BankId</field>
+		<message>Please Enter BankId</message>
+		<code>Mandatory_field</code>
+		<errno>2778</errno>
+</error>
+
+<error>
+		<field>Status</field>
+		<message>Please Select Status</message>
+		<code>Mandatory_field</code>
+		<errno>2745</errno>
+	</error>
+	<error>
+		<field>Status</field>
+		<message>Status allow only one letter</message>
+		<code>Mandatory_field</code>
+		<errno>2746</errno>
+	</error>
+	<error>
+		<field>BranchName</field>
+		<message>Please Enter BranchName</message>
+		<code>Mandatory_field</code>
+		<errno>2747</errno>
+	</error>
+	<error>
+		<field>BranchName</field>
+		<message>BranchName should be 1 to 20 letter</message>
+		<code>Mandatory_field</code>
+		<errno>2748</errno>
+	</error>
+	<error>
+		<field>CurrencyName</field>
+		<message>Please Enter CurrencyName</message>
+		<code>Mandatory_field</code>
+		<errno>2749</errno>
+	</error>
+	<error>
+		<field>EffectiveDate</field>
+		<message>Please enter EffectiveDate</message>
+		<code>Mandatory_field</code>
+		<errno>2750</errno>
+	</error>
+	<error>
+		<field>EffectiveDate</field>
+		<message>Please type valid date format.! for example:dd/MM/yyyy</message>
+		<code>Mandatory_field</code>
+		<errno>2751</errno>
+	</error>
+	<error>
+		<field>EffectiveDate</field>
+		<message>Please enter correct date</message>
+		<code>Mandatory_field</code>
+		<errno>2752</errno>
+	</error>	
+	<error>
+		<field>CurrencyName</field>
+		<message>CurrencyName should be 1 to 20 letter</message>
+		<code>Mandatory_field</code>
+		<errno>2753</errno>
+	</error>
+	
+	
+	
+	
+	<error>
+		<field>CoverId</field>
+		<message>Please enter valid coverId</message>
+		<code>Mandatory_field</code>
+		<errno>2780</errno>
+	</error>
+	<error>
+		<field>CoverId</field>
+		<message>CoverId should be 1 to 50 letter</message>
+		<code>Mandatory_field</code>
+		<errno>2781</errno>
+	</error>
+	<error>
+		<field>BranchCode</field>
+		<message>Please enter valid BranchCode</message>
+		<code>Mandatory_field</code>
+		<errno>2782</errno>
+	</error>
+	<error>
+		<field>BranchCode</field>
+		<message>BranchCode should be 1 to 50 letter</message>
+		<code>Mandatory_field</code>
+		<errno>2783</errno>
+	</error>
+	<error>
+		<field>Status</field>
+		<message>Please Select Status</message>
+		<code>Mandatory_field</code>
+		<errno>2784</errno>
+	</error>
+	<error>
+		<field>Status</field>
+		<message>Status will allow only one letter</message>
+		<code>Mandatory_field</code>
+		<errno>2785</errno>
+	</error>
+	<error>
+		<field>MaterialName</field>
+		<message>Please enter MaterialName</message>
+		<code>Mandatory_field</code>
+		<errno>2786</errno>
+	</error>
+	<error>
+		<field>MaterialName</field>
+		<message>MaterialName should be 1 to 50 letter</message>
+		<code>Mandatory_field</code>
+		<errno>2787</errno>
+	</error>
+	<error>
+		<field>EffectiveDate</field>
+		<message>Please enter EffectiveDate</message>
+		<code>Mandatory_field</code>
+		<errno>2788</errno>
+	</error>
+	<error>
+		<field>EffectiveDate</field>
+		<message>Please type valid date format.! for example:dd/MM/yyyy</message>
+		<code>Mandatory_field</code>
+		<errno>2789</errno>
+	</error>
+<error>
+		<field>Login Attached Branch</field>
+		<message>This  User is not Attached for any Branch</message>
+		<code>Mandatory_field</code>
+		<errno>2773</errno>
+</error>
+<error>
+		<field>Login Attached Branch</field>
+		<message>This  User are not Attached for this Branch to Login</message>
+		<code>Mandatory_field</code>
+		<errno>2774</errno>
+</error>
+<error>
+		<field>Login Type</field>
+		<message>Please Choose Correct Login Type</message>
+		<code>Mandatory_field</code>
+		<errno>2775</errno>
+</error>
+<error>
+		<field>endorsement</field>
+		<message>Error in Copy Quote</message>
+		<code>Mandatory_field</code>
+		<errno>2790</errno>
+</error>
+<error>
+		<field>endorsement</field>
+		<message>Chargable/Refund Endorsement not allowed for MOC</message>
+		<code>Mandatory_field</code>
+		<errno>2791</errno>
+</error>
+<error>
+		<field>ModeOfTransportDesc</field>
+		<message>Please Enter Valid Mode of Transport Description (i.e Maximum length 50)</message>
+		<code>Mandatory_field</code>
+		<errno>2792</errno>
+</error>
+<error>
+		<field>SaleTermName</field>
+		<message>Please Enter Valid Sale Term Name (i.e Maximum length 25)</message>
+		<code>Mandatory_field</code>
+		<errno>2793</errno>
+</error>
+<error>
+		<field>SaleTermValue</field>
+		<message>Please Enter Valid Sale Term Value (i.e Maximum length 10)</message>
+		<code>Mandatory_field</code>
+		<errno>2794</errno>
+</error>
+<error>
+	<field>Deductible</field>
+	<message>Please Enter Valid Deductible</message>
+	<code>Mandatory_field</code>
+	<errno>2795</errno>
+</error>
+<error>
+	<field>Deductible</field>
+	<message>Please Enter Valid Deductible (i.e Maximum length 10)</message>
+	<code>Mandatory_field</code>
+	<errno>2796</errno>
+</error>
+<error>
+      <field>SettlingAgentId</field>
+      <message>Please Enter Settling Agent Id</message>
+      <code>Mandatory_field</code>
+      <errno>2797</errno>
+</error>
+<error>
+	<field>ExtraCoverName</field>
+	<message>Please Enter Valid Extra Cover Name</message>
+	<code>Mandatory_field</code>
+	<errno>2798</errno>
+</error>
+<error>
+	<field>ExtraCoverName</field>
+	<message>Please EnterValid Extra Cover Name (i.e Maximum length 50)</message>
+	<code>Mandatory_field</code>
+	<errno>2799</errno>
+</error>
+<error>
+	<field>ExtraCoverId</field>
+	<message>Please Enter Valid Extra Cover Id</message>
+	<code>Mandatory_field</code>
+	<errno>2800</errno>
+</error>
+<error>
+	<field>WarDescription</field>
+	<message>Please Enter Valid War Description</message>
+	<code>Mandatory_field</code>
+	<errno>2801</errno>
+</error>
+<error>
+	<field>WarDescription</field>
+	<message>Please Enter Valid War Description (i.e Maximum length 100)</message>
+	<code>Mandatory_field</code>
+	<errno>2802</errno>
+</error>
+<error>
+      <field>CoreApplicationCode</field>
+      <message>Please Enter Valid Core Application Code (i.e Maximum length 30)</message>
+      <code>Mandatory_field</code>
+      <errno>2803</errno>
+</error>
+<error>
+	<field>ProductId</field>
+	<message>Please Enter Valid Product Id (i.e Maximum length 5)</message>
+	<code>Mandatory_field</code>
+	<errno>2804</errno>
+</error>
+<error>
+	<field>StageId</field>
+	<message>Please Enter Stage Id</message>
+	<code>Mandatory_field</code>
+	<errno>2805</errno>
+</error>
+<error>
+	<field>StageId</field>
+	<message>Please Enter Valid Stage Id (i.e Only accept numeric)</message>
+	<code>Mandatory_field</code>
+	<errno>2806</errno>
+</error>
+<error>
+	<field>StageId</field>
+	<message>Please Enter Valid Stage Id (i.e Maximum length 5)</message>
+	<code>Mandatory_field</code>
+	<errno>2807</errno>
+</error>
+<error>
+	<field>ErrorDescription</field>
+	<message>Please Enter Error Description</message>
+	<code>Mandatory_field</code>
+	<errno>2808</errno>
+</error>
+<error>
+	<field>ErrorDescription</field>
+	<message>Please Enter Valid Error Description (i.e Maximum length 500)</message>
+	<code>Mandatory_field</code>
+	<errno>2809</errno>
+</error>
+<error>
+	<field>Open cover No</field>
+	<message>Existing Core Application Policy No already used</message>
+	<code>Mandatory_field</code>
+	<errno>2810</errno>
+</error>
+</errors>

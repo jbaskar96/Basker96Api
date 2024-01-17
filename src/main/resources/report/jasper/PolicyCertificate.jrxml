@@ -1,0 +1,1792 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="PolicyCertificate" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="4e109c24-ba49-405c-9281-2c203dd411ae">
+	<property name="ireport.zoom" value="1.2100000000000009"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="common" hAlign="Left" isBlankWhenNull="true" fontName="Arial" fontSize="9" isBold="false" isItalic="false" isUnderline="false" isStrikeThrough="false"/>
+	<style name="table">
+		<pen lineColor="#ECE9D8"/>
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF" fontName="Arial">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#9999FF"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#9999FF"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#9999FF"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#9999FF"/>
+		</box>
+	</style>
+	<style name="table 2">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 2_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 3">
+		<box>
+			<pen lineWidth="1.0" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 3_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#FFFFFF"/>
+		</box>
+	</style>
+	<style name="table 4">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+			<topPen lineWidth="0.0"/>
+			<leftPen lineWidth="0.0"/>
+			<bottomPen lineWidth="0.0"/>
+			<rightPen lineWidth="0.0"/>
+		</box>
+	</style>
+	<style name="table 4_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 4_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="excess" uuid="9529f1a3-1ee7-459c-b5d8-d6534cf4c1d3">
+		<parameter name="Quoteno" class="java.lang.String"/>
+		<parameter name="Pvbranch" class="java.lang.String"/>
+		<parameter name="PvVechicle" class="java.lang.String"/>
+		<parameter name="Pvproduct" class="java.lang.String"/>
+		<queryString>
+			<![CDATA[select * from table(Motor_Schedule($P{Quoteno},'EXCESS',$P{Pvbranch},$P{PvVechicle},''))]]>
+		</queryString>
+		<field name="CERTIFICATE_NO" class="java.lang.String"/>
+		<field name="POLICY_NO" class="java.lang.String"/>
+		<field name="VECHICLE_OWNER" class="java.lang.String"/>
+		<field name="NAME_ADDRESS_INSURED" class="java.lang.String"/>
+		<field name="SUM_INSURED" class="java.lang.String"/>
+		<field name="PREMIUM" class="java.lang.String"/>
+		<field name="VECHICLE_REG_NO" class="java.lang.String"/>
+		<field name="MAKE" class="java.lang.String"/>
+		<field name="MODEL" class="java.lang.String"/>
+		<field name="TYPE" class="java.lang.String"/>
+		<field name="COLOUR" class="java.lang.String"/>
+		<field name="ENGINE_NO" class="java.lang.String"/>
+		<field name="CHASSIS_NO" class="java.lang.String"/>
+		<field name="DISK_NO" class="java.lang.String"/>
+		<field name="DATE_OF_ISSUE" class="java.lang.String"/>
+		<field name="EXPIRY_DATE" class="java.lang.String"/>
+		<field name="TIME" class="java.lang.String"/>
+		<field name="QUARTER" class="java.lang.String"/>
+		<field name="CC" class="java.lang.String"/>
+		<field name="DURATION_OF_COVER" class="java.lang.String"/>
+		<field name="AGENT" class="java.lang.String"/>
+		<field name="PLACE_OF_ISSUE" class="java.lang.String"/>
+		<field name="DESCRIPTION_OF_USE" class="java.lang.String"/>
+		<field name="POLICYTYPE" class="java.lang.String"/>
+		<field name="POLICY_TERM" class="java.lang.String"/>
+		<field name="HEADER_IMG" class="java.lang.String"/>
+		<field name="RECIEPT_DATE" class="java.lang.String"/>
+		<field name="BILL_NO" class="java.lang.String"/>
+		<field name="CLIENT_NO" class="java.lang.String"/>
+		<field name="INSURED" class="java.lang.String"/>
+		<field name="CLASS" class="java.lang.String"/>
+		<field name="MOTOR_CONTRIBUTION" class="java.lang.String"/>
+		<field name="POLICY_FEE" class="java.lang.String"/>
+		<field name="TOTAL_AMOUNT" class="java.lang.String"/>
+		<field name="AMT_WORD" class="java.lang.String"/>
+		<field name="POBOX" class="java.lang.String"/>
+		<field name="CITY" class="java.lang.String"/>
+		<field name="COUNTRY" class="java.lang.String"/>
+		<field name="PHONE" class="java.lang.String"/>
+		<field name="FAX" class="java.lang.String"/>
+		<field name="EMAIL" class="java.lang.String"/>
+		<field name="CONTRIBUTION" class="java.lang.String"/>
+		<field name="PERIOD_OF_INSURANCE" class="java.lang.String"/>
+		<field name="DUE_DATE" class="java.lang.String"/>
+		<field name="DUE_AMOUNT" class="java.lang.String"/>
+		<field name="PERC" class="java.lang.String"/>
+		<field name="REMARKS" class="java.lang.String"/>
+		<field name="INSURED_CODE" class="java.lang.String"/>
+		<field name="OCCUPATION" class="java.lang.String"/>
+		<field name="BRANCH_NAME" class="java.lang.String"/>
+		<field name="MANUFACTURE_YEAR" class="java.lang.String"/>
+		<field name="BASIC_PREMIUM" class="java.lang.String"/>
+		<field name="CURRENCY" class="java.lang.String"/>
+		<field name="INSURANCE_PROVIDED" class="java.lang.String"/>
+		<field name="FIRST_AMOUNT_PAYABLE" class="java.lang.String"/>
+		<field name="CONDITIONS" class="java.lang.String"/>
+		<field name="POLICY_DATE" class="java.lang.String"/>
+		<field name="COUNT1" class="java.lang.String"/>
+	</subDataset>
+	<subDataset name="thirdparty" uuid="01b0b247-ce2e-476b-8e9c-2797a4e2a3b8">
+		<queryString language="SQL">
+			<![CDATA[select  rownum||'.'||conditions conditions,rsacode
+from table(motor_schedule(300034,'CONDITIONS','01','',65)) where rsacode in('400101','400102','400103','400105','400108','400112') order by rsacode]]>
+		</queryString>
+		<field name="CONDITIONS" class="java.lang.String"/>
+		<field name="RSACODE" class="java.lang.String"/>
+	</subDataset>
+	<parameter name="imagePath" class="java.lang.String"/>
+	<parameter name="Quoteno" class="java.lang.String"/>
+	<parameter name="Pvbranch" class="java.lang.String"/>
+	<parameter name="Status" class="java.lang.String"/>
+	<parameter name="PvVechicle" class="java.lang.String"/>
+	<parameter name="Pvproduct" class="java.lang.String"/>
+	<queryString>
+		<![CDATA[select A.*,to_char(sysdate+6/24,'dd/mm/yyyy') sysdate1,to_char(sysdate+6/24,'hh24:mi' ) hours from table(Motor_Schedule($P{Quoteno},'CERTIFICATE',$P{Pvbranch},$P{PvVechicle},$P{Pvproduct})) A]]>
+	</queryString>
+	<field name="CERTIFICATE_NO" class="java.lang.String"/>
+	<field name="POLICY_NO" class="java.lang.String"/>
+	<field name="VECHICLE_OWNER" class="java.lang.String"/>
+	<field name="NAME_ADDRESS_INSURED" class="java.lang.String"/>
+	<field name="SUM_INSURED" class="java.lang.String"/>
+	<field name="PREMIUM" class="java.lang.String"/>
+	<field name="VECHICLE_REG_NO" class="java.lang.String"/>
+	<field name="MAKE" class="java.lang.String"/>
+	<field name="MODEL" class="java.lang.String"/>
+	<field name="TYPE" class="java.lang.String"/>
+	<field name="COLOUR" class="java.lang.String"/>
+	<field name="ENGINE_NO" class="java.lang.String"/>
+	<field name="CHASSIS_NO" class="java.lang.String"/>
+	<field name="DISK_NO" class="java.lang.String"/>
+	<field name="DATE_OF_ISSUE" class="java.lang.String"/>
+	<field name="EXPIRY_DATE" class="java.lang.String"/>
+	<field name="TIME" class="java.lang.String"/>
+	<field name="QUARTER" class="java.lang.String"/>
+	<field name="CC" class="java.lang.String"/>
+	<field name="DURATION_OF_COVER" class="java.lang.String"/>
+	<field name="AGENT" class="java.lang.String"/>
+	<field name="PLACE_OF_ISSUE" class="java.lang.String"/>
+	<field name="DESCRIPTION_OF_USE" class="java.lang.String"/>
+	<field name="POLICYTYPE" class="java.lang.String"/>
+	<field name="POLICY_TERM" class="java.lang.String"/>
+	<field name="HEADER_IMG" class="java.lang.String"/>
+	<field name="RECIEPT_DATE" class="java.lang.String"/>
+	<field name="BILL_NO" class="java.lang.String"/>
+	<field name="CLIENT_NO" class="java.lang.String"/>
+	<field name="INSURED" class="java.lang.String"/>
+	<field name="CLASS" class="java.lang.String"/>
+	<field name="MOTOR_CONTRIBUTION" class="java.lang.String"/>
+	<field name="POLICY_FEE" class="java.lang.String"/>
+	<field name="TOTAL_AMOUNT" class="java.lang.String"/>
+	<field name="AMT_WORD" class="java.lang.String"/>
+	<field name="POBOX" class="java.lang.String"/>
+	<field name="CITY" class="java.lang.String"/>
+	<field name="COUNTRY" class="java.lang.String"/>
+	<field name="PHONE" class="java.lang.String"/>
+	<field name="FAX" class="java.lang.String"/>
+	<field name="EMAIL" class="java.lang.String"/>
+	<field name="CONTRIBUTION" class="java.lang.String"/>
+	<field name="PERIOD_OF_INSURANCE" class="java.lang.String"/>
+	<field name="DUE_DATE" class="java.lang.String"/>
+	<field name="DUE_AMOUNT" class="java.lang.String"/>
+	<field name="PERC" class="java.lang.String"/>
+	<field name="REMARKS" class="java.lang.String"/>
+	<field name="INSURED_CODE" class="java.lang.String"/>
+	<field name="OCCUPATION" class="java.lang.String"/>
+	<field name="BRANCH_NAME" class="java.lang.String"/>
+	<field name="MANUFACTURE_YEAR" class="java.lang.String"/>
+	<field name="BASIC_PREMIUM" class="java.lang.String"/>
+	<field name="CURRENCY" class="java.lang.String"/>
+	<field name="INSURANCE_PROVIDED" class="java.lang.String"/>
+	<field name="FIRST_AMOUNT_PAYABLE" class="java.lang.String"/>
+	<field name="CONDITIONS" class="java.lang.String"/>
+	<field name="POLICY_DATE" class="java.lang.String"/>
+	<field name="COUNT1" class="java.lang.String"/>
+	<field name="QUOTE_NO" class="java.lang.String"/>
+	<field name="QUOTATION_ISSUED_ON" class="java.lang.String"/>
+	<field name="QUOTATION_VALID_FOR" class="java.lang.String"/>
+	<field name="VAT" class="java.lang.String"/>
+	<field name="THIRD_PARTY_LIMITS_LIABILITY" class="java.lang.String"/>
+	<field name="RATE" class="java.lang.String"/>
+	<field name="VECHICLE_PREMIUM" class="java.lang.String"/>
+	<field name="ADDRESS2" class="java.lang.String"/>
+	<field name="ADDRESS3" class="java.lang.String"/>
+	<field name="PAYMENT_MODE" class="java.lang.String"/>
+	<field name="BANK_NAME" class="java.lang.String"/>
+	<field name="BRANCH_EMAIL" class="java.lang.String"/>
+	<field name="BRANCH_PHONE" class="java.lang.String"/>
+	<field name="BRANCH_COUNTRY" class="java.lang.String"/>
+	<field name="RSACODE" class="java.lang.String"/>
+	<field name="CONDITION_DESC" class="java.lang.String"/>
+	<field name="POLICYTYPEID" class="java.lang.String"/>
+	<field name="SYSDATE1" class="java.lang.String"/>
+	<field name="HOURS" class="java.lang.String"/>
+	<background>
+		<band height="800" splitType="Stretch">
+			<rectangle>
+				<reportElement uuid="a193e4b7-c4da-4be2-b434-a0e869b84ab9" key="rectangle-2" positionType="Float" stretchType="RelativeToBandHeight" mode="Transparent" x="0" y="76" width="554" height="724" forecolor="#000000" backcolor="#CCCCFF"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</rectangle>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="77a4c877-6f44-4981-acc1-beface583b75" stretchType="RelativeToBandHeight" x="25" y="226" width="489" height="70" isPrintWhenDetailOverflows="true" forecolor="#FFEDED"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="54"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{Status}]]></textFieldExpression>
+			</textField>
+		</band>
+	</background>
+	<title>
+		<band splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="66" splitType="Stretch">
+			<image scaleImage="FillFrame" hAlign="Center">
+				<reportElement uuid="63f14e13-544e-46c4-b4e7-919766b795d0" x="-2" y="0" width="155" height="64"/>
+				<imageExpression><![CDATA[$P{imagePath}+$F{HEADER_IMG}]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5bb1546b-d8eb-4ee3-b618-8d3a91409173" style="common" stretchType="RelativeToBandHeight" x="349" y="36" width="207" height="12" isRemoveLineWhenBlank="true"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["E-mail: "+($F{BRANCH_EMAIL}==null?"":$F{BRANCH_EMAIL})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4f52b353-b73a-44d9-82c3-1f6c0150440d" style="common" stretchType="RelativeToBandHeight" x="349" y="12" width="207" height="12" isRemoveLineWhenBlank="true"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ADDRESS3}==null?"":$F{ADDRESS3}+",  "+($F{BRANCH_COUNTRY}==null?"":$F{BRANCH_COUNTRY})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bf2363ca-48d3-4001-87c4-311f5ab0f5d7" style="common" stretchType="RelativeToBandHeight" x="349" y="48" width="207" height="12" isRemoveLineWhenBlank="true"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["website : www.madison.co.zm"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="90013d0e-8d3d-4853-91fe-153235213649" style="common" stretchType="RelativeToBandHeight" x="349" y="24" width="206" height="12" isRemoveLineWhenBlank="true"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["tel: "+($F{BRANCH_PHONE}==null?"":$F{BRANCH_PHONE})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4c79b66a-a4d8-45ba-9f48-2ee9c41a26aa" style="common" stretchType="RelativeToBandHeight" x="349" y="0" width="207" height="12" isRemoveLineWhenBlank="true"/>
+				<box leftPadding="4"/>
+				<textElement verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ADDRESS2}==null?"":$F{ADDRESS2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="23" splitType="Stretch">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="56a912a7-d861-4a6b-ba3b-8bc04e01856a" style="common" stretchType="RelativeToBandHeight" x="0" y="0" width="555" height="15"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CERTIFICATE OF MOTOR INSURANCE"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="17">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="71c8c6d0-89ad-4737-9a8c-3a7ddf8c1ad2" style="common" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CERTIFICATE NO"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="5bcbfed5-d9f3-4139-bf34-cdb64a700790" style="common" stretchType="RelativeToBandHeight" x="104" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="29a40c20-a14f-4c9b-bd8e-2c6557114c99" style="common" stretchType="RelativeToBandHeight" x="124" y="0" width="143" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CERTIFICATE_NO}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="30e34a93-ba47-4ccf-b581-e8ddbfee99c7" style="common" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Policy No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="310e1ad8-206a-499e-989c-5fb42ba25ba3" style="common" stretchType="RelativeToBandHeight" x="301" y="0" width="213" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["The Road Transport and Safety"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0ba5638f-25d1-4a61-a94b-37c61c3f2161" style="common" stretchType="RelativeToBandHeight" x="104" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="f64f2668-47a4-4361-8713-73a74ac0b5be" style="common" stretchType="RelativeToBandHeight" x="124" y="0" width="143" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{POLICY_NO}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="14">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8e7d1369-a16b-4297-a6a3-a57fdcd02bc4" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vechicle Owner"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a28f6f99-8c06-4a14-93c8-daded5c95f90" style="common" stretchType="RelativeToBandHeight" x="301" y="0" width="213" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["The Road Traffic"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="fc314c3f-2fc0-41ee-8642-7969d7b03e43" style="common" stretchType="RelativeToBandHeight" x="104" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="ce1d3d73-b0e6-407e-abd1-830edab63e58" style="common" stretchType="RelativeToBandHeight" x="124" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Bottom">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{VECHICLE_OWNER}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="20">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3d6ba347-8947-4675-8bc0-4363ac147337" stretchType="RelativeToBandHeight" x="0" y="0" width="153" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Name and Address Of Insured"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="e9f1eeac-396c-43f7-97f1-9db1e20f301d" style="common" stretchType="RelativeToBandHeight" x="301" y="0" width="253" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Traffic of Security and Insurance Regulation,2015"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="7caff4bc-df36-4b36-902e-864981f0e456" style="common" stretchType="RelativeToBandHeight" x="158" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{NAME_ADDRESS_INSURED}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e1b3b176-86aa-4723-a0f9-91cd1ddf4c7d" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Particular Of Cover"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5cf381b0-0b66-4e7c-8751-5340ee80cd36" stretchType="RelativeToBandHeight" x="299" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Vechicle Reg.No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0f09325e-35db-4319-beb7-9721e9451786" style="common" stretchType="RelativeToBandHeight" x="379" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0d2328ab-198f-4933-ba48-79b7c73ff849" style="common" stretchType="RelativeToBandHeight" x="126" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9c359d59-b219-4d37-ad1b-7a802a71542a" style="common" stretchType="RelativeToBandHeight" x="398" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{VECHICLE_REG_NO}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6d6498bf-1ab6-4096-a9f2-3df2120568dc" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{POLICYTYPE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6a183a08-dc83-486c-8860-959e7737005e" stretchType="RelativeToBandHeight" x="299" y="0" width="40" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Make"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="114f9b8a-5ede-4371-9cb7-54f3a7484017" stretchType="RelativeToBandHeight" x="429" y="0" width="40" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Model"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="4fa3700e-bdeb-46a8-81ed-68a2c313ce36" style="common" stretchType="RelativeToBandHeight" x="339" y="1" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="57358a26-280a-4505-b01b-2193b6b4a5d9" style="common" stretchType="RelativeToBandHeight" x="470" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0edd9c1d-c481-4ff2-a7d5-9c719a940781" style="common" stretchType="RelativeToBandHeight" x="348" y="1" width="81" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{MAKE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="aa325840-19fa-4678-a385-5956ae112537" style="common" stretchType="RelativeToBandHeight" x="480" y="0" width="74" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{MODEL}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b6ae6cfb-dde4-421b-81f0-ded233bef114" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Sum Insured"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f168cb77-6ed4-41e6-ac23-3c4529dbe5d1" stretchType="RelativeToBandHeight" x="299" y="0" width="40" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Colour"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="42c61f04-1b89-4662-95f4-494667b515c0" stretchType="RelativeToBandHeight" x="429" y="0" width="40" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Type"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="ae16ff38-80e8-4c6f-b974-db2332d31a5f" style="common" stretchType="RelativeToBandHeight" x="339" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="87f13eb1-6c3f-4a0f-966c-7cc186f4d839" style="common" stretchType="RelativeToBandHeight" x="469" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="d9043b64-6e3f-42c4-9dd1-e8ed1485b704" style="common" stretchType="RelativeToBandHeight" x="104" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="70f058e0-ac59-4c5a-8c9c-f0fa22af8fb8" style="common" stretchType="RelativeToBandHeight" x="153" y="0" width="124" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{SUM_INSURED}==null?"":$F{SUM_INSURED})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="1cd4f148-d5a9-4da2-a5b6-1bc36bf319e7" style="common" stretchType="RelativeToBandHeight" x="479" y="0" width="74" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TYPE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="34bb098d-69f6-4b9e-a580-83b080755802" style="common" stretchType="RelativeToBandHeight" x="349" y="0" width="74" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{COLOUR}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="e76c07f1-58f7-48cf-bf62-11eec1daea74" style="common" stretchType="RelativeToBandHeight" x="114" y="0" width="39" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CURRENCY}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f7e8e6e4-7f6c-4342-872a-1625c8f97086" stretchType="RelativeToBandHeight" x="0" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Premium"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0b459a3a-12db-49ab-a9ce-c0f8358d9a82" stretchType="RelativeToBandHeight" x="299" y="0" width="60" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Engine No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4b25b514-af99-4b30-a2b9-00a71a090202" stretchType="RelativeToBandHeight" x="299" y="16" width="60" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chassis No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="b4b626ac-0153-45e2-b88a-577a00e3ad60" style="common" stretchType="RelativeToBandHeight" x="359" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="47441095-1964-4d76-8b04-b93cbcc5eae3" style="common" stretchType="RelativeToBandHeight" x="358" y="16" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="fc9d85c0-43f6-4d87-836a-08e14c60e3b0" style="common" stretchType="RelativeToBandHeight" x="104" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a28d9fff-2725-49cd-9d0e-acb25414b015" style="common" stretchType="RelativeToBandHeight" x="153" y="0" width="124" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PREMIUM}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="44fc9221-79d8-4a13-858c-de9e089cdd4e" style="common" stretchType="RelativeToBandHeight" x="369" y="0" width="81" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ENGINE_NO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9e543f28-faad-412c-9bad-6fa135ea9bdd" style="common" stretchType="RelativeToBandHeight" x="367" y="18" width="81" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CHASSIS_NO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="b36082c5-3ec3-4b36-aa7b-f4e8af315d99" style="common" stretchType="RelativeToBandHeight" x="114" y="0" width="39" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CURRENCY}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="8f89c5d2-23c8-40d4-94a5-1f053366596b" style="common" stretchType="RelativeToBandHeight" x="368" y="0" width="81" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DISK_NO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="52ceb28b-9351-4927-893f-bd43ed0c37eb" stretchType="RelativeToBandHeight" x="299" y="0" width="60" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Disk No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="e953459e-9fdf-449f-872c-5e9c1e9c29d9" style="common" stretchType="RelativeToBandHeight" x="359" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ee32a733-5bc2-4c56-9fe3-7e8715e14be7" stretchType="RelativeToBandHeight" x="298" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Date Of Issue"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="7e6b4710-a5f9-47a8-b4b4-d12b4b30af36" style="common" stretchType="RelativeToBandHeight" x="378" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="22f7b097-29ba-4f78-b9cd-66d4db7ac19a" style="common" stretchType="RelativeToBandHeight" x="389" y="0" width="80" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DATE_OF_ISSUE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0e6ece25-3ae6-41e9-a846-87158f838f7a" stretchType="RelativeToBandHeight" x="470" y="0" width="30" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Time"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="3d11bc78-956e-4618-9b24-a7ca36417626" style="common" stretchType="RelativeToBandHeight" x="503" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ef2afc9c-8328-482f-b762-0c936bdb8941" stretchType="RelativeToBandHeight" x="513" y="0" width="40" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TIME}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="b2bd0371-d093-4f29-a565-f3bbd1170b9c" stretchType="RelativeToBandHeight" x="10" y="11" width="250" height="1">
+					<printWhenExpression><![CDATA[$F{DESCRIPTION_OF_USE}!=null]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</line>
+		</band>
+		<band height="30">
+			<componentElement>
+				<reportElement uuid="0595eba5-16a4-44a1-8953-1feb266e6857" key="table 3" style="table 3" x="10" y="7" width="287" height="15"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="excess" uuid="2f497ef2-ae7d-46b7-8fcf-8134ded21a1f">
+						<datasetParameter name="Quoteno">
+							<datasetParameterExpression><![CDATA[$P{Quoteno}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="Pvbranch">
+							<datasetParameterExpression><![CDATA[$P{Pvbranch}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="PvVechicle">
+							<datasetParameterExpression><![CDATA[$P{PvVechicle}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="Pvproduct">
+							<datasetParameterExpression><![CDATA[$P{Pvproduct}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="359" uuid="753c2f3b-cd17-4ee4-bde7-c7756ed413e7">
+						<jr:tableFooter style="table 3_TH" height="0" rowSpan="1"/>
+						<jr:detailCell style="table 3_TD" height="15" rowSpan="1">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement uuid="7d2981de-8e99-4d63-8a65-0e909a20d0ff" stretchType="RelativeToBandHeight" x="0" y="0" width="357" height="14"/>
+								<box leftPadding="3" rightPadding="2"/>
+								<textElement>
+									<font fontName="Arial" size="9"/>
+								</textElement>
+								<textFieldExpression><![CDATA[($F{DESCRIPTION_OF_USE}==null?"":$F{DESCRIPTION_OF_USE})]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="23">
+			<line>
+				<reportElement uuid="ea2ce306-dfb4-4643-aa49-8e8bce1d5213" stretchType="RelativeToBandHeight" x="10" y="0" width="250" height="1">
+					<printWhenExpression><![CDATA[$F{DESCRIPTION_OF_USE}!=null]]></printWhenExpression>
+				</reportElement>
+				<graphicElement>
+					<pen lineWidth="0.25"/>
+				</graphicElement>
+			</line>
+			<componentElement>
+				<reportElement uuid="0c266054-c969-4b26-af72-500ac48d834c" key="table 4" style="table 4" x="10" y="0" width="287" height="12"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="thirdparty" uuid="3d9734a1-48a7-42d2-b79c-df1a1334a3b9">
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="262" uuid="7eda38e1-d892-464d-9cc3-606bf524a2d3">
+						<jr:detailCell style="table 4_TD" height="13" rowSpan="1">
+							<box>
+								<topPen lineWidth="0.0"/>
+								<leftPen lineWidth="0.0"/>
+								<bottomPen lineWidth="0.0"/>
+								<rightPen lineWidth="0.0"/>
+							</box>
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement uuid="0e4e8abe-88b7-4ef5-afe8-992dafa99bbe" stretchType="RelativeToBandHeight" x="0" y="0" width="260" height="12"/>
+								<textElement>
+									<font fontName="Arial" size="9"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$F{CONDITIONS}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+		<band height="12">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="e6a9d70b-3031-46fa-87d6-f62b661fb242" style="common" stretchType="RelativeToBandHeight" x="7" y="0" width="60" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Sr No."]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="73e56498-3783-42f1-afe0-c9d9856a64dd" style="common" stretchType="RelativeToBandHeight" x="67" y="0" width="112" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" Make Model"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="d342aef8-4cd2-4c7c-a66d-501f7e67f7c0" style="common" stretchType="RelativeToBandHeight" x="179" y="0" width="50" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["CC"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="40527148-4028-4c6b-acb4-3affbb282a5d" style="common" stretchType="RelativeToBandHeight" x="228" y="0" width="80" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Chassis No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="8fb13f8f-0003-40e9-b0c7-c5bcfa352edf" style="common" stretchType="RelativeToBandHeight" x="307" y="0" width="80" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Engine No"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="577da3b2-43f8-4bb3-9a1a-d2d044097d07" style="common" stretchType="RelativeToBandHeight" x="386" y="0" width="80" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Type Of Body"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="089a2049-654b-4622-9c19-044d295f1d6a" style="common" stretchType="RelativeToBandHeight" x="465" y="0" width="80" height="12"/>
+				<box>
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Reg No."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0339de1c-8fd6-4f27-b907-8aefab890cb2" style="common" stretchType="RelativeToBandHeight" x="386" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{TYPE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="02ef4d64-6792-4dc4-b65b-ee806c0872ec" style="common" stretchType="RelativeToBandHeight" x="307" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ENGINE_NO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="5a6ef374-372b-4149-86fe-d5812bc69263" style="common" stretchType="RelativeToBandHeight" x="7" y="0" width="60" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{COLUMN_COUNT}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="97cc7213-fe9b-4ddc-a1ce-a3ec3bc20d95" style="common" stretchType="RelativeToBandHeight" x="465" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{VECHICLE_REG_NO}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="c1eec91d-0535-42a7-bc8c-4bc9c3900bc6" style="common" stretchType="RelativeToBandHeight" x="67" y="0" width="112" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{MAKE}==null?"":$F{MAKE})+"  "+($F{MODEL}==null?"":$F{MODEL})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="b0bf4664-013e-49f5-9076-4794ffe3a477" style="common" stretchType="RelativeToBandHeight" x="179" y="0" width="50" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CC}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="253078c4-0827-4a6f-b33d-d0ea7311805b" style="common" stretchType="RelativeToBandHeight" x="228" y="0" width="80" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CHASSIS_NO}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="19">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0a588d02-bd93-4bc3-8960-0ebff7b0651c" stretchType="RelativeToBandHeight" x="0" y="0" width="465" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Cover operative for a period  of "+($F{POLICY_TERM}==null?"":$F{POLICY_TERM})+" Day(s)"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="22">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e78770f7-fda6-4ca7-83ea-aa6fca95a833" stretchType="RelativeToBandHeight" x="9" y="0" width="80" height="16"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Date of Issue"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="279b90a0-7a66-4fd0-96bf-8a7bb305113a" style="common" stretchType="RelativeToBandHeight" x="90" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="78366a20-57e4-47df-a860-467878d987de" style="common" stretchType="RelativeToBandHeight" x="110" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DATE_OF_ISSUE}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a2652594-af3b-4050-8f6f-387460468d8f" stretchType="RelativeToBandHeight" x="9" y="0" width="70" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["From"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="aeb64002-8a7d-44a0-aa8d-050f2cd547d1" stretchType="RelativeToBandHeight" x="267" y="0" width="41" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Note:"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="898d8571-6823-4c78-838a-370d9ed5a0cb" stretchType="RelativeToBandHeight" x="308" y="0" width="256" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Date of issue on disc represents cover from date"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a54e4a8c-e855-41df-9df4-c7b6281be986" style="common" stretchType="RelativeToBandHeight" x="87" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="4e5b235c-e395-4bbe-9fd6-93585293354e" style="common" stretchType="RelativeToBandHeight" x="109" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{HOURS}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="2eafd6ce-618e-4574-ba87-12e5d269fd75" stretchType="RelativeToBandHeight" x="0" y="0" width="138" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["DURATION OF COVER"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="fb87cdf5-9636-4efd-9e86-664208b31692" style="common" stretchType="RelativeToBandHeight" x="138" y="0" width="242" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{DURATION_OF_COVER}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="45671f9c-16c2-4f02-b994-38ea31134690" stretchType="RelativeToBandHeight" x="0" y="1" width="553" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["In consideration of the payment of the premium by or on behalf of the insured for the insurance desrcribed here in or proportionate part of the premium in the event of the insurance not being accepted by the company it is agreed that risk is held covered for the period stated above from the date and time specified above subject to the terms,conditions and limitations of the company's ordinary form of motor insurance policy."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f5c45e68-efa6-49ef-af4c-505f06b47cbe" stretchType="RelativeToBandHeight" x="0" y="0" width="553" height="11"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["The specimen copy is available on request.In the event of the insurance being declined,notice to the address stated above shall once relieve the Company of any further liability under this cover note."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="16">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b4552865-e024-4fd3-b032-a78f480e8d1f" stretchType="RelativeToBandHeight" x="0" y="0" width="553" height="11"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["We hereby certify that the policy to which this certificate relates satisfies the provisions of part IX of the Road and Traffic Act of the Republic of Zambia."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="17">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0369b1c4-f8ac-4750-b5c8-7689a79c9d12" stretchType="RelativeToBandHeight" x="0" y="0" width="297" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="html">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Declaration:</b> Cover ceases on Expiry OR Changes of Ownership."]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3154851b-a265-42ed-bd7c-50bef814aca4" stretchType="RelativeToBandHeight" x="0" y="0" width="37" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Agent"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="163e8827-b228-4816-8768-ae1047d4b08b" style="common" stretchType="RelativeToBandHeight" x="53" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="cfd09fb6-ba2f-4b6e-9582-cca8685ae4f2" style="common" stretchType="RelativeToBandHeight" x="37" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="eac848f8-ade5-4814-b6b9-9cfc6e344e7d" stretchType="RelativeToBandHeight" x="0" y="0" width="83" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Place Of Issue"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a9a9d32f-7901-43d8-b2e1-e8577d36ade0" style="common" stretchType="RelativeToBandHeight" x="90" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{PLACE_OF_ISSUE}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9b30d5f8-844c-4bd6-a9ca-189600ae8032" style="common" stretchType="RelativeToBandHeight" x="348" y="0" width="180" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["for / Chief Executive Officer"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="3b9c7237-e2d8-4d73-9e23-f25822db885e" style="common" stretchType="RelativeToBandHeight" x="83" y="0" width="10" height="12"/>
+				<box leftPadding="1" rightPadding="1">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[":"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="13">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="41925880-001d-4f55-a5e5-d3b7d911d97a" stretchType="RelativeToBandHeight" x="0" y="0" width="114" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Description of Use"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="0883729e-fa01-4bad-b0e3-f98dc452a1c7" style="common" stretchType="RelativeToBandHeight" x="114" y="0" width="100" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[""]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="5fd02491-f556-4391-ba14-889668446c89" style="common" stretchType="RelativeToBandHeight" x="275" y="0" width="278" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA["FOR MADISON GENERAL INSURANCE COMPANY (Z) LTD"]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="15">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6f98ffa5-2a54-422e-a8df-0660344bcadc" stretchType="RelativeToBandHeight" x="0" y="0" width="555" height="12"/>
+				<box leftPadding="2" rightPadding="2">
+					<pen lineWidth="0.0"/>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<font fontName="Arial" size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{CONDITION_DESC}]]></textFieldExpression>
+			</textField>
+			<break>
+				<reportElement uuid="6a7d565a-b99e-41ff-a5b0-5d84c180fd37" x="0" y="14" width="100" height="1"/>
+			</break>
+		</band>
+	</detail>
+	<columnFooter>
+		<band splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band splitType="Stretch"/>
+	</summary>
+</jasperReport>

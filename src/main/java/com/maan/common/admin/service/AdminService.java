@@ -1,0 +1,100 @@
+package com.maan.common.admin.service;
+
+import java.util.List;
+import javax.servlet.http.HttpServletRequest;
+
+import com.maan.common.admin.request.AdminBrokerListReq;
+import com.maan.common.admin.request.AdminMenuTypeReq;
+import com.maan.common.admin.request.AdminNewBrokerReq;
+import com.maan.common.admin.request.AdminNewIssuerReq;
+import com.maan.common.admin.request.BranchListRequest;
+import com.maan.common.admin.request.BrokerInfoRequest;
+import com.maan.common.admin.request.BrokerLoginProductInsReq;
+import com.maan.common.admin.request.BrokerProductEditReq;
+import com.maan.common.admin.request.IssuerBranchRequest;
+import com.maan.common.admin.request.IssuerChangePassReq;
+import com.maan.common.admin.request.IssuerExcludedDeleteRequest;
+import com.maan.common.admin.request.IssuerIncludedRequest;
+import com.maan.common.admin.request.IssuerIncludedSaveRequest;
+import com.maan.common.admin.request.IssuerInfoRequest;
+import com.maan.common.admin.request.NewAdminInsertReq;
+import com.maan.common.admin.request.ProductsWiseMenuRequest;
+import com.maan.common.admin.request.TitleDropDownRequest;
+import com.maan.common.admin.request.UserCertificateRequest;
+import com.maan.common.admin.request.UserMgtInsertRequest;
+import com.maan.common.admin.request.UserMgtProductInsertRequest;
+import com.maan.common.admin.request.UserProductEditRequest;
+import com.maan.common.admin.request.UserProductValidReq;
+import com.maan.common.admin.response.AdminBrokerInsertResponse;
+import com.maan.common.admin.response.AdminBrokerResponse;
+import com.maan.common.admin.response.AdminIssuerInfoResponse;
+import com.maan.common.admin.response.AdminIssuerInsertResponse;
+import com.maan.common.admin.response.AdminIssuerResponse;
+import com.maan.common.admin.response.AdminMenuResponse1;
+import com.maan.common.admin.response.AdminMenuTypeResp1;
+import com.maan.common.admin.response.AdminTableListResponse;
+import com.maan.common.admin.response.AdminUserMgtListResponse;
+import com.maan.common.admin.response.AdminUserResponse1;
+import com.maan.common.admin.response.BranchCodeResponse1;
+import com.maan.common.admin.response.BranchDetailsResp1;
+import com.maan.common.admin.response.BrokerMagDropDownResponse1;
+import com.maan.common.admin.response.ChangePasswordResponse;
+import com.maan.common.admin.response.CommanAdminBrokerViewResp;
+import com.maan.common.admin.response.CommanBrokerProductEditResp;
+import com.maan.common.admin.response.CommanUserProductEditResp1;
+import com.maan.common.admin.response.CommonBrokerEditResp;
+import com.maan.common.admin.response.CommonExcludedBrokerResp;
+import com.maan.common.admin.response.CommonIncludedBrokerResp;
+import com.maan.common.admin.response.CommonProductWiseMenuResponse;
+import com.maan.common.admin.response.CommonUserEditResponse;
+import com.maan.common.admin.response.IssuerProductInfoResp1;
+import com.maan.common.admin.response.ProductResponse;
+import com.maan.common.admin.response.UserMagOcCertificateResponse;
+import com.maan.common.admin.response.UserMgtDropDownResponse1;
+import com.maan.common.admin.response.UserMgtInsertResponse1;
+
+public interface AdminService {
+	
+	AdminBrokerResponse getAdminBrokerList(AdminBrokerListReq req,HttpServletRequest http);
+	CommanAdminBrokerViewResp getBrokerInformation(BrokerInfoRequest req, HttpServletRequest http);
+	CommonBrokerEditResp getBrokerInformationEdit(BrokerInfoRequest req, HttpServletRequest http);
+	AdminBrokerInsertResponse InsertNewBrokerDetails(AdminNewBrokerReq req, HttpServletRequest http,List<String> validation);
+	AdminIssuerResponse getAdminIssuerList(TitleDropDownRequest req, HttpServletRequest http);
+	AdminIssuerInfoResponse getIssuerInformation(IssuerInfoRequest req, HttpServletRequest http);
+	BrokerMagDropDownResponse1 getBrokerMangDropDown();
+	AdminIssuerInsertResponse InsertNewIssuerDetails(AdminNewIssuerReq req, HttpServletRequest http,List<String> validation);
+	IssuerProductInfoResp1 getIssuerProductDetails(BrokerInfoRequest req);
+	BranchCodeResponse1 getIssuerBranchDetails(IssuerBranchRequest req);
+	ChangePasswordResponse getIssuerChangePassword(IssuerChangePassReq req,HttpServletRequest http,List<String> validation);
+	ChangePasswordResponse getBrokerChangePassword(IssuerChangePassReq req,HttpServletRequest http,List<String> validation);
+	CommonIncludedBrokerResp getIssuerIncludedBroke(IssuerIncludedRequest req, HttpServletRequest http);
+	CommonExcludedBrokerResp getIssuerExcludedBroke(IssuerIncludedRequest req, HttpServletRequest http);
+	AdminIssuerInsertResponse getIssuerIncludedInsert(IssuerIncludedSaveRequest req, HttpServletRequest http);
+	AdminIssuerInsertResponse getIssuerExcludedInsert(IssuerExcludedDeleteRequest req, HttpServletRequest http);
+	AdminUserResponse1 getAdminUserTypeList();
+	AdminMenuResponse1 getAdminMenuTypeList(TitleDropDownRequest req);
+	AdminUserResponse1 getUnderWriterGradeList();
+	AdminTableListResponse getAdminList(TitleDropDownRequest req,HttpServletRequest http);
+	CommonProductWiseMenuResponse getProductsWiseMenuList(ProductsWiseMenuRequest req);
+	AdminIssuerInsertResponse getAdminInsert(NewAdminInsertReq req, HttpServletRequest http,List<String> validation);
+	AdminTableListResponse getAdminEditList(IssuerInfoRequest req, HttpServletRequest http);
+	UserMgtDropDownResponse1 getUserMgtDropDownList(TitleDropDownRequest req);
+	AdminUserMgtListResponse getUserMgtTableList(TitleDropDownRequest req,HttpServletRequest http);
+	CommonUserEditResponse getUserMgtEditTableList(UserCertificateRequest req, HttpServletRequest http);
+	UserMgtInsertResponse1 UserMgtInsertOrUpdate(UserMgtInsertRequest req, HttpServletRequest http,List<String> validation);
+	BranchDetailsResp1 getPortFolioRegionList(IssuerIncludedRequest req);
+	BranchDetailsResp1 getAdminReportBranchList(IssuerIncludedRequest req);
+	AdminMenuTypeResp1 getAdminBasedMenuList(AdminMenuTypeReq req);
+	AdminBrokerInsertResponse InsertBrokerProductDetails(BrokerLoginProductInsReq req, HttpServletRequest http,List<String> validation);
+	CommanBrokerProductEditResp getEditBrokerProductDetails(BrokerProductEditReq req, HttpServletRequest http);
+	UserMagOcCertificateResponse getUserMgtOCCertificate(UserCertificateRequest req,HttpServletRequest http);
+	AdminIssuerInsertResponse InsertUserMgtProductDetails(UserMgtProductInsertRequest req, HttpServletRequest http,UserProductValidReq validation);
+	CommanUserProductEditResp1 getUserProductEditDetails(UserProductEditRequest req,HttpServletRequest http);
+	ProductResponse getDeleteBrokerProductDetails(BrokerProductEditReq req);
+	AdminUserResponse1 getCountryList(String branchCode);
+	AdminUserResponse1 getNationalList(String branchCode);
+	AdminUserResponse1 getBrokerBranchList(BranchListRequest req);
+	                                                                                     
+  
+}
+  

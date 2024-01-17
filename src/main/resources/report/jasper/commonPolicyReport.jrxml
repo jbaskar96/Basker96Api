@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="commonPolicyReport" language="groovy" pageWidth="1200" pageHeight="595" orientation="Landscape" columnWidth="1160" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isIgnorePagination="true" uuid="d23e0300-3fd0-44df-bc3d-c820dd5939d8">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<style name="table">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1">
+		<box>
+			<pen lineWidth="1.0" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TH" mode="Opaque" backcolor="#F0F8FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_CH" mode="Opaque" backcolor="#BFE1FF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<style name="table 1_TD" mode="Opaque" backcolor="#FFFFFF">
+		<box>
+			<pen lineWidth="0.5" lineColor="#000000"/>
+		</box>
+	</style>
+	<subDataset name="policyReport" uuid="f4d901ca-16e9-410d-bc50-74fd602106e5">
+		<parameter name="Pvtype" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="Pvquote" class="java.lang.Integer">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvstartdate" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvenddate" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvstatus" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvcover" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvinput1" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvinput2" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="pvuser" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<parameter name="PVPRODUCT" class="java.lang.String">
+			<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+		</parameter>
+		<queryString>
+			<![CDATA[select rownum , A.* from table(Reports_Details($P{Pvtype},'',$P{pvstartdate},$P{pvenddate},$P{pvstatus},$P{pvcover},$P{pvinput1},$P{pvinput2},
+$P{pvuser},$P{PVPRODUCT})) A]]>
+		</queryString>
+		<field name="ROWNUM" class="java.math.BigDecimal"/>
+		<field name="QUOTE_NO" class="java.lang.String"/>
+		<field name="POLICY_NO" class="java.lang.String"/>
+		<field name="USER_TYPE" class="java.lang.String"/>
+		<field name="QUOTE_STATUS" class="java.lang.String"/>
+		<field name="OVERALL_PREMIUM" class="java.math.BigDecimal"/>
+		<field name="INSTALLMENT_PREMIUM_AMOUNT" class="java.math.BigDecimal"/>
+		<field name="INS_PREMIUM_DATE" class="java.lang.String"/>
+		<field name="NO_OF_EMI" class="java.math.BigDecimal"/>
+		<field name="INSTALLMENT_NO" class="java.lang.String"/>
+		<field name="PAYMENT_STATUS" class="java.lang.String"/>
+		<field name="DUE_AMT" class="java.math.BigDecimal"/>
+		<field name="PAYMENT_METHOD" class="java.lang.String"/>
+		<field name="POLICY_TERM" class="java.math.BigDecimal"/>
+		<field name="CUSTOMER_NAME" class="java.lang.String"/>
+		<field name="MOBILE" class="java.lang.String"/>
+		<field name="POLICYTYPE_DESC" class="java.lang.String"/>
+		<field name="POLICY_START_DATE" class="java.lang.String"/>
+		<field name="POLICY_END_DATE" class="java.lang.String"/>
+		<field name="PREMIUM" class="java.math.BigDecimal"/>
+		<field name="VEHICLE_ID" class="java.math.BigDecimal"/>
+		<field name="SUMINSURED_VALUE_LOCAL" class="java.math.BigDecimal"/>
+		<field name="RISK_ADDRESS" class="java.lang.String"/>
+		<field name="INITIAL_AMOUNT" class="java.math.BigDecimal"/>
+		<field name="APPROVED_ID" class="java.lang.String"/>
+		<field name="APPROVED_DATE" class="java.lang.String"/>
+		<field name="REGISTRATION_NO" class="java.lang.String"/>
+		<field name="MAKE_NAME" class="java.lang.String"/>
+		<field name="MODEL_NAME" class="java.lang.String"/>
+		<field name="ADDITIONAL_COVER" class="java.lang.String"/>
+		<field name="ADDITIONAL_PREMIUM" class="java.math.BigDecimal"/>
+		<field name="DISCOUNT_PREMIUM" class="java.math.BigDecimal"/>
+		<field name="CUSTOMER_ADDRESS" class="java.lang.String"/>
+		<field name="VEHICLE_USAGE" class="java.lang.String"/>
+		<field name="EMAIL" class="java.lang.String"/>
+		<field name="INTIMATION_DATE" class="java.lang.String"/>
+		<field name="LOSS_DATE" class="java.lang.String"/>
+		<field name="DESCRIPTION_OF_LOSS" class="java.lang.String"/>
+		<field name="INTIMATION_STATUS" class="java.lang.String"/>
+		<field name="APPROVED_TYPE" class="java.lang.String"/>
+		<field name="REMARKS" class="java.lang.String"/>
+		<field name="STATUS" class="java.lang.String"/>
+		<field name="ENDORE_TYPE" class="java.lang.String"/>
+		<field name="ENTRY_DATE" class="java.lang.String"/>
+		<field name="ADMIN_REMARKS" class="java.lang.String"/>
+		<field name="REF_NO" class="java.lang.String"/>
+		<field name="DESCRIPTION" class="java.lang.String"/>
+		<field name="ASSIT_TYPE" class="java.lang.String"/>
+		<field name="LOGIN_ID" class="java.lang.String"/>
+		<field name="CLAIM_NO" class="java.lang.String"/>
+		<field name="DISCOUNT_DESC" class="java.lang.String"/>
+		<field name="DISCOUNT_RATE" class="java.lang.String"/>
+		<field name="DISCOUNT_I_PREMIUM" class="java.lang.String"/>
+		<field name="CURRENCY" class="java.lang.String"/>
+		<variable name="tot_premium" class="java.math.BigDecimal" resetType="None" calculation="Sum">
+			<variableExpression><![CDATA[$F{PREMIUM}]]></variableExpression>
+			<initialValueExpression><![CDATA[]]></initialValueExpression>
+		</variable>
+		<variable name="tot_ins" class="java.math.BigDecimal" calculation="Sum">
+			<variableExpression><![CDATA[$F{INSTALLMENT_PREMIUM_AMOUNT}]]></variableExpression>
+			<initialValueExpression><![CDATA[]]></initialValueExpression>
+		</variable>
+		<variable name="tot_bal_due" class="java.math.BigDecimal" calculation="Sum">
+			<variableExpression><![CDATA[$F{DUE_AMT}]]></variableExpression>
+		</variable>
+		<variable name="total_sum_ins" class="java.math.BigDecimal" calculation="Sum">
+			<variableExpression><![CDATA[$F{SUMINSURED_VALUE_LOCAL}]]></variableExpression>
+		</variable>
+	</subDataset>
+	<parameter name="Pvtype" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="Pvquote" class="java.lang.Integer">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvstartdate" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvenddate" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvstatus" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvcover" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvinput1" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvinput2" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="pvuser" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<parameter name="PVPRODUCT" class="java.lang.String">
+		<defaultValueExpression><![CDATA[]]></defaultValueExpression>
+	</parameter>
+	<queryString>
+		<![CDATA[select 1 from dual]]>
+	</queryString>
+	<field name="1" class="java.math.BigDecimal"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="39" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="298" y="0" width="334" height="37" uuid="73f4b9f3-a68d-41f0-8f8a-541c0e3e83d9">
+					<printWhenExpression><![CDATA[$P{pvstatus}.equalsIgnoreCase( "P" )]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="18" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Policy Register Report"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="300" y="0" width="334" height="37" uuid="24f830cd-8890-4676-8790-0732a319d940">
+					<printWhenExpression><![CDATA[$P{pvstatus}.equalsIgnoreCase( "C" )]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="18" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Cancelled Policy Report"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="298" y="0" width="334" height="37" uuid="b2f2b19c-2dd4-4ff7-8b17-805e5fb1e89a">
+					<printWhenExpression><![CDATA[$P{pvstatus}.equalsIgnoreCase( "UR" )]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="18" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Unrenewed Policy Report"]]></textFieldExpression>
+			</textField>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="2" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="1" splitType="Stretch"/>
+	</columnHeader>
+	<detail>
+		<band height="27" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="156" y="0" width="144" height="24" uuid="caee95b9-0316-413e-9667-1b615a4ecfb0"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pvstartdate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="0" y="0" width="156" height="24" uuid="61019f25-312b-4b43-9f12-88973838dddc"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Start date :"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="300" y="0" width="90" height="24" uuid="27e107c5-2022-484f-ad36-16be8e04cd54"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["End date :"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToBandHeight" mode="Transparent" x="390" y="0" width="90" height="24" uuid="161acdb2-1746-4a3f-9fdf-7ae8b1ed68d9"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Arial" size="12" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$P{pvenddate}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="68">
+			<componentElement>
+				<reportElement key="table" style="table" stretchType="RelativeToBandHeight" x="0" y="0" width="802" height="32" isPrintWhenDetailOverflows="true" uuid="0d0d1021-d5ba-4996-8088-9a28257a9140"/>
+				<jr:table xmlns:jr="http://jasperreports.sourceforge.net/jasperreports/components" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports/components http://jasperreports.sourceforge.net/xsd/components.xsd">
+					<datasetRun subDataset="policyReport" uuid="d669a603-7f12-4eb7-b7a2-b0403b8b9276">
+						<datasetParameter name="Pvtype">
+							<datasetParameterExpression><![CDATA[$P{Pvtype}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="Pvquote">
+							<datasetParameterExpression><![CDATA[$P{Pvquote}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvstartdate">
+							<datasetParameterExpression><![CDATA[$P{pvstartdate}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvenddate">
+							<datasetParameterExpression><![CDATA[$P{pvenddate}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvstatus">
+							<datasetParameterExpression><![CDATA[$P{pvstatus}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvcover">
+							<datasetParameterExpression><![CDATA[$P{pvcover}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvinput1">
+							<datasetParameterExpression><![CDATA[$P{pvinput1}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvinput2">
+							<datasetParameterExpression><![CDATA[$P{pvinput2}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="pvuser">
+							<datasetParameterExpression><![CDATA[$P{pvuser}]]></datasetParameterExpression>
+						</datasetParameter>
+						<datasetParameter name="PVPRODUCT">
+							<datasetParameterExpression><![CDATA[$P{PVPRODUCT}]]></datasetParameterExpression>
+						</datasetParameter>
+						<connectionExpression><![CDATA[$P{REPORT_CONNECTION}]]></connectionExpression>
+					</datasetRun>
+					<jr:column width="55" uuid="002ef157-c45f-448f-a8a1-e47b8a4cb876">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="55" height="30" uuid="d15f7524-277b-4c07-a29e-edb4b984ba93"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[S.No]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="55" height="30" uuid="82b43447-32d4-4798-92f0-44c9ec13d626"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{ROWNUM}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="8bf332e5-f849-4cdf-91e6-6db75cbdd5dc">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="04f9c069-3d05-42ac-843c-52cb5e0f76de"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Policy No]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="53f53bc0-8d2e-42e2-80bd-7cfafb831c56"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{POLICY_NO}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="164" uuid="72f50ae5-6a38-4427-bb4b-5d1a5a63875b">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="164" height="30" uuid="30b40676-03de-45c8-843d-492796c0b375"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Policy Start Date]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="164" height="30" uuid="2a87c68c-174e-4aa9-a1e0-93a763a894ed"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{POLICY_START_DATE}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="119" uuid="a6a25919-f976-4b60-99cb-da807af9eacd">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="119" height="30" uuid="1de1c6e0-b12c-4645-a3df-6df21601a53f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Policy End Date]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:columnFooter style="table 1_CH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="119" height="30" uuid="d377011b-8b0f-42df-a430-2b079a87d947"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Total]]></text>
+							</staticText>
+						</jr:columnFooter>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="119" height="30" uuid="c0d7e324-7d44-4316-a20f-9b79fe376243"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{POLICY_END_DATE}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="91" uuid="2208995b-7483-485c-b8b0-d5a6bd593350">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="27210a4b-4891-4cad-84e0-aee46d79b4a4"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Sum Insured Value Local]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:columnFooter style="table 1_CH" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="85" height="30" uuid="6ecad066-ce23-4e16-a302-cd03986fb761"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{total_sum_ins}]]></textFieldExpression>
+							</textField>
+						</jr:columnFooter>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="85" height="30" uuid="dbacb1fb-338a-4c83-acbd-2ed975f6cbf0"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{SUMINSURED_VALUE_LOCAL}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="107" uuid="06817ec9-d5b3-469e-8ee4-ee7c1955291c">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="107" height="30" uuid="b660f8f4-5df7-47ea-bfc1-2ba82334e6ac"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Premium]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:columnFooter style="table 1_CH" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="103" height="30" uuid="0f0908c0-33bf-43a0-97ac-b78ba5d56049"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle">
+									<font size="12" isBold="true"/>
+								</textElement>
+								<textFieldExpression><![CDATA[$V{tot_premium}]]></textFieldExpression>
+							</textField>
+						</jr:columnFooter>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="103" height="30" uuid="fc4ab8f8-acf4-40a0-9467-74c3b984258c"/>
+								<textElement textAlignment="Right" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{PREMIUM}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="d5186937-aea1-4419-8554-1eda838df955">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="0053f16c-eb9c-489c-81bc-3da8eb43dd6a"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Policy Type]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="987ae1c9-b50c-4dd7-84d8-6b012b09b391"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{POLICYTYPE_DESC}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="cacb8eb1-af9d-41a8-8fc4-6ef72c70fd6a">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="ef36e651-cdd4-4e38-ae8d-043400f6b3d6"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Approvar Id]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="110e8108-415d-448a-982a-8e832e27767c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{APPROVED_ID}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="4cbaf2b8-3fa7-4471-bfab-ee242a9b9dc4">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="f0fa0ec1-e23d-4b26-926a-4c7fbd61e28c"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Customer Name]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="c2d3d630-9b07-4df9-9ed6-8f2c52ddaa41"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{CUSTOMER_NAME}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="b916f505-bbd6-46fb-9a41-ca01d13bb425">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="4757abe1-6b46-4aa7-b56c-884e1eef3276"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Address]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="64117950-f2fb-4d39-9007-49e84571102f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{CUSTOMER_ADDRESS}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="776bc5f0-5af8-4d82-99f3-1309a00765bb">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="8b3b3896-b2c9-4e37-bcfc-adeb93506b9f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Vehicle Usage]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="33da5e11-a185-45e6-a11a-db4ba15e33ad"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{VEHICLE_USAGE}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+					<jr:column width="90" uuid="ea21f77d-0a2b-4fdb-8838-7c894d9befa5">
+						<jr:tableHeader style="table 1_TH" height="30" rowSpan="1">
+							<staticText>
+								<reportElement stretchType="RelativeToBandHeight" mode="Opaque" x="0" y="0" width="90" height="30" uuid="a468c84c-e4f2-41b7-b75c-c7f10a75fb4f"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle">
+									<font fontName="Arial" isBold="true"/>
+								</textElement>
+								<text><![CDATA[Currency]]></text>
+							</staticText>
+						</jr:tableHeader>
+						<jr:detailCell style="table 1_TD" height="30" rowSpan="1">
+							<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+								<reportElement x="0" y="0" width="90" height="30" uuid="7dac4d32-8171-4f06-a964-f023a50c1ae8"/>
+								<textElement textAlignment="Center" verticalAlignment="Middle"/>
+								<textFieldExpression><![CDATA[$F{CURRENCY}]]></textFieldExpression>
+							</textField>
+						</jr:detailCell>
+					</jr:column>
+				</jr:table>
+			</componentElement>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
